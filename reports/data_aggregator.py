@@ -44,7 +44,7 @@ class ReportDataAggregator:
                 SELECT importance, category, tags, summary, impact, action
                 FROM analysis_results
                 WHERE created_at >= datetime('now', '-1 day')
-                ORDER BY importance DESC, RANDOM()
+                ORDER BY RANDOM()
                 LIMIT ?
                 """,
                 (limit,),

@@ -8,7 +8,7 @@ from __future__ import annotations
 
 import json
 from dataclasses import asdict
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 
@@ -92,7 +92,11 @@ class MarkdownReportGenerator:
         directory = output_dir or DEFAULT_OUTPUT_DIR
         try:
             directory.mkdir(parents=True, exist_ok=True)
-            path = directory / f"{target_date.isoformat()}-ai-tech-radar.md"
+            timestamp = datetime.now().strftime("%Y%m%d-%H%M%S-%f")
+            path = (
+                directory
+                / f"{target_date.isoformat()}-{timestamp}-ai-tech-radar.md"
+            )
             path.write_text(content, encoding="utf-8")
         except OSError as exc:
             logger.error("Failed to save daily report: {}", exc)

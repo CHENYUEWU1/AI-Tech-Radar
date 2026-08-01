@@ -78,8 +78,26 @@ def test_save_report_writes_date_named_file(tmp_path: Path) -> None:
         output_dir=tmp_path,
     )
 
-    assert path.name == "2026-08-01-ai-tech-radar.md"
+    assert path.name.startswith("2026-08-01-")
+    assert path.name.endswith("-ai-tech-radar.md")
     assert path.read_text(encoding="utf-8") == "# AI Tech Radar Daily"
+
+
+def test_save_report_creates_unique_files(tmp_path: Path) -> None:
+    generator = MarkdownReportGenerator(
+        AIAnalyzer(ReportProvider()), prompt_config=DEFAULT_PROMPT_PATH
+    )
+
+    first = generator.save_report(
+        "# First", report_date=date(2026, 8, 1), output_dir=tmp_path
+    )
+    second = generator.save_report(
+        "# Second", report_date=date(2026, 8, 1), output_dir=tmp_path
+    )
+
+    assert first != second
+    assert first.read_text(encoding="utf-8") == "# First"
+    assert second.read_text(encoding="utf-8") == "# Second"
 
 
 def test_missing_prompt_file_raises(tmp_path: Path) -> None:

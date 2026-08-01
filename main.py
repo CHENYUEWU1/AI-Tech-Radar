@@ -95,7 +95,7 @@ def initialize_components() -> ApplicationComponents:
 
     logger.info("Initializing collectors...")
     collector = RSSCollector(config_dir=CONFIG_DIR, timeout_seconds=8)
-    github_collector = GitHubCollector(config_dir=CONFIG_DIR, timeout_seconds=20)
+    github_collector = GitHubCollector(config_dir=CONFIG_DIR, timeout_seconds=30)
 
     logger.info("Initializing analyzers...")
     try:

@@ -89,7 +89,8 @@ def test_run_report_generation_saves_report(tmp_path: Path) -> None:
     )
 
     assert path is not None
-    assert path.name == f"{date.today().isoformat()}-ai-tech-radar.md"
+    assert path.name.startswith(f"{date.today().isoformat()}-")
+    assert path.name.endswith("-ai-tech-radar.md")
     assert path.read_text(encoding="utf-8") == "模拟摘要"
     database.close()
 

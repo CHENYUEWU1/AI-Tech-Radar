@@ -105,7 +105,8 @@ def test_generate_daily_report_full_flow(tmp_path: Path) -> None:
         output_dir=tmp_path,
     )
 
-    assert path.name == "2026-08-01-ai-tech-radar.md"
+    assert path.name.startswith("2026-08-01-")
+    assert path.name.endswith("-ai-tech-radar.md")
     assert path.read_text(encoding="utf-8") == "模拟摘要"
     connection.close()
 

@@ -78,7 +78,6 @@ class GitHubCollector:
                     repos = self._gh_json(
                         [
                             "api",
-                            "--paginate",
                             f"orgs/{source.name}/repos?per_page=100&sort=updated",
                         ]
                     )
@@ -143,7 +142,9 @@ class GitHubCollector:
             completed = subprocess.run(
                 [self._gh_executable, *args],
                 capture_output=True,
-                text=True,
+                encoding="utf-8",
+                errors="replace",
+                stdin=subprocess.DEVNULL,
                 timeout=self._timeout_seconds,
                 check=False,
             )
