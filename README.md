@@ -97,7 +97,7 @@ tests/                  # pytest 单元测试
 
 这个仓库结构适合交给开发者或 AI 助手继续迭代，推荐流程：
 
-1. 先阅读 [docs/USER_MANUAL.md](docs/USER_MANUAL.md) 和 `AGENTS.md`
+1. 先阅读 [docs/USER_MANUAL.md](docs/USER_MANUAL.md)、[docs/PROJECT_BACKUP.md](docs/PROJECT_BACKUP.md)、[docs/opai对话接力.md](docs/opai对话接力.md) 和 `AGENTS.md`
 2. 每次只给一个明确任务，例如“给 `reports/markdown_generator.py` 增加某功能”
 3. 改完后运行测试：
 
@@ -110,5 +110,9 @@ uv run pytest
 ```powershell
 uv run python main.py daily
 ```
+
+### OpenAI 对话接力
+
+与 OpenAI 对话可以无缝接力迭代：新开对话时，直接把 [docs/opai对话接力.md](docs/opai对话接力.md) 作为启动上下文发过去，再配合 `AGENTS.md`、`docs/USER_MANUAL.md` 和 `docs/PROJECT_BACKUP.md`，不需要重新解释整个项目，即可继续开发、测试和上传。
 
 更多数据源规划见 [docs/DATA_SOURCE_PLAN.md](docs/DATA_SOURCE_PLAN.md)。
