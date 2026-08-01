@@ -141,6 +141,39 @@ def test_analyze_returns_analysis_result(
     assert captured["json"]["max_tokens"] == 2000
 
 
+def test_complete_returns_raw_content(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    provider = _provider(tmp_path, monkeypatch)
+
+    class FakeResponse:
+        text = json.dumps(
+            {
+                "choices": [
+                    {"message": {"content": "raw trend json"}}
+                ]
+            },
+            ensure_ascii=False,
+        )
+
+        def raise_for_status(self) -> None:
+            return None
+
+    def fake_post(
+        url: str,
+        headers: dict[str, str],
+        json: dict[str, Any],
+        timeout: float,
+    ) -> FakeResponse:
+        return FakeResponse()
+
+    monkeypatch.setattr(
+        "analyzers.deepseek_provider.requests.post", fake_post
+    )
+
+    assert provider.complete("analyze these trends") == "raw trend json"
+
+
 def test_parse_response_accepts_markdown_fenced_json(
     tmp_path: Path, monkeypatch: pytest.MonkeyPatch
 ) -> None:

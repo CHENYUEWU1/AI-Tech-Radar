@@ -23,6 +23,7 @@ from reports.report_pipeline import ReportPipeline, ReportPipelineError
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 ANALYSIS_SCHEMA_PATH = PROJECT_ROOT / "database" / "analysis_schema.sql"
+IMPORTANCE_SCHEMA_PATH = PROJECT_ROOT / "database" / "importance_schema.sql"
 
 
 class FakeAggregator:
@@ -59,7 +60,11 @@ class FakeGenerator:
         self._generate_error = generate_error
         self._save_error = save_error
 
-    def generate(self, results: list[AnalysisResult]) -> str:
+    def generate(
+        self,
+        results: list[AnalysisResult],
+        trend_analysis: Any = None,
+    ) -> str:
         if self._generate_error is not None:
             raise self._generate_error
         return self._markdown
@@ -111,6 +116,9 @@ def test_generate_daily_report_full_flow(tmp_path: Path) -> None:
         """
     )
     connection.executescript(ANALYSIS_SCHEMA_PATH.read_text(encoding="utf-8"))
+    connection.executescript(
+        IMPORTANCE_SCHEMA_PATH.read_text(encoding="utf-8")
+    )
     connection.execute(
         """
         INSERT INTO articles (
@@ -129,6 +137,25 @@ def test_generate_daily_report_full_flow(tmp_path: Path) -> None:
             "OpenAI released a new agent framework with MCP support.",
         ),
     )
+    connection.execute(
+        """
+        INSERT INTO importance_scores (
+            article_id, title, category, importance_score,
+            impact, reason, trend, model
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        """,
+        (
+            1,
+            "Agent framework release",
+            "AI",
+            8,
+            "Impact.",
+            "Reason.",
+            "Trend.",
+            "mock",
+        ),
+    )
+    connection.commit()
     repository = AnalysisRepository(connection)
     analyzer_pipeline = AnalyzerPipeline(AIAnalyzer(MockProvider()), repository)
     analyzer_pipeline.analyze_article(1, "OpenAI released a new model")

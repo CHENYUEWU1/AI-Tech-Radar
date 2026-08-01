@@ -81,7 +81,7 @@ def test_get_daily_analysis_returns_recent_results() -> None:
     _insert(connection, 7, ["GPU"], "2026-07-30 10:00:00")
 
     aggregator = ReportDataAggregator(connection)
-    results = aggregator.get_daily_analysis()
+    results = aggregator.get_daily_analysis(min_score=0)
 
     assert {result.importance for result in results} == {9, 5}
     tags_by_importance = {
@@ -97,7 +97,9 @@ def test_get_daily_analysis_respects_limit() -> None:
     _insert(connection, 8, ["LLM"], "2026-07-31 10:00:00")
     _insert(connection, 6, ["Agent"], "2026-07-31 11:00:00")
 
-    results = ReportDataAggregator(connection).get_daily_analysis(limit=1)
+    results = ReportDataAggregator(connection).get_daily_analysis(
+        limit=1, min_score=0
+    )
 
     assert len(results) == 1
     assert results[0].importance in {8, 6}
@@ -118,7 +120,7 @@ def test_get_daily_analysis_invalid_tags_raises() -> None:
     connection.commit()
 
     with pytest.raises(ReportDataError, match="Cannot parse"):
-        ReportDataAggregator(connection).get_daily_analysis()
+        ReportDataAggregator(connection).get_daily_analysis(min_score=0)
     connection.close()
 
 
@@ -170,7 +172,7 @@ def test_get_daily_analysis_includes_original_excerpt() -> None:
     )
     connection.commit()
 
-    results = ReportDataAggregator(connection).get_daily_analysis()
+    results = ReportDataAggregator(connection).get_daily_analysis(min_score=0)
 
     assert len(results) == 1
     assert results[0].article_title == "Agent framework release"

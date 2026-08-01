@@ -16,6 +16,7 @@ import yaml
 
 from analyzers.analyzer import AIAnalyzer
 from analyzers.schemas import AnalysisResult
+from analyzers.trend_analyzer import TrendAnalysis
 from reports.data_aggregator import ReportItem
 from utils.logger import logger
 
@@ -40,7 +41,11 @@ class MarkdownReportGenerator:
         self._analyzer = analyzer
         self._prompt_config = self._load_prompt_config(prompt_config)
 
-    def generate(self, results: Sequence[AnalysisResult | ReportItem]) -> str:
+    def generate(
+        self,
+        results: Sequence[AnalysisResult | ReportItem],
+        trend_analysis: TrendAnalysis | None = None,
+    ) -> str:
         """Serialize results, prompt the AI, and return Markdown.
 
         Args:
@@ -57,8 +62,11 @@ class MarkdownReportGenerator:
             payload = [
                 self._to_payload(result) for result in results
             ]
+            trend_payload: dict[str, Any] = {}
+            if trend_analysis is not None:
+                trend_payload = trend_analysis.to_dict()
             data_payload = json.dumps(
-                payload,
+                {"articles": payload, "trend_analysis": trend_payload},
                 ensure_ascii=False,
                 indent=2,
             )

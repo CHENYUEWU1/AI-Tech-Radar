@@ -9,6 +9,7 @@ from __future__ import annotations
 from datetime import date
 from pathlib import Path
 
+from analyzers.trend_analyzer import TrendAnalysis
 from reports.data_aggregator import ReportDataAggregator, ReportDataError
 from reports.markdown_generator import (
     MarkdownReportError,
@@ -36,7 +37,8 @@ class ReportPipeline:
         self,
         report_date: date | None = None,
         limit: int = 10,
-        min_score: int = 0,
+        min_score: int = 7,
+        trend_analysis: TrendAnalysis | None = None,
         output_dir: Path | None = None,
     ) -> Path:
         """Generate and save a daily report.
@@ -45,6 +47,7 @@ class ReportPipeline:
             report_date: Date used for the report filename.
             limit: Maximum number of analyses to include.
             min_score: Minimum importance score for report inclusion.
+            trend_analysis: Optional trend intelligence for the report.
             output_dir: Output directory override for testing.
 
         Returns:
@@ -70,7 +73,9 @@ class ReportPipeline:
             )
 
         try:
-            markdown = self._generator.generate(results)
+            markdown = self._generator.generate(
+                results, trend_analysis=trend_analysis
+            )
             path = self._generator.save_report(
                 markdown,
                 report_date=report_date,

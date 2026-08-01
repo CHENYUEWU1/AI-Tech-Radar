@@ -19,6 +19,7 @@ from analyzers.analyzer import AIAnalyzer
 from analyzers.deepseek_provider import DeepSeekConfigError, DeepSeekProvider
 from analyzers.importance_scorer import ImportanceScorer
 from analyzers.mock_provider import MockProvider
+from analyzers.trend_analyzer import TrendAnalysis, TrendAnalyzer
 from collectors.github_collector import GitHubCollector
 from collectors.rss_collector import RSSCollector, RSSItem
 from database.analysis_repository import AnalysisRepository
@@ -56,6 +57,7 @@ class ApplicationComponents:
     report_pipeline: ReportPipeline
     github_collector: GitHubCollector | None = None
     importance_scorer: ImportanceScorer | None = None
+    trend_analyzer: TrendAnalyzer | None = None
 
 
 def load_all_config() -> dict[str, Any]:
@@ -121,6 +123,7 @@ def initialize_components() -> ApplicationComponents:
         provider = MockProvider()
     analyzer = AIAnalyzer(provider)
     importance_scorer = ImportanceScorer(provider)
+    trend_analyzer = TrendAnalyzer(provider)
 
     logger.info("Initializing reports...")
     aggregator = ReportDataAggregator(database.connection)
@@ -136,6 +139,7 @@ def initialize_components() -> ApplicationComponents:
         report_pipeline=report_pipeline,
         github_collector=github_collector,
         importance_scorer=importance_scorer,
+        trend_analyzer=trend_analyzer,
     )
 
 
@@ -310,6 +314,7 @@ def _score_one(
 def run_report_generation(
     components: ApplicationComponents,
     output_dir: Path | None = None,
+    trend_analysis: TrendAnalysis | None = None,
 ) -> Path | None:
     """Generate and save the daily report when analysis data exists.
 
@@ -345,6 +350,7 @@ def run_report_generation(
         path = components.report_pipeline.generate_daily_report(
             output_dir=output_dir,
             min_score=min_score,
+            trend_analysis=trend_analysis,
         )
     except ReportPipelineError as exc:
         logger.error("Report generation failed: {}", exc)
@@ -352,6 +358,49 @@ def run_report_generation(
 
     logger.info("Daily report saved to {}", path)
     return path
+
+
+def run_trend_analysis(
+    components: ApplicationComponents,
+    limit: int | None = None,
+) -> TrendAnalysis | None:
+    """Analyze high-value articles and produce trend intelligence.
+
+    Args:
+        components: Initialized application components.
+        limit: Override for the configured analysis count.
+
+    Returns:
+        TrendAnalysis, or None when no trend data could be produced.
+    """
+
+    logger.info("Starting trend analysis...")
+    if components.trend_analyzer is None:
+        logger.error("Trend analyzer is not initialized")
+        return None
+
+    count = limit or components.trend_analyzer.analysis_count
+    try:
+        aggregator = ReportDataAggregator(components.database.connection)
+        items = aggregator.get_daily_analysis(limit=count, min_score=7)
+    except ReportDataError as exc:
+        logger.error("Failed to load scored articles: {}", exc)
+        return None
+
+    logger.info("Trend analysis article count: {}", len(items))
+    if not items:
+        logger.warning("No scored articles available for trend analysis")
+        return None
+
+    try:
+        trend = components.trend_analyzer.analyze(items)
+        logger.info("Trend count: {}", len(trend.major_trends))
+        logger.info("Trend failure count: 0")
+        return trend
+    except Exception as exc:
+        logger.error("Trend analysis failed: {}", exc)
+        logger.info("Trend failure count: 1")
+        return None
 
 
 def main(argv: Sequence[str] | None = None) -> int:
@@ -399,7 +448,8 @@ def main(argv: Sequence[str] | None = None) -> int:
         run_collection(components)
         run_analysis(components)
         run_scoring(components)
-        run_report_generation(components)
+        trend = run_trend_analysis(components)
+        run_report_generation(components, trend_analysis=trend)
 
     logger.info(
         "Components initialized: database, collectors, analyzers, reports"

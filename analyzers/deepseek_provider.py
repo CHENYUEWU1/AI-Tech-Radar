@@ -65,6 +65,23 @@ class DeepSeekProvider(AIProvider):
         response_text = self._call_api(article)
         return self._parse_response(response_text)
 
+    def complete(self, prompt: str) -> str:
+        """Return raw chat completion content without structured parsing."""
+
+        response_text = self._call_api(prompt)
+        try:
+            envelope = json.loads(response_text)
+            content = envelope["choices"][0]["message"]["content"]
+        except (json.JSONDecodeError, KeyError, IndexError, TypeError) as exc:
+            raise DeepSeekResponseError(
+                "DeepSeek response is missing content"
+            ) from exc
+        if not isinstance(content, str) or not content.strip():
+            raise DeepSeekResponseError(
+                "DeepSeek message content must be a non-empty string"
+            )
+        return content
+
     def _call_api(self, article: str) -> str:
         """Send a chat completion request and return response.text."""
 

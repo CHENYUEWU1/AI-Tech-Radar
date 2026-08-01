@@ -57,7 +57,12 @@ def test_main_prints_loaded_config(
     monkeypatch.setattr(main_module, "run_analysis", lambda components: 0)
     monkeypatch.setattr(main_module, "run_scoring", lambda components: 0)
     monkeypatch.setattr(
-        main_module, "run_report_generation", lambda components: None
+        main_module, "run_trend_analysis", lambda components: None
+    )
+    monkeypatch.setattr(
+        main_module,
+        "run_report_generation",
+        lambda components, trend_analysis=None: None,
     )
 
     assert main_module.main() == 0
@@ -95,8 +100,13 @@ def test_main_collect_command_runs_only_collection(
     )
     monkeypatch.setattr(
         main_module,
+        "run_trend_analysis",
+        lambda components: calls.append("trend"),
+    )
+    monkeypatch.setattr(
+        main_module,
         "run_report_generation",
-        lambda components: calls.append("report"),
+        lambda components, trend_analysis=None: calls.append("report"),
     )
 
     assert main_module.main(["collect"]) == 0
@@ -122,9 +132,14 @@ def test_main_daily_command_runs_full_flow(
     )
     monkeypatch.setattr(
         main_module,
+        "run_trend_analysis",
+        lambda components: calls.append("trend"),
+    )
+    monkeypatch.setattr(
+        main_module,
         "run_report_generation",
-        lambda components: calls.append("report"),
+        lambda components, trend_analysis=None: calls.append("report"),
     )
 
     assert main_module.main(["daily"]) == 0
-    assert calls == ["collect", "analyze", "score", "report"]
+    assert calls == ["collect", "analyze", "score", "trend", "report"]

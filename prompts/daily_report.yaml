@@ -13,6 +13,9 @@ instructions:
   - 禁止编造信息
   - 内容更详细，每个重点补充背景、影响和后续观察
   - 引用原文关键句，使用引号标注
+  - 使用国内外对比结构，先讲各自议题，再讲叙事和市场情绪
+  - 同一个事件要写出国内与国外报道角度差异
+  - 明确给出方向判断和信息差使用建议
 
 output_format: |
   只输出 JSON，不要输出 Markdown 代码块，结构如下：
@@ -20,7 +23,7 @@ output_format: |
     "importance": 1-10 的整数,
     "category": "日报分类",
     "tags": ["标签1", "标签2"],
-    "summary": "Markdown 日报正文，必须包含：\n# AI Tech Radar Daily\n\n## 今日重点\n\n## 技术趋势\n\n## 开发者建议",
+    "summary": "Markdown 日报正文，必须包含：\n# AI Tech Radar Daily\n\n## 今日重点（国内外对比）\n\n## 技术趋势\n\n## 信息差与方向判断\n\n## 开发者建议",
     "impact": "对行业影响",
     "action": "后续关注建议"
   }

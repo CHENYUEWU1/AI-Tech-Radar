@@ -62,7 +62,7 @@ class ReportDataAggregator:
     def get_daily_analysis(
         self,
         limit: int = 10,
-        min_score: int = 0,
+        min_score: int = 7,
     ) -> list[ReportItem]:
         """Return random analyses from the last 24 hours with original text.
 
