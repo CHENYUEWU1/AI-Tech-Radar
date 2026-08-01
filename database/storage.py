@@ -257,6 +257,30 @@ class SQLiteStorage:
             ) from exc
         return [_row_to_article(row) for row in rows]
 
+    def list_unscored_articles(self, limit: int = 100) -> list[Article]:
+        """Return articles that do not have an importance score yet."""
+
+        self._ensure_initialized()
+        try:
+            rows = self.connection.execute(
+                """
+                SELECT a.id, a.external_id, a.source, a.category, a.title,
+                       a.link, a.summary, a.content, a.author,
+                       a.published_at, a.created_at
+                FROM articles a
+                LEFT JOIN importance_scores s ON s.article_id = a.id
+                WHERE s.id IS NULL
+                ORDER BY a.id DESC
+                LIMIT ?
+                """,
+                (limit,),
+            ).fetchall()
+        except sqlite3.Error as exc:
+            raise StorageError(
+                f"Cannot list unscored articles: {exc}"
+            ) from exc
+        return [_row_to_article(row) for row in rows]
+
     def count_articles(self) -> int:
         """Return the total number of stored articles."""
 

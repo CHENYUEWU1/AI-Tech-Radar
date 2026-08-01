@@ -17,10 +17,12 @@ import yaml
 
 from analyzers.analyzer import AIAnalyzer
 from analyzers.deepseek_provider import DeepSeekConfigError, DeepSeekProvider
+from analyzers.importance_scorer import ImportanceScorer
 from analyzers.mock_provider import MockProvider
 from collectors.github_collector import GitHubCollector
 from collectors.rss_collector import RSSCollector, RSSItem
 from database.analysis_repository import AnalysisRepository
+from database.importance_repository import ImportanceRepository
 from database.storage import DEFAULT_DB_PATH, Article, SQLiteStorage
 from reports.data_aggregator import ReportDataAggregator, ReportDataError
 from reports.markdown_generator import (
@@ -41,6 +43,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 CONFIG_DIR = PROJECT_ROOT / "config"
 PROMPTS_DIR = PROJECT_ROOT / "prompts"
 ANALYSIS_SCHEMA_PATH = PROJECT_ROOT / "database" / "analysis_schema.sql"
+IMPORTANCE_SCHEMA_PATH = PROJECT_ROOT / "database" / "importance_schema.sql"
 
 
 @dataclass
@@ -52,6 +55,7 @@ class ApplicationComponents:
     analyzer: AIAnalyzer
     report_pipeline: ReportPipeline
     github_collector: GitHubCollector | None = None
+    importance_scorer: ImportanceScorer | None = None
 
 
 def load_all_config() -> dict[str, Any]:
@@ -92,6 +96,15 @@ def initialize_components() -> ApplicationComponents:
         database.connection.commit()
     else:
         logger.warning("Analysis schema not found: {}", ANALYSIS_SCHEMA_PATH)
+    if IMPORTANCE_SCHEMA_PATH.is_file():
+        database.connection.executescript(
+            IMPORTANCE_SCHEMA_PATH.read_text(encoding="utf-8")
+        )
+        database.connection.commit()
+    else:
+        logger.warning(
+            "Importance schema not found: {}", IMPORTANCE_SCHEMA_PATH
+        )
 
     logger.info("Initializing collectors...")
     collector = RSSCollector(config_dir=CONFIG_DIR, timeout_seconds=8)
@@ -107,6 +120,7 @@ def initialize_components() -> ApplicationComponents:
         )
         provider = MockProvider()
     analyzer = AIAnalyzer(provider)
+    importance_scorer = ImportanceScorer(provider)
 
     logger.info("Initializing reports...")
     aggregator = ReportDataAggregator(database.connection)
@@ -121,6 +135,7 @@ def initialize_components() -> ApplicationComponents:
         analyzer=analyzer,
         report_pipeline=report_pipeline,
         github_collector=github_collector,
+        importance_scorer=importance_scorer,
     )
 
 
@@ -231,6 +246,67 @@ def _analyze_one(
         connection.close()
 
 
+def run_scoring(components: ApplicationComponents, limit: int = 20) -> int:
+    """Score unprocessed articles and save importance results.
+
+    Args:
+        components: Initialized application components.
+        limit: Maximum number of articles to score in this run.
+
+    Returns:
+        The number of successfully scored articles.
+    """
+
+    logger.info("Starting importance scoring...")
+    if components.importance_scorer is None:
+        logger.error("Importance scorer is not initialized")
+        return 0
+
+    try:
+        articles = components.database.list_unscored_articles(limit=limit)
+    except Exception as exc:
+        logger.error("Failed to load unscored articles: {}", exc)
+        return 0
+
+    logger.info("Pending scoring articles: {}", len(articles))
+    logger.info("Starting scoring count: {}", len(articles))
+    success = 0
+    failed = 0
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        futures = {
+            executor.submit(_score_one, components, article): article
+            for article in articles
+        }
+        for future in as_completed(futures):
+            article = futures[future]
+            try:
+                future.result()
+                success += 1
+            except Exception as exc:
+                failed += 1
+                logger.error(
+                    "Failed to score article {}: {}", article.id, exc
+                )
+
+    logger.info("Successfully scored articles: {}", success)
+    logger.info("Failed scoring count: {}", failed)
+    return success
+
+
+def _score_one(
+    components: ApplicationComponents,
+    article: Article,
+) -> None:
+    content = " ".join([article.summary, article.content])
+    score = components.importance_scorer.score(article.title, content)
+    connection = sqlite3.connect(str(components.database.path))
+    try:
+        repository = ImportanceRepository(connection)
+        repository.save(article.id, score, model="unknown")
+    finally:
+        connection.close()
+
+
 def run_report_generation(
     components: ApplicationComponents,
     output_dir: Path | None = None,
@@ -245,9 +321,14 @@ def run_report_generation(
         The saved report path, or None when no report was generated.
     """
 
+    min_score = (
+        components.importance_scorer.threshold
+        if components.importance_scorer is not None
+        else 7
+    )
     try:
         aggregator = ReportDataAggregator(components.database.connection)
-        results = aggregator.get_daily_analysis()
+        results = aggregator.get_daily_analysis(min_score=min_score)
     except ReportDataError as exc:
         logger.error("Failed to load analysis results: {}", exc)
         return None
@@ -262,7 +343,8 @@ def run_report_generation(
     logger.info("Starting daily report generation...")
     try:
         path = components.report_pipeline.generate_daily_report(
-            output_dir=output_dir
+            output_dir=output_dir,
+            min_score=min_score,
         )
     except ReportPipelineError as exc:
         logger.error("Report generation failed: {}", exc)
@@ -284,7 +366,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser.add_argument(
         "command",
         nargs="?",
-        choices=("collect", "analyze", "report", "daily"),
+        choices=("collect", "analyze", "score", "report", "daily"),
         default="daily",
         help="Command to run; defaults to daily.",
     )
@@ -309,11 +391,14 @@ def main(argv: Sequence[str] | None = None) -> int:
         run_collection(components)
     elif args.command == "analyze":
         run_analysis(components)
+    elif args.command == "score":
+        run_scoring(components)
     elif args.command == "report":
         run_report_generation(components)
     else:
         run_collection(components)
         run_analysis(components)
+        run_scoring(components)
         run_report_generation(components)
 
     logger.info(

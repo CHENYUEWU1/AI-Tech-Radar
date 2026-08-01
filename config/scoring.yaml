@@ -1,0 +1,9 @@
+weights:
+  technical_impact: 0.3
+  information_scarcity: 0.2
+  industry_impact: 0.25
+  trend_value: 0.15
+  source_credibility: 0.1
+
+max_score: 10
+daily_min_score: 7

@@ -19,6 +19,7 @@ from reports.report_pipeline import ReportPipeline
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 ANALYSIS_SCHEMA_PATH = PROJECT_ROOT / "database" / "analysis_schema.sql"
+IMPORTANCE_SCHEMA_PATH = PROJECT_ROOT / "database" / "importance_schema.sql"
 
 
 def _insert_analysis(database: SQLiteStorage) -> None:
@@ -37,6 +38,28 @@ def _insert_analysis(database: SQLiteStorage) -> None:
             "Summary.",
             "Impact.",
             "Action.",
+            "mock",
+        ),
+    )
+    database.connection.commit()
+
+
+def _insert_importance(database: SQLiteStorage) -> None:
+    database.connection.execute(
+        """
+        INSERT INTO importance_scores (
+            article_id, title, category, importance_score,
+            impact, reason, trend, model
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        """,
+        (
+            1,
+            "Agent MCP update",
+            "AI",
+            8,
+            "Impact.",
+            "Reason.",
+            "Trend.",
             "mock",
         ),
     )
@@ -74,8 +97,12 @@ def test_run_report_generation_saves_report(tmp_path: Path) -> None:
     database.connection.executescript(
         ANALYSIS_SCHEMA_PATH.read_text(encoding="utf-8")
     )
+    database.connection.executescript(
+        IMPORTANCE_SCHEMA_PATH.read_text(encoding="utf-8")
+    )
     database.save_article(_item())
     _insert_analysis(database)
+    _insert_importance(database)
 
     aggregator = ReportDataAggregator(database.connection)
     generator = MarkdownReportGenerator(
@@ -100,6 +127,9 @@ def test_run_report_generation_no_data_returns_none(tmp_path: Path) -> None:
     database.initialize()
     database.connection.executescript(
         ANALYSIS_SCHEMA_PATH.read_text(encoding="utf-8")
+    )
+    database.connection.executescript(
+        IMPORTANCE_SCHEMA_PATH.read_text(encoding="utf-8")
     )
 
     aggregator = ReportDataAggregator(database.connection)

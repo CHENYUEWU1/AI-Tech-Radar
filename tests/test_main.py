@@ -55,6 +55,7 @@ def test_main_prints_loaded_config(
     monkeypatch.setattr(main_module, "DEFAULT_DB_PATH", tmp_path / "radar.db")
     monkeypatch.setattr(main_module, "run_collection", lambda components: 0)
     monkeypatch.setattr(main_module, "run_analysis", lambda components: 0)
+    monkeypatch.setattr(main_module, "run_scoring", lambda components: 0)
     monkeypatch.setattr(
         main_module, "run_report_generation", lambda components: None
     )
@@ -90,6 +91,9 @@ def test_main_collect_command_runs_only_collection(
         main_module, "run_analysis", lambda components: calls.append("analyze")
     )
     monkeypatch.setattr(
+        main_module, "run_scoring", lambda components: calls.append("score")
+    )
+    monkeypatch.setattr(
         main_module,
         "run_report_generation",
         lambda components: calls.append("report"),
@@ -114,10 +118,13 @@ def test_main_daily_command_runs_full_flow(
         main_module, "run_analysis", lambda components: calls.append("analyze")
     )
     monkeypatch.setattr(
+        main_module, "run_scoring", lambda components: calls.append("score")
+    )
+    monkeypatch.setattr(
         main_module,
         "run_report_generation",
         lambda components: calls.append("report"),
     )
 
     assert main_module.main(["daily"]) == 0
-    assert calls == ["collect", "analyze", "report"]
+    assert calls == ["collect", "analyze", "score", "report"]

@@ -10,12 +10,13 @@ import json
 from dataclasses import asdict
 from datetime import date, datetime
 from pathlib import Path
-from typing import Any
+from typing import Any, Sequence
 
 import yaml
 
 from analyzers.analyzer import AIAnalyzer
 from analyzers.schemas import AnalysisResult
+from reports.data_aggregator import ReportItem
 from utils.logger import logger
 
 
@@ -39,7 +40,7 @@ class MarkdownReportGenerator:
         self._analyzer = analyzer
         self._prompt_config = self._load_prompt_config(prompt_config)
 
-    def generate(self, results: list[AnalysisResult]) -> str:
+    def generate(self, results: Sequence[AnalysisResult | ReportItem]) -> str:
         """Serialize results, prompt the AI, and return Markdown.
 
         Args:
@@ -53,8 +54,11 @@ class MarkdownReportGenerator:
         """
 
         try:
+            payload = [
+                self._to_payload(result) for result in results
+            ]
             data_payload = json.dumps(
-                [asdict(result) for result in results],
+                payload,
                 ensure_ascii=False,
                 indent=2,
             )
@@ -70,6 +74,23 @@ class MarkdownReportGenerator:
         if not markdown:
             raise MarkdownReportError("AI returned an empty report")
         return markdown
+
+    @staticmethod
+    def _to_payload(item: AnalysisResult | ReportItem) -> dict[str, Any]:
+        if isinstance(item, ReportItem):
+            excerpt = item.article_summary or item.article_content[:500]
+            return {
+                "importance": item.importance,
+                "category": item.category,
+                "tags": item.tags,
+                "summary": item.summary,
+                "impact": item.impact,
+                "action": item.action,
+                "article_title": item.article_title,
+                "article_link": item.article_link,
+                "original_excerpt": excerpt,
+            }
+        return asdict(item)
 
     def save_report(
         self,

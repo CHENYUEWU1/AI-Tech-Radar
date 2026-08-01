@@ -36,7 +36,11 @@ class FakeAggregator:
         self._results = results or []
         self._error = error
 
-    def get_daily_analysis(self, limit: int = 10) -> list[AnalysisResult]:
+    def get_daily_analysis(
+        self,
+        limit: int = 10,
+        min_score: int = 0,
+    ) -> list[AnalysisResult]:
         if self._error is not None:
             raise self._error
         return self._results[:limit]
@@ -89,7 +93,42 @@ def _result() -> AnalysisResult:
 
 def test_generate_daily_report_full_flow(tmp_path: Path) -> None:
     connection = sqlite3.connect(":memory:")
+    connection.executescript(
+        """
+        CREATE TABLE articles (
+            id INTEGER PRIMARY KEY,
+            external_id TEXT UNIQUE,
+            source TEXT,
+            category TEXT,
+            title TEXT,
+            link TEXT,
+            summary TEXT,
+            content TEXT,
+            author TEXT,
+            published_at TEXT,
+            created_at TEXT
+        );
+        """
+    )
     connection.executescript(ANALYSIS_SCHEMA_PATH.read_text(encoding="utf-8"))
+    connection.execute(
+        """
+        INSERT INTO articles (
+            id, external_id, source, category, title, link,
+            summary, content, created_at
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))
+        """,
+        (
+            1,
+            "post-1",
+            "Test Feed",
+            "ai_company",
+            "Agent framework release",
+            "https://example.com/post/1",
+            "OpenAI released a new agent framework.",
+            "OpenAI released a new agent framework with MCP support.",
+        ),
+    )
     repository = AnalysisRepository(connection)
     analyzer_pipeline = AnalyzerPipeline(AIAnalyzer(MockProvider()), repository)
     analyzer_pipeline.analyze_article(1, "OpenAI released a new model")

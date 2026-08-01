@@ -11,6 +11,8 @@ instructions:
   - 分析技术趋势
   - 提供开发者建议
   - 禁止编造信息
+  - 内容更详细，每个重点补充背景、影响和后续观察
+  - 引用原文关键句，使用引号标注
 
 output_format: |
   只输出 JSON，不要输出 Markdown 代码块，结构如下：
@@ -27,3 +29,4 @@ rules:
   max_items: 10
   language: zh-CN
   output: json
+  quote_original: true

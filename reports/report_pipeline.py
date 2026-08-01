@@ -36,6 +36,7 @@ class ReportPipeline:
         self,
         report_date: date | None = None,
         limit: int = 10,
+        min_score: int = 0,
         output_dir: Path | None = None,
     ) -> Path:
         """Generate and save a daily report.
@@ -43,6 +44,7 @@ class ReportPipeline:
         Args:
             report_date: Date used for the report filename.
             limit: Maximum number of analyses to include.
+            min_score: Minimum importance score for report inclusion.
             output_dir: Output directory override for testing.
 
         Returns:
@@ -53,7 +55,9 @@ class ReportPipeline:
         """
 
         try:
-            results = self._aggregator.get_daily_analysis(limit=limit)
+            results = self._aggregator.get_daily_analysis(
+                limit=limit, min_score=min_score
+            )
         except ReportDataError as exc:
             logger.error("Failed to load daily analysis: {}", exc)
             raise ReportPipelineError(
