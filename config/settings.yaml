@@ -1,0 +1,18 @@
+database:
+  path: data/tech_radar.db
+
+reports:
+  dir: reports
+
+logs:
+  dir: logs
+
+collectors:
+  request_timeout_seconds: 20
+  per_source_limit: 20
+  github:
+    per_repo_limit: 10
+    token_env: GITHUB_TOKEN
+  twitter:
+    per_user_limit: 20
+    token_env: X_BEARER_TOKEN

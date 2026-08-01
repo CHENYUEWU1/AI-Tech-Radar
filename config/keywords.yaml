@@ -1,0 +1,14 @@
+high_priority:
+  - Agent
+  - MCP
+  - LLM
+  - OpenAI
+
+medium_priority:
+  - GPU
+  - RAG
+  - AI Coding
+
+low_priority:
+  - VR
+  - Blockchain

@@ -1,0 +1,98 @@
+rss:
+  - name: OpenAI Blog
+    category: ai_company
+    url: https://openai.com/news/rss.xml
+    enabled: true
+
+  - name: Anthropic News
+    category: ai_company
+    url: https://www.anthropic.com/news/rss.xml
+    enabled: true
+
+  - name: Google DeepMind Blog
+    category: ai_company
+    url: https://deepmind.google/blog/rss.xml
+    enabled: true
+
+  - name: Meta AI Blog
+    category: ai_company
+    url: https://ai.meta.com/blog/rss/
+    enabled: true
+
+  - name: NVIDIA Blog AI
+    category: hardware
+    url: https://blogs.nvidia.com/blog/feed/
+    enabled: true
+
+  - name: Hacker News
+    category: community
+    url: https://hnrss.org/frontpage
+    enabled: true
+
+  - name: Hugging Face Blog
+    category: models
+    url: https://huggingface.co/blog/feed.xml
+    enabled: true
+
+  - name: arXiv AI
+    category: paper
+    url: https://export.arxiv.org/rss/cs.AI
+    enabled: true
+
+github:
+  - name: openai
+    category: ai_company
+    enabled: true
+
+  - name: anthropics
+    category: ai_company
+    enabled: true
+
+  - name: huggingface
+    category: models
+    enabled: true
+
+  - name: microsoft/autogen
+    category: agent
+    enabled: true
+
+  - name: langchain-ai/langchain
+    category: agent
+    enabled: true
+
+  - name: langchain-ai/langgraph
+    category: agent
+    enabled: true
+
+  - name: modelcontextprotocol
+    category: mcp
+    enabled: true
+
+  - name: vllm-project/vllm
+    category: inference
+    enabled: true
+
+twitter:
+  - username: OpenAI
+    category: ai_company
+    enabled: true
+
+  - username: AnthropicAI
+    category: ai_company
+    enabled: true
+
+  - username: GoogleDeepMind
+    category: ai_company
+    enabled: true
+
+  - username: NVIDIAAI
+    category: hardware
+    enabled: true
+
+  - username: HuggingFace
+    category: models
+    enabled: true
+
+  - username: LangChainAI
+    category: agent
+    enabled: true
