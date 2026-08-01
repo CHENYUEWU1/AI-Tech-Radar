@@ -23,7 +23,7 @@ def setup_logger(
     logger.add(
         sys.stderr,
         level=level,
-        enqueue=True,
+        enqueue=False,
         backtrace=False,
         diagnose=False,
     )
@@ -33,7 +33,7 @@ def setup_logger(
         rotation="1 day",
         retention="14 days",
         encoding="utf-8",
-        enqueue=True,
+        enqueue=False,
         backtrace=False,
         diagnose=False,
     )
@@ -43,7 +43,7 @@ def setup_logger(
         rotation="10 MB",
         retention="14 days",
         encoding="utf-8",
-        enqueue=True,
+        enqueue=False,
         backtrace=False,
         diagnose=False,
     )

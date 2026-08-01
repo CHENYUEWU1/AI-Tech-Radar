@@ -7,6 +7,8 @@ No RSS requests, AI calls, or report generation are performed here.
 from __future__ import annotations
 
 import argparse
+import sqlite3
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Sequence
@@ -19,7 +21,7 @@ from analyzers.mock_provider import MockProvider
 from collectors.github_collector import GitHubCollector
 from collectors.rss_collector import RSSCollector, RSSItem
 from database.analysis_repository import AnalysisRepository
-from database.storage import DEFAULT_DB_PATH, SQLiteStorage
+from database.storage import DEFAULT_DB_PATH, Article, SQLiteStorage
 from reports.data_aggregator import ReportDataAggregator, ReportDataError
 from reports.markdown_generator import (
     DEFAULT_PROMPT_PATH,
@@ -92,8 +94,8 @@ def initialize_components() -> ApplicationComponents:
         logger.warning("Analysis schema not found: {}", ANALYSIS_SCHEMA_PATH)
 
     logger.info("Initializing collectors...")
-    collector = RSSCollector(config_dir=CONFIG_DIR)
-    github_collector = GitHubCollector(config_dir=CONFIG_DIR)
+    collector = RSSCollector(config_dir=CONFIG_DIR, timeout_seconds=8)
+    github_collector = GitHubCollector(config_dir=CONFIG_DIR, timeout_seconds=20)
 
     logger.info("Initializing analyzers...")
     try:
@@ -172,7 +174,7 @@ def run_collection(components: ApplicationComponents) -> int:
     return saved
 
 
-def run_analysis(components: ApplicationComponents, limit: int = 5) -> int:
+def run_analysis(components: ApplicationComponents, limit: int = 10) -> int:
     """Analyze unanalyzed articles and save AnalysisResult objects.
 
     Args:
@@ -191,24 +193,42 @@ def run_analysis(components: ApplicationComponents, limit: int = 5) -> int:
         return 0
 
     logger.info("Pending analysis articles: {}", len(articles))
-    repository = AnalysisRepository(components.database.connection)
+    logger.info("Starting analysis count: {}", len(articles))
     success = 0
     failed = 0
-    for article in articles:
-        content = " ".join([article.title, article.summary, article.content])
-        try:
-            result = components.analyzer.analyze(content)
-            repository.save(article.id, result, model="unknown")
-            success += 1
-        except Exception as exc:
-            failed += 1
-            logger.error(
-                "Failed to analyze article {}: {}", article.id, exc
-            )
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        futures = {
+            executor.submit(_analyze_one, components, article): article
+            for article in articles
+        }
+        for future in as_completed(futures):
+            article = futures[future]
+            try:
+                future.result()
+                success += 1
+            except Exception as exc:
+                failed += 1
+                logger.error(
+                    "Failed to analyze article {}: {}", article.id, exc
+                )
 
     logger.info("Successfully analyzed articles: {}", success)
     logger.info("Failed analysis count: {}", failed)
     return success
+
+
+def _analyze_one(
+    components: ApplicationComponents,
+    article: Article,
+) -> None:
+    content = " ".join([article.title, article.summary, article.content])
+    result = components.analyzer.analyze(content)
+    connection = sqlite3.connect(str(components.database.path))
+    try:
+        repository = AnalysisRepository(connection)
+        repository.save(article.id, result, model="unknown")
+    finally:
+        connection.close()
 
 
 def run_report_generation(

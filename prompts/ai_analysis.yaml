@@ -8,6 +8,7 @@ system_prompt:
     - GPU
     - 开源模型
   output_format: |
+    只输出 JSON，不要输出 Markdown 代码块，不要输出任何解释文字：
     {
       "importance": 1-10 的整数,
       "category": "新闻分类",
@@ -20,6 +21,7 @@ system_prompt:
     - 不编造信息
     - 只根据输入内容分析
     - importance 范围 1-10
+    - 只输出 JSON
 
 user_prompt: |
   请分析以下 AI 科技新闻：
@@ -27,4 +29,4 @@ user_prompt: |
   标题：{title}
   内容：{content}
 
-  请只输出 JSON。
+  请只输出 JSON，不要输出 Markdown 代码块，不要输出任何解释文字。

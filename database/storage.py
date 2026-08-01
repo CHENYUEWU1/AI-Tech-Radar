@@ -86,8 +86,14 @@ class SQLiteStorage:
             except sqlite3.Error as exc:
                 raise StorageError(
                     f"Cannot open database {self._db_path}: {exc}"
-                ) from exc
+            ) from exc
         return self._conn
+
+    @property
+    def path(self) -> Path:
+        """Return the database file path."""
+
+        return self._db_path
 
     def initialize(self) -> None:
         """Create the database file and the articles table if missing."""

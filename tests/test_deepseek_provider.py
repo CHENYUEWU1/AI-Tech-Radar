@@ -132,9 +132,11 @@ def test_analyze_returns_analysis_result(
     assert captured["headers"]["Authorization"] == "Bearer test-key"
     assert captured["headers"]["Content-Type"] == "application/json"
     assert captured["json"]["model"] == "deepseek-chat"
-    assert captured["json"]["messages"] == [
-        {"role": "user", "content": "OpenAI released a new model"}
-    ]
+    messages = captured["json"]["messages"]
+    assert messages[0]["role"] == "system"
+    assert "只输出 JSON" in messages[0]["content"]
+    assert messages[1]["role"] == "user"
+    assert "OpenAI released a new model" in messages[1]["content"]
     assert captured["json"]["temperature"] == 0.2
     assert captured["json"]["max_tokens"] == 2000
 
@@ -233,6 +235,30 @@ def test_parse_response_invalid_importance(
 
     with pytest.raises(DeepSeekResponseError, match="Invalid analysis result"):
         provider._parse_response(response_text)
+
+
+def test_parse_response_extracts_json_from_extra_text(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    provider = _provider(tmp_path, monkeypatch)
+    payload = {
+        "importance": 7,
+        "category": "AI",
+        "tags": ["LLM"],
+        "summary": "Summary.",
+        "impact": "Impact.",
+        "action": "Action.",
+    }
+    content = "Here is the result: " + json.dumps(payload, ensure_ascii=False)
+    response_text = json.dumps(
+        {"choices": [{"message": {"content": content}}]},
+        ensure_ascii=False,
+    )
+
+    result = provider._parse_response(response_text)
+
+    assert result.category == "AI"
+    assert result.tags == ["LLM"]
 
 
 def test_analyze_raises_on_http_error(

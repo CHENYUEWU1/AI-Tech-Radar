@@ -11,6 +11,7 @@ import calendar
 import hashlib
 import time
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -26,6 +27,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG_DIR = PROJECT_ROOT / "config"
 DEFAULT_TIMEOUT_SECONDS = 15.0
 DEFAULT_LIMIT = 20
+MAX_WORKERS = 4
 USER_AGENT = "AI-Tech-Radar/0.1 RSS Collector"
 
 
@@ -70,19 +72,27 @@ class RSSCollector:
         """Collect items from every enabled RSS source."""
 
         sources = self._load_sources()
+        enabled = [source for source in sources if source.enabled]
         items: list[RSSItem] = []
-        for source in sources:
-            if not source.enabled:
-                continue
-            try:
-                content = self._fetch(source.url)
-                items.extend(self._parse_feed(source, content))
-                logger.info("Collected RSS feed '{}'", source.name)
-            except Exception as exc:
-                logger.error(
-                    "Failed to collect RSS feed '{}': {}", source.name, exc
-                )
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            futures = {
+                executor.submit(self._collect_source, source): source
+                for source in enabled
+            }
+            for future in as_completed(futures):
+                source = futures[future]
+                try:
+                    items.extend(future.result())
+                    logger.info("Collected RSS feed '{}'", source.name)
+                except Exception as exc:
+                    logger.error(
+                        "Failed to collect RSS feed '{}': {}", source.name, exc
+                    )
         return items
+
+    def _collect_source(self, source: RSSSource) -> list[RSSItem]:
+        content = self._fetch(source.url)
+        return self._parse_feed(source, content)
 
     def _load_sources(self) -> list[RSSSource]:
         config = load_sources(self._config_dir)
