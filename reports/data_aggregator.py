@@ -27,6 +27,7 @@ class ReportItem:
     article_link: str
     article_summary: str
     article_content: str
+    article_published_at: str = ""
 
     @property
     def importance(self) -> int:
@@ -84,10 +85,11 @@ class ReportDataAggregator:
         query = """
             SELECT ar.importance, ar.category, ar.tags, ar.summary,
                    ar.impact, ar.action,
-                   COALESCE(a.title, '') AS article_title,
-                   COALESCE(a.link, '') AS article_link,
-                   COALESCE(a.summary, '') AS article_summary,
-                   COALESCE(a.content, '') AS article_content
+                       COALESCE(a.title, '') AS article_title,
+                       COALESCE(a.link, '') AS article_link,
+                       COALESCE(a.summary, '') AS article_summary,
+                       COALESCE(a.content, '') AS article_content,
+                       COALESCE(a.published_at, '') AS article_published_at
             FROM analysis_results ar
             LEFT JOIN articles a ON a.id = ar.article_id
         """
@@ -129,6 +131,7 @@ class ReportDataAggregator:
                         article_link=str(row[7]),
                         article_summary=str(row[8]),
                         article_content=str(row[9]),
+                        article_published_at=str(row[10]),
                     )
                 )
             except (TypeError, ValueError) as exc:

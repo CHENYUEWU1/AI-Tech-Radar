@@ -193,7 +193,11 @@ def run_collection(components: ApplicationComponents) -> int:
     return saved
 
 
-def run_analysis(components: ApplicationComponents, limit: int = 20) -> int:
+def run_analysis(
+    components: ApplicationComponents,
+    limit: int = 20,
+    per_category: int = 3,
+) -> int:
     """Analyze unanalyzed articles and save AnalysisResult objects.
 
     Args:
@@ -206,7 +210,10 @@ def run_analysis(components: ApplicationComponents, limit: int = 20) -> int:
 
     logger.info("Starting AI analysis...")
     try:
-        articles = components.database.list_unanalyzed_articles(limit=limit)
+        articles = components.database.list_unanalyzed_articles(
+            limit=limit,
+            per_category=per_category,
+        )
     except Exception as exc:
         logger.error("Failed to load unanalyzed articles: {}", exc)
         return 0

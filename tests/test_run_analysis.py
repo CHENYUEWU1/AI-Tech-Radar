@@ -75,7 +75,7 @@ def test_run_analysis_analyzes_only_pending(tmp_path: Path) -> None:
     )
 
     components = _components(database, AIAnalyzer(MockProvider()))
-    success = run_analysis(components, limit=5)
+    success = run_analysis(components, limit=5, per_category=10)
 
     assert success == 5
     assert database.list_unanalyzed_articles() == []

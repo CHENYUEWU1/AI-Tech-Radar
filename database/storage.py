@@ -226,8 +226,12 @@ class SQLiteStorage:
             raise StorageError(f"Cannot list articles: {exc}") from exc
         return [_row_to_article(row) for row in rows]
 
-    def list_unanalyzed_articles(self, limit: int = 100) -> list[Article]:
-        """Return articles that do not have an analysis result yet."""
+    def list_unanalyzed_articles(
+        self,
+        limit: int = 100,
+        per_category: int = 3,
+    ) -> list[Article]:
+        """Return unanalyzed articles, up to per_category per category."""
 
         self._ensure_initialized()
         try:
@@ -246,10 +250,11 @@ class SQLiteStorage:
                     LEFT JOIN analysis_results ar ON ar.article_id = a.id
                     WHERE ar.id IS NULL
                 )
+                WHERE category_rank <= ?
                 ORDER BY category_rank, category
                 LIMIT ?
                 """,
-                (limit,),
+                (per_category, limit),
             ).fetchall()
         except sqlite3.Error as exc:
             raise StorageError(

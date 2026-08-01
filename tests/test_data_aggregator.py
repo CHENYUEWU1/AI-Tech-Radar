@@ -79,6 +79,14 @@ def test_get_daily_analysis_returns_recent_results() -> None:
     _insert(connection, 5, ["LLM"], "2026-07-31 10:00:00")
     _insert(connection, 9, ["Agent", "MCP"], "2026-07-31 11:00:00")
     _insert(connection, 7, ["GPU"], "2026-07-30 10:00:00")
+    connection.execute(
+        """
+        UPDATE analysis_results
+        SET created_at = datetime('now', '-2 hours')
+        WHERE importance IN (5, 9)
+        """
+    )
+    connection.commit()
 
     aggregator = ReportDataAggregator(connection)
     results = aggregator.get_daily_analysis(min_score=0)
@@ -96,6 +104,10 @@ def test_get_daily_analysis_respects_limit() -> None:
     connection = _connection()
     _insert(connection, 8, ["LLM"], "2026-07-31 10:00:00")
     _insert(connection, 6, ["Agent"], "2026-07-31 11:00:00")
+    connection.execute(
+        "UPDATE analysis_results SET created_at = datetime('now', '-2 hours')"
+    )
+    connection.commit()
 
     results = ReportDataAggregator(connection).get_daily_analysis(
         limit=1, min_score=0

@@ -96,6 +96,7 @@ class MarkdownReportGenerator:
                 "action": item.action,
                 "article_title": item.article_title,
                 "article_link": item.article_link,
+                "article_published_at": item.article_published_at,
                 "original_excerpt": excerpt,
             }
         return asdict(item)

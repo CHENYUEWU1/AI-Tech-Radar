@@ -157,3 +157,22 @@ def test_list_unanalyzed_articles_balances_categories(tmp_path: Path) -> None:
         categories = {article.category for article in selected}
 
     assert categories == {"ai_company", "paper", "hardware"}
+
+
+def test_list_unanalyzed_articles_respects_per_category(tmp_path: Path) -> None:
+    db_path = tmp_path / "radar.db"
+    with SQLiteStorage(db_path) as storage:
+        storage.connection.executescript(
+            ANALYSIS_SCHEMA_PATH.read_text(encoding="utf-8")
+        )
+        storage.connection.commit()
+        for index in range(5):
+            storage.save_article(
+                _item(f"x{index}", category="ai_company")
+            )
+
+        selected = storage.list_unanalyzed_articles(
+            limit=10, per_category=3
+        )
+
+    assert len(selected) == 3
