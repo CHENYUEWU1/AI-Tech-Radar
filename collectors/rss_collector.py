@@ -17,9 +17,9 @@ from pathlib import Path
 from typing import Any
 
 import feedparser
-from loguru import logger
 
 from utils.config_loader import ConfigError, load_sources
+from utils.logger import logger
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]

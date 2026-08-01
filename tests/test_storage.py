@@ -43,6 +43,7 @@ def test_initialize_creates_articles_table(tmp_path: Path) -> None:
         "title",
         "link",
         "summary",
+        "content",
         "author",
         "published_at",
         "created_at",
@@ -84,3 +85,49 @@ def test_insert_items_returns_inserted_count(tmp_path: Path) -> None:
 
     assert inserted == 2
     assert db_path.exists()
+
+
+def test_save_article_inserts_and_updates(tmp_path: Path) -> None:
+    db_path = tmp_path / "radar.db"
+    with SQLiteStorage(db_path) as storage:
+        assert storage.save_article(_item()) is True
+        assert storage.save_article(_item(title="Updated title")) is True
+
+        articles = storage.list_articles()
+
+    assert len(articles) == 1
+    assert articles[0].title == "Updated title"
+    assert articles[0].content == "A new Agent release."
+
+
+def test_initialize_adds_content_column_to_old_schema(tmp_path: Path) -> None:
+    legacy_path = tmp_path / "legacy.db"
+    storage = SQLiteStorage(legacy_path)
+    storage.connection.execute(
+        """
+        CREATE TABLE articles (
+            id INTEGER PRIMARY KEY,
+            external_id TEXT UNIQUE,
+            source TEXT,
+            category TEXT,
+            title TEXT,
+            link TEXT,
+            summary TEXT,
+            author TEXT,
+            published_at TEXT,
+            created_at TEXT
+        )
+        """
+    )
+    storage.connection.commit()
+
+    storage.initialize()
+    columns = [
+        row["name"]
+        for row in storage.connection.execute(
+            "PRAGMA table_info(articles)"
+        ).fetchall()
+    ]
+
+    assert "content" in columns
+    storage.close()

@@ -96,3 +96,10 @@ twitter:
   - username: LangChainAI
     category: agent
     enabled: true
+
+github_keywords:
+  - LLM
+  - Agent
+  - RAG
+  - MCP
+  - AI

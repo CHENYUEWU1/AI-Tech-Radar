@@ -9,13 +9,12 @@ from __future__ import annotations
 from datetime import date
 from pathlib import Path
 
-from loguru import logger
-
 from reports.data_aggregator import ReportDataAggregator, ReportDataError
 from reports.markdown_generator import (
     MarkdownReportError,
     MarkdownReportGenerator,
 )
+from utils.logger import logger
 
 
 class ReportPipelineError(Exception):

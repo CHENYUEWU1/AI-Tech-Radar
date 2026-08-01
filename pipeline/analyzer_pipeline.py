@@ -6,14 +6,13 @@ provider or database connection.
 
 from __future__ import annotations
 
-from loguru import logger
-
 from analyzers.analyzer import AIAnalyzer
 from analyzers.schemas import AnalysisResult
 from database.analysis_repository import (
     AnalysisRepository,
     AnalysisRepositoryError,
 )
+from utils.logger import logger
 
 
 class AnalyzerPipelineError(Exception):

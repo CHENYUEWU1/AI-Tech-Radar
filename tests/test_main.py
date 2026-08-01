@@ -53,6 +53,11 @@ def test_main_prints_loaded_config(
     _write_config(config_dir)
     monkeypatch.setattr(main_module, "CONFIG_DIR", config_dir)
     monkeypatch.setattr(main_module, "DEFAULT_DB_PATH", tmp_path / "radar.db")
+    monkeypatch.setattr(main_module, "run_collection", lambda components: 0)
+    monkeypatch.setattr(main_module, "run_analysis", lambda components: 0)
+    monkeypatch.setattr(
+        main_module, "run_report_generation", lambda components: None
+    )
 
     assert main_module.main() == 0
 
@@ -68,3 +73,51 @@ def test_main_returns_error_on_missing_config(
     monkeypatch.setattr(main_module, "CONFIG_DIR", tmp_path / "missing")
 
     assert main_module.main() == 1
+
+
+def test_main_collect_command_runs_only_collection(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    config_dir = tmp_path / "config"
+    _write_config(config_dir)
+    monkeypatch.setattr(main_module, "CONFIG_DIR", config_dir)
+    monkeypatch.setattr(main_module, "DEFAULT_DB_PATH", tmp_path / "radar.db")
+    calls: list[str] = []
+    monkeypatch.setattr(
+        main_module, "run_collection", lambda components: calls.append("collect")
+    )
+    monkeypatch.setattr(
+        main_module, "run_analysis", lambda components: calls.append("analyze")
+    )
+    monkeypatch.setattr(
+        main_module,
+        "run_report_generation",
+        lambda components: calls.append("report"),
+    )
+
+    assert main_module.main(["collect"]) == 0
+    assert calls == ["collect"]
+
+
+def test_main_daily_command_runs_full_flow(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    config_dir = tmp_path / "config"
+    _write_config(config_dir)
+    monkeypatch.setattr(main_module, "CONFIG_DIR", config_dir)
+    monkeypatch.setattr(main_module, "DEFAULT_DB_PATH", tmp_path / "radar.db")
+    calls: list[str] = []
+    monkeypatch.setattr(
+        main_module, "run_collection", lambda components: calls.append("collect")
+    )
+    monkeypatch.setattr(
+        main_module, "run_analysis", lambda components: calls.append("analyze")
+    )
+    monkeypatch.setattr(
+        main_module,
+        "run_report_generation",
+        lambda components: calls.append("report"),
+    )
+
+    assert main_module.main(["daily"]) == 0
+    assert calls == ["collect", "analyze", "report"]

@@ -13,9 +13,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from loguru import logger
-
 from collectors.rss_collector import RSSItem
+from utils.logger import logger
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -30,6 +29,7 @@ CREATE TABLE IF NOT EXISTS articles (
     title TEXT,
     link TEXT,
     summary TEXT,
+    content TEXT,
     author TEXT,
     published_at TEXT,
     created_at TEXT
@@ -52,6 +52,7 @@ class Article:
     title: str
     link: str
     summary: str
+    content: str
     author: str | None
     published_at: str | None
     created_at: str
@@ -95,12 +96,68 @@ class SQLiteStorage:
             return
         try:
             self.connection.executescript(_SCHEMA)
+            self._ensure_column("content", "content TEXT")
             self.connection.commit()
             self._initialized = True
         except sqlite3.Error as exc:
             raise StorageError(
                 f"Cannot initialize database {self._db_path}: {exc}"
             ) from exc
+
+    def _ensure_column(self, column: str, definition: str) -> None:
+        columns = [
+            row["name"]
+            for row in self.connection.execute(
+                "PRAGMA table_info(articles)"
+            ).fetchall()
+        ]
+        if column not in columns:
+            self.connection.execute(
+                f"ALTER TABLE articles ADD COLUMN {definition}"
+            )
+
+    def save_article(self, item: RSSItem) -> bool:
+        """Insert or update one RSS item. Returns True on success."""
+
+        self._ensure_initialized()
+        now = datetime.now(timezone.utc).isoformat()
+        published_at = (
+            item.published_at.isoformat() if item.published_at is not None else None
+        )
+        try:
+            cursor = self.connection.execute(
+                """
+                INSERT INTO articles (
+                    external_id, source, category, title, link,
+                    summary, content, author, published_at, created_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(external_id) DO UPDATE SET
+                    source = excluded.source,
+                    category = excluded.category,
+                    title = excluded.title,
+                    link = excluded.link,
+                    summary = excluded.summary,
+                    content = excluded.content,
+                    author = excluded.author,
+                    published_at = excluded.published_at
+                """,
+                (
+                    item.external_id,
+                    item.source_name,
+                    item.category,
+                    item.title,
+                    item.link,
+                    item.summary,
+                    item.summary,
+                    item.author,
+                    published_at,
+                    now,
+                ),
+            )
+            self.connection.commit()
+        except sqlite3.Error as exc:
+            raise StorageError(f"Cannot save article: {exc}") from exc
+        return cursor.rowcount == 1
 
     def insert_item(self, item: RSSItem) -> bool:
         """Insert one RSS item. Returns True when the row is new."""
@@ -152,7 +209,7 @@ class SQLiteStorage:
             rows = self.connection.execute(
                 """
                 SELECT id, external_id, source, category, title, link,
-                       summary, author, published_at, created_at
+                       summary, content, author, published_at, created_at
                 FROM articles
                 ORDER BY id DESC
                 LIMIT ?
@@ -161,6 +218,30 @@ class SQLiteStorage:
             ).fetchall()
         except sqlite3.Error as exc:
             raise StorageError(f"Cannot list articles: {exc}") from exc
+        return [_row_to_article(row) for row in rows]
+
+    def list_unanalyzed_articles(self, limit: int = 100) -> list[Article]:
+        """Return articles that do not have an analysis result yet."""
+
+        self._ensure_initialized()
+        try:
+            rows = self.connection.execute(
+                """
+                SELECT a.id, a.external_id, a.source, a.category, a.title,
+                       a.link, a.summary, a.content, a.author,
+                       a.published_at, a.created_at
+                FROM articles a
+                LEFT JOIN analysis_results ar ON ar.article_id = a.id
+                WHERE ar.id IS NULL
+                ORDER BY a.id DESC
+                LIMIT ?
+                """,
+                (limit,),
+            ).fetchall()
+        except sqlite3.Error as exc:
+            raise StorageError(
+                f"Cannot list unanalyzed articles: {exc}"
+            ) from exc
         return [_row_to_article(row) for row in rows]
 
     def count_articles(self) -> int:
@@ -198,6 +279,7 @@ def _row_to_article(row: sqlite3.Row) -> Article:
         title=str(row["title"]),
         link=str(row["link"]),
         summary=str(row["summary"]),
+        content=str(row["content"] or ""),
         author=row["author"],
         published_at=row["published_at"],
         created_at=str(row["created_at"]),

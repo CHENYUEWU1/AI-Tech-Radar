@@ -13,10 +13,10 @@ from pathlib import Path
 from typing import Any
 
 import yaml
-from loguru import logger
 
 from analyzers.analyzer import AIAnalyzer
 from analyzers.schemas import AnalysisResult
+from utils.logger import logger
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]

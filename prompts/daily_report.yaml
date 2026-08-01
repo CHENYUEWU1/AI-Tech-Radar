@@ -13,14 +13,17 @@ instructions:
   - 禁止编造信息
 
 output_format: |
-  # AI Tech Radar Daily
-
-  ## 今日重点
-
-  ## 技术趋势
-
-  ## 开发者建议
+  只输出 JSON，不要输出 Markdown 代码块，结构如下：
+  {
+    "importance": 1-10 的整数,
+    "category": "日报分类",
+    "tags": ["标签1", "标签2"],
+    "summary": "Markdown 日报正文，必须包含：\n# AI Tech Radar Daily\n\n## 今日重点\n\n## 技术趋势\n\n## 开发者建议",
+    "impact": "对行业影响",
+    "action": "后续关注建议"
+  }
 
 rules:
   max_items: 10
   language: zh-CN
+  output: json
