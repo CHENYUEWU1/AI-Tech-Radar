@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 from typing import Any
 
@@ -10,8 +11,10 @@ from analyzers.deepseek_provider import (
     DeepSeekAPIError,
     DeepSeekConfigError,
     DeepSeekProvider,
+    DeepSeekResponseError,
 )
 from analyzers.provider import AIProvider
+from analyzers.schemas import AnalysisResult
 
 
 def _write_config(path: Path) -> None:
@@ -30,6 +33,15 @@ ai:
 """,
         encoding="utf-8",
     )
+
+
+def _provider(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> DeepSeekProvider:
+    config_path = tmp_path / "models.yaml"
+    _write_config(config_path)
+    monkeypatch.setenv("DEEPSEEK_API_KEY", "test-key")
+    return DeepSeekProvider(config_path)
 
 
 def test_deepseek_provider_loads_config(
@@ -64,15 +76,27 @@ def test_missing_config_raises(tmp_path: Path) -> None:
         DeepSeekProvider(tmp_path / "missing.yaml")
 
 
-def test_analyze_returns_response_text(
+def test_analyze_returns_analysis_result(
     tmp_path: Path, monkeypatch: pytest.MonkeyPatch
 ) -> None:
-    config_path = tmp_path / "models.yaml"
-    _write_config(config_path)
-    monkeypatch.setenv("DEEPSEEK_API_KEY", "test-key")
+    provider = _provider(tmp_path, monkeypatch)
+    content = json.dumps(
+        {
+            "importance": 8,
+            "category": "AI",
+            "tags": ["LLM", "Agent"],
+            "summary": "DeepSeek summary.",
+            "impact": "Impact analysis.",
+            "action": "Watch next steps.",
+        },
+        ensure_ascii=False,
+    )
 
     class FakeResponse:
-        text = '{"choices": [{"message": {"content": "ok"}}]}'
+        text = json.dumps(
+            {"choices": [{"message": {"content": content}}]},
+            ensure_ascii=False,
+        )
 
         def raise_for_status(self) -> None:
             return None
@@ -95,10 +119,15 @@ def test_analyze_returns_response_text(
         "analyzers.deepseek_provider.requests.post", fake_post
     )
 
-    provider = DeepSeekProvider(config_path)
     result = provider.analyze("OpenAI released a new model")
 
-    assert result == FakeResponse.text
+    assert isinstance(result, AnalysisResult)
+    assert result.importance == 8
+    assert result.category == "AI"
+    assert result.tags == ["LLM", "Agent"]
+    assert result.summary == "DeepSeek summary."
+    assert result.impact == "Impact analysis."
+    assert result.action == "Watch next steps."
     assert captured["url"] == "https://api.deepseek.com/chat/completions"
     assert captured["headers"]["Authorization"] == "Bearer test-key"
     assert captured["headers"]["Content-Type"] == "application/json"
@@ -106,6 +135,104 @@ def test_analyze_returns_response_text(
     assert captured["json"]["messages"] == [
         {"role": "user", "content": "OpenAI released a new model"}
     ]
+    assert captured["json"]["temperature"] == 0.2
+    assert captured["json"]["max_tokens"] == 2000
+
+
+def test_parse_response_accepts_markdown_fenced_json(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    provider = _provider(tmp_path, monkeypatch)
+    payload = {
+        "importance": 7,
+        "category": "LLM",
+        "tags": ["Agent"],
+        "summary": "Summary.",
+        "impact": "Impact.",
+        "action": "Action.",
+    }
+    content = "```json\n" + json.dumps(payload, ensure_ascii=False) + "\n```"
+    response_text = json.dumps(
+        {"choices": [{"message": {"content": content}}]},
+        ensure_ascii=False,
+    )
+
+    result = provider._parse_response(response_text)
+
+    assert result.category == "LLM"
+    assert result.importance == 7
+
+
+def test_parse_response_invalid_outer_json(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    provider = _provider(tmp_path, monkeypatch)
+
+    with pytest.raises(DeepSeekResponseError, match="not valid JSON"):
+        provider._parse_response("not-json")
+
+
+def test_parse_response_missing_content(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    provider = _provider(tmp_path, monkeypatch)
+
+    with pytest.raises(DeepSeekResponseError, match="missing message content"):
+        provider._parse_response('{"choices": []}')
+
+
+def test_parse_response_content_not_json(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    provider = _provider(tmp_path, monkeypatch)
+    response_text = json.dumps(
+        {"choices": [{"message": {"content": "not-json"}}]},
+        ensure_ascii=False,
+    )
+
+    with pytest.raises(DeepSeekResponseError, match="not valid JSON"):
+        provider._parse_response(response_text)
+
+
+def test_parse_response_missing_fields(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    provider = _provider(tmp_path, monkeypatch)
+    payload = {
+        "importance": 6,
+        "category": "AI",
+        "tags": ["LLM"],
+        "summary": "Summary.",
+        "impact": "Impact.",
+    }
+    response_text = json.dumps(
+        {"choices": [{"message": {"content": json.dumps(payload)}}]},
+        ensure_ascii=False,
+    )
+
+    with pytest.raises(DeepSeekResponseError, match="Missing fields"):
+        provider._parse_response(response_text)
+
+
+def test_parse_response_invalid_importance(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    provider = _provider(tmp_path, monkeypatch)
+    payload = {
+        "importance": 11,
+        "category": "AI",
+        "tags": ["LLM"],
+        "summary": "Summary.",
+        "impact": "Impact.",
+        "action": "Action.",
+    }
+    response_text = json.dumps(
+        {"choices": [{"message": {"content": json.dumps(payload)}}]},
+        ensure_ascii=False,
+    )
+
+    with pytest.raises(DeepSeekResponseError, match="Invalid analysis result"):
+        provider._parse_response(response_text)
 
 
 def test_analyze_raises_on_http_error(
