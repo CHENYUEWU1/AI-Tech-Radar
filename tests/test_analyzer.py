@@ -43,3 +43,15 @@ def test_analyzer_works_with_mock_provider() -> None:
     assert isinstance(result, AnalysisResult)
     assert result.category == "AI"
     assert result.tags == ["LLM", "Agent"]
+
+
+def test_analyzer_returns_analysis_result() -> None:
+    provider = MockProvider()
+    analyzer = AIAnalyzer(provider)
+
+    result = analyzer.analyze("OpenAI released a new model")
+
+    assert isinstance(result, AnalysisResult)
+    assert 1 <= result.importance <= 10
+    assert result.category == "AI"
+    assert result.tags == ["LLM", "Agent"]
