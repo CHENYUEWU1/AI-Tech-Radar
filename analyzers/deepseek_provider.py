@@ -1,11 +1,12 @@
-"""DeepSeek provider skeleton.
+"""DeepSeek provider.
 
-Loads model settings from config/models.yaml and prepares the provider
-for a future DeepSeek API integration. No API request is made yet.
+Loads model settings from config/models.yaml, calls the DeepSeek chat
+completions API, and converts the response into an AnalysisResult.
 """
 
 from __future__ import annotations
 
+import json
 import os
 from pathlib import Path
 from typing import Any
@@ -31,13 +32,12 @@ class DeepSeekAPIError(Exception):
     """Raised when the DeepSeek API request fails."""
 
 
-class DeepSeekProvider(AIProvider):
-    """DeepSeek provider skeleton.
+class DeepSeekResponseError(Exception):
+    """Raised when the DeepSeek response cannot be parsed."""
 
-    The constructor only loads configuration and the API key from the
-    environment. The analyze() method will be implemented in the next
-    phase.
-    """
+
+class DeepSeekProvider(AIProvider):
+    """DeepSeek provider that returns structured AnalysisResult objects."""
 
     def __init__(self, config_path: Path = DEFAULT_CONFIG_PATH) -> None:
         config = self._load_config(config_path)
@@ -52,14 +52,11 @@ class DeepSeekProvider(AIProvider):
         self._max_tokens = _load_int(parameters_config, "max_tokens")
         self._api_key = self._load_api_key(self._api_key_env)
 
-    def analyze(self, article: str) -> str:
-        """Send an article to DeepSeek and return the raw response text.
+    def analyze(self, article: str) -> AnalysisResult:
+        """Analyze an article and return a structured AnalysisResult."""
 
-        This is a temporary implementation. JSON parsing and
-        AnalysisResult generation arrive in the next phase.
-        """
-
-        return self._call_api(article)
+        response_text = self._call_api(article)
+        return self._parse_response(response_text)
 
     def _call_api(self, article: str) -> str:
         """Send a chat completion request and return response.text."""
@@ -71,6 +68,8 @@ class DeepSeekProvider(AIProvider):
         payload = {
             "model": self._model_name,
             "messages": [{"role": "user", "content": article}],
+            "temperature": self._temperature,
+            "max_tokens": self._max_tokens,
         }
         try:
             response = requests.post(
@@ -92,6 +91,90 @@ class DeepSeekProvider(AIProvider):
                 f"DeepSeek API request failed: {exc}"
             ) from exc
         return response.text
+
+    def _parse_response(self, response_text: str) -> AnalysisResult:
+        """Parse a DeepSeek response into a validated AnalysisResult."""
+
+        try:
+            envelope = json.loads(response_text)
+        except json.JSONDecodeError as exc:
+            raise DeepSeekResponseError(
+                "DeepSeek response is not valid JSON"
+            ) from exc
+        if not isinstance(envelope, dict):
+            raise DeepSeekResponseError(
+                "DeepSeek response must be a JSON object"
+            )
+
+        try:
+            content = envelope["choices"][0]["message"]["content"]
+        except (KeyError, IndexError, TypeError) as exc:
+            raise DeepSeekResponseError(
+                "DeepSeek response is missing message content"
+            ) from exc
+        if not isinstance(content, str) or not content.strip():
+            raise DeepSeekResponseError(
+                "DeepSeek message content must be a non-empty string"
+            )
+
+        payload = self._load_payload(content)
+        return self._build_result(payload)
+
+    @staticmethod
+    def _load_payload(content: str) -> dict[str, Any]:
+        cleaned = content.strip()
+        if cleaned.startswith("```"):
+            lines = cleaned.splitlines()
+            if lines and lines[0].startswith("```"):
+                lines = lines[1:]
+            if lines and lines[-1].strip() == "```":
+                lines = lines[:-1]
+            cleaned = "\n".join(lines).strip()
+
+        try:
+            payload = json.loads(cleaned)
+        except json.JSONDecodeError as exc:
+            raise DeepSeekResponseError(
+                "DeepSeek content is not valid JSON"
+            ) from exc
+        if not isinstance(payload, dict):
+            raise DeepSeekResponseError(
+                "DeepSeek content must be a JSON object"
+            )
+        return payload
+
+    @staticmethod
+    def _build_result(payload: dict[str, Any]) -> AnalysisResult:
+        required_fields = (
+            "importance",
+            "category",
+            "tags",
+            "summary",
+            "impact",
+            "action",
+        )
+        missing_fields = [
+            field for field in required_fields if field not in payload
+        ]
+        if missing_fields:
+            raise DeepSeekResponseError(
+                "Missing fields in analysis result: "
+                + ", ".join(missing_fields)
+            )
+
+        try:
+            return AnalysisResult(
+                importance=payload["importance"],
+                category=payload["category"],
+                tags=payload["tags"],
+                summary=payload["summary"],
+                impact=payload["impact"],
+                action=payload["action"],
+            )
+        except (TypeError, ValueError) as exc:
+            raise DeepSeekResponseError(
+                f"Invalid analysis result fields: {exc}"
+            ) from exc
 
     @property
     def model_name(self) -> str:
