@@ -2,3 +2,9 @@ PyYAML
 loguru
 feedparser
 requests
+pyyaml
+loguru
+feedparser
+pydantic
+openai
+requests
