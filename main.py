@@ -174,7 +174,7 @@ def run_collection(components: ApplicationComponents) -> int:
     return saved
 
 
-def run_analysis(components: ApplicationComponents, limit: int = 10) -> int:
+def run_analysis(components: ApplicationComponents, limit: int = 20) -> int:
     """Analyze unanalyzed articles and save AnalysisResult objects.
 
     Args:
@@ -288,7 +288,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         default="daily",
         help="Command to run; defaults to daily.",
     )
-    args = parser.parse_args(argv)
+    args = parser.parse_args(argv if argv is not None else [])
 
     try:
         config = load_all_config()

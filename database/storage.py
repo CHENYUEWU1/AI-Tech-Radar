@@ -233,13 +233,20 @@ class SQLiteStorage:
         try:
             rows = self.connection.execute(
                 """
-                SELECT a.id, a.external_id, a.source, a.category, a.title,
-                       a.link, a.summary, a.content, a.author,
-                       a.published_at, a.created_at
-                FROM articles a
-                LEFT JOIN analysis_results ar ON ar.article_id = a.id
-                WHERE ar.id IS NULL
-                ORDER BY a.id DESC
+                SELECT id, external_id, source, category, title, link,
+                       summary, content, author, published_at, created_at
+                FROM (
+                    SELECT a.id, a.external_id, a.source, a.category,
+                           a.title, a.link, a.summary, a.content, a.author,
+                           a.published_at, a.created_at,
+                           ROW_NUMBER() OVER (
+                               PARTITION BY a.category ORDER BY a.id DESC
+                           ) AS category_rank
+                    FROM articles a
+                    LEFT JOIN analysis_results ar ON ar.article_id = a.id
+                    WHERE ar.id IS NULL
+                )
+                ORDER BY category_rank, category
                 LIMIT ?
                 """,
                 (limit,),

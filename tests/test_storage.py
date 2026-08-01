@@ -9,10 +9,18 @@ from collectors.rss_collector import RSSItem
 from database.storage import DEFAULT_DB_PATH, SQLiteStorage
 
 
-def _item(external_id: str = "post-1", title: str = "Agent MCP update") -> RSSItem:
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+ANALYSIS_SCHEMA_PATH = PROJECT_ROOT / "database" / "analysis_schema.sql"
+
+
+def _item(
+    external_id: str = "post-1",
+    title: str = "Agent MCP update",
+    category: str = "ai_company",
+) -> RSSItem:
     return RSSItem(
         source_name="Test Feed",
-        category="ai_company",
+        category=category,
         title=title,
         link=f"https://example.com/{external_id}",
         summary="A new Agent release.",
@@ -131,3 +139,21 @@ def test_initialize_adds_content_column_to_old_schema(tmp_path: Path) -> None:
 
     assert "content" in columns
     storage.close()
+
+
+def test_list_unanalyzed_articles_balances_categories(tmp_path: Path) -> None:
+    db_path = tmp_path / "radar.db"
+    with SQLiteStorage(db_path) as storage:
+        storage.connection.executescript(
+            ANALYSIS_SCHEMA_PATH.read_text(encoding="utf-8")
+        )
+        storage.connection.commit()
+        for index in range(3):
+            storage.save_article(_item(f"a{index}", category="ai_company"))
+            storage.save_article(_item(f"p{index}", category="paper"))
+            storage.save_article(_item(f"h{index}", category="hardware"))
+
+        selected = storage.list_unanalyzed_articles(limit=3)
+        categories = {article.category for article in selected}
+
+    assert categories == {"ai_company", "paper", "hardware"}

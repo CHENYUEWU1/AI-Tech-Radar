@@ -3,12 +3,33 @@ high_priority:
   - MCP
   - LLM
   - OpenAI
+  - AI Agent
+  - GPU
+  - 显卡
+  - 英伟达
+  - NVIDIA
+  - 长鑫
+  - CXMT
+  - 芯片
+  - 半导体
+  - 股票
 
 medium_priority:
-  - GPU
   - RAG
   - AI Coding
+  - RTX
+  - 显卡价格
+  - 显存
+  - 存储
+  - 内存
+  - 涨价
+  - 缺货
+  - 概念股
+  - 股价
+  - 供应链
 
 low_priority:
   - VR
   - Blockchain
+  - 挖矿
+  - 矿卡

@@ -69,6 +69,31 @@ rss:
     url: https://www.reddit.com/r/LocalLLaMA/.rss
     enabled: true
 
+  - name: IT之家
+    category: tech_news
+    url: https://www.ithome.com/rss/
+    enabled: true
+
+  - name: 36氪
+    category: tech_news
+    url: https://36kr.com/feed
+    enabled: true
+
+  - name: 新浪科技
+    category: tech_news
+    url: https://rss.sina.com.cn/tech/rollnews.xml
+    enabled: true
+
+  - name: 新浪财经
+    category: finance
+    url: https://rss.sina.com.cn/finance/rollnews.xml
+    enabled: true
+
+  - name: Reddit BuildAPCSales
+    category: hardware
+    url: https://www.reddit.com/r/buildapcsales/.rss
+    enabled: true
+
 github:
   - name: openai
     category: ai_company
@@ -102,6 +127,14 @@ github:
     category: inference
     enabled: true
 
+  - name: NVIDIA
+    category: hardware
+    enabled: true
+
+  - name: ROCm
+    category: hardware
+    enabled: true
+
 twitter:
   - username: OpenAI
     category: ai_company
@@ -133,3 +166,6 @@ github_keywords:
   - RAG
   - MCP
   - AI
+  - GPU
+  - CUDA
+  - Memory
