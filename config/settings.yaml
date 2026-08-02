@@ -2,7 +2,7 @@ database:
   path: data/tech_radar.db
 
 reports:
-  dir: reports
+  dir: reports/output
 
 logs:
   dir: logs

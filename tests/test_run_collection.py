@@ -37,6 +37,17 @@ class FakeDatabase:
         return True
 
 
+class FakeTwitterCollector:
+    """Twitter collector stub for run_collection tests."""
+
+    def __init__(self, items: list[RSSItem]) -> None:
+        self._items = items
+        self.failure_count = 0
+
+    def collect(self) -> list[RSSItem]:
+        return self._items
+
+
 def _item(external_id: str = "post-1") -> RSSItem:
     return RSSItem(
         source_name="Test Feed",
@@ -59,6 +70,16 @@ def _components(
         analyzer=None,  # type: ignore[arg-type]
         report_pipeline=None,  # type: ignore[arg-type]
     )
+
+
+def _components_with_twitter(
+    collector: FakeCollector,
+    database: FakeDatabase,
+    twitter: FakeTwitterCollector,
+) -> ApplicationComponents:
+    components = _components(collector, database)
+    components.twitter_collector = twitter  # type: ignore[assignment]
+    return components
 
 
 def test_run_collection_saves_items() -> None:
@@ -100,3 +121,17 @@ def test_run_collection_continues_after_single_save_failure() -> None:
 
     assert saved == 1
     assert [item.external_id for item in database.saved] == ["b"]
+
+
+def test_run_collection_includes_twitter_items() -> None:
+    rss_item = _item("rss-1")
+    tweet_item = _item("tweet-1")
+    database = FakeDatabase()
+    components = _components_with_twitter(
+        FakeCollector([rss_item]), database, FakeTwitterCollector([tweet_item])
+    )
+
+    saved = run_collection(components)
+
+    assert saved == 2
+    assert [item.external_id for item in database.saved] == ["rss-1", "tweet-1"]

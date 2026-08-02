@@ -1,12 +1,13 @@
+# 科技信息差：多渠道信息来源（Codex 侧整理，2026-08-02）
+# 格式：rss / github / twitter 三个区块 + github_keywords
+# 分类说明：ai_company 官方公司 | models 模型 | hardware 硬件 | agent 智能体
+#           mcp | inference 推理 | paper 论文 | tech_news 科技媒体
+#           finance 财经 | community 社区 | robot 机器人 | auto 汽车
 rss:
-  - name: OpenAI Blog
+  # ---- 官方 / 第一手 ----
+  - name: OpenAI News
     category: ai_company
     url: https://openai.com/news/rss.xml
-    enabled: true
-
-  - name: TechCrunch AI
-    category: community
-    url: https://techcrunch.com/category/artificial-intelligence/feed/
     enabled: true
 
   - name: Google DeepMind Blog
@@ -19,14 +20,14 @@ rss:
     url: https://blog.google/technology/ai/rss/
     enabled: true
 
-  - name: NVIDIA Blog AI
+  - name: NVIDIA Blog
     category: hardware
     url: https://blogs.nvidia.com/feed/
     enabled: true
 
-  - name: Hacker News
-    category: community
-    url: https://news.ycombinator.com/rss
+  - name: NVIDIA Developer Blog
+    category: hardware
+    url: https://developer.nvidia.com/blog/feed
     enabled: true
 
   - name: Hugging Face Blog
@@ -34,6 +35,158 @@ rss:
     url: https://huggingface.co/blog/feed.xml
     enabled: true
 
+  - name: Meta News
+    category: ai_company
+    url: https://about.fb.com/news/feed/
+    enabled: true
+
+  # ---- 原 Twitter 账号等价源（2026-08-02 新增） ----
+  - name: LangChain Blog
+    category: agent
+    url: https://blog.langchain.com/rss.xml
+    enabled: true
+
+  - name: DHH Blog
+    category: community
+    url: https://world.hey.com/dhh/feed.atom
+    enabled: true
+
+  - name: Andrej Karpathy Blog
+    category: models
+    url: https://karpathy.bearblog.dev/feed.xml
+    enabled: true
+
+  # ---- 海外科技媒体 ----
+  - name: TechCrunch
+    category: tech_news
+    url: https://techcrunch.com/feed/
+    enabled: true
+
+  - name: TechCrunch AI
+    category: ai_company
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    enabled: true
+
+  - name: Ars Technica
+    category: tech_news
+    url: https://feeds.arstechnica.com/arstechnica/index
+    enabled: true
+
+  - name: The Register
+    category: tech_news
+    url: https://www.theregister.com/headlines.atom
+    enabled: true
+
+  - name: The Verge
+    category: tech_news
+    url: https://www.theverge.com/rss/index.xml
+    enabled: true
+
+  - name: Engadget
+    category: tech_news
+    url: https://www.engadget.com/rss.xml
+    enabled: true
+
+  - name: Hacker News
+    category: community
+    url: https://news.ycombinator.com/rss
+    enabled: true
+
+  - name: Hacker News Frontpage
+    category: community
+    url: https://hnrss.org/frontpage?points=100
+    enabled: true
+
+  # ---- 国内科技媒体 ----
+  - name: IT之家
+    category: tech_news
+    url: https://www.ithome.com/rss/
+    enabled: true
+
+  - name: 36氪
+    category: tech_news
+    url: https://36kr.com/feed
+    enabled: true
+
+  - name: 极客公园
+    category: tech_news
+    url: https://www.geekpark.net/rss
+    enabled: true
+
+  - name: 爱范儿
+    category: tech_news
+    url: https://www.ifanr.com/feed
+    enabled: true
+
+  - name: 少数派
+    category: tech_news
+    url: https://sspai.com/feed
+    enabled: true
+
+  # 虎嗅 RSS 持续超时（2026-08-02 检查），暂禁用，待找到替代源再开
+  - name: 虎嗅
+    category: tech_news
+    url: https://www.huxiu.com/rss/0.xml
+    enabled: false
+
+  - name: 钛媒体
+    category: tech_news
+    url: https://www.tmtpost.com/rss.xml
+    enabled: true
+
+  - name: CnBeta
+    category: tech_news
+    url: https://www.cnbeta.com.tw/backend.php
+    enabled: true
+
+  - name: 新浪科技
+    category: tech_news
+    url: https://rss.sina.com.cn/tech/rollnews.xml
+    enabled: true
+
+  - name: 新浪财经
+    category: finance
+    url: https://rss.sina.com.cn/finance/rollnews.xml
+    enabled: true
+
+  # ---- 社区 / 论坛 ----
+  - name: Reddit r/LocalLLaMA
+    category: community
+    url: https://www.reddit.com/r/LocalLLaMA/.rss
+    enabled: true
+
+  - name: Reddit r/technology
+    category: community
+    url: https://www.reddit.com/r/technology/.rss
+    enabled: true
+
+  - name: Reddit r/hardware
+    category: hardware
+    url: https://www.reddit.com/r/hardware/.rss
+    enabled: true
+
+  - name: Reddit r/BuildAPCSales
+    category: hardware
+    url: https://www.reddit.com/r/buildapcsales/.rss
+    enabled: true
+
+  # ---- YouTube（第一手视频） ----
+  - name: YouTube Linus Tech Tips
+    category: community
+    url: https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw
+    enabled: true
+
+  - name: YouTube Fireship
+    category: community
+    url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA
+    enabled: true
+
+  - name: YouTube MKBHD
+    category: community
+    url: https://www.youtube.com/feeds/videos.xml?channel_id=UCBJycsmduvYEL83R_U4JriQ
+    enabled: true
+
+  # ---- 论文 ----
   - name: arXiv AI
     category: paper
     url: https://rss.arxiv.org/rss/cs.AI
@@ -54,46 +207,6 @@ rss:
     url: https://rss.arxiv.org/rss/cs.RO
     enabled: true
 
-  - name: NVIDIA Developer Blog
-    category: hardware
-    url: https://developer.nvidia.com/blog/feed
-    enabled: true
-
-  - name: Meta News
-    category: ai_company
-    url: https://about.fb.com/news/feed/
-    enabled: true
-
-  - name: Reddit LocalLLaMA
-    category: community
-    url: https://www.reddit.com/r/LocalLLaMA/.rss
-    enabled: true
-
-  - name: IT之家
-    category: tech_news
-    url: https://www.ithome.com/rss/
-    enabled: true
-
-  - name: 36氪
-    category: tech_news
-    url: https://36kr.com/feed
-    enabled: true
-
-  - name: 新浪科技
-    category: tech_news
-    url: https://rss.sina.com.cn/tech/rollnews.xml
-    enabled: true
-
-  - name: 新浪财经
-    category: finance
-    url: https://rss.sina.com.cn/finance/rollnews.xml
-    enabled: true
-
-  - name: Reddit BuildAPCSales
-    category: hardware
-    url: https://www.reddit.com/r/buildapcsales/.rss
-    enabled: true
-
 github:
   - name: openai
     category: ai_company
@@ -104,6 +217,14 @@ github:
     enabled: true
 
   - name: huggingface
+    category: models
+    enabled: true
+
+  - name: deepseek-ai
+    category: models
+    enabled: true
+
+  - name: moonshotai
     category: models
     enabled: true
 
@@ -127,7 +248,23 @@ github:
     category: inference
     enabled: true
 
+  - name: ollama
+    category: inference
+    enabled: true
+
+  - name: ggml-org/llama.cpp
+    category: inference
+    enabled: true
+
   - name: NVIDIA
+    category: hardware
+    enabled: true
+
+  - name: NVIDIA/asset-harvester
+    category: hardware
+    enabled: true
+
+  - name: NVIDIA/open-gpu-doc
     category: hardware
     enabled: true
 
@@ -135,30 +272,82 @@ github:
     category: hardware
     enabled: true
 
+# Twitter 账号：2026-08-02 起全部禁用
+# 原因：X 官方 API 需开发者账户验证，公共 RSSHub Twitter 路由已失效
+# 等价替代源见上方 rss 区块（OpenAI/DeepMind/Meta/NVIDIA/HF 已有官方源，
+# LangChain/DHH/Karpathy 已新增；Anthropic/DeepSeek/马斯克等无 RSS，暂关闭）
 twitter:
   - username: OpenAI
     category: ai_company
-    enabled: true
+    enabled: false
 
   - username: AnthropicAI
     category: ai_company
-    enabled: true
+    enabled: false
 
   - username: GoogleDeepMind
     category: ai_company
-    enabled: true
+    enabled: false
 
-  - username: NVIDIAAI
+  - username: AIatMeta
+    category: ai_company
+    enabled: false
+
+  - username: deepseek_ai
+    category: models
+    enabled: false
+
+  - username: nvidia
     category: hardware
-    enabled: true
+    enabled: false
 
   - username: HuggingFace
     category: models
-    enabled: true
+    enabled: false
 
   - username: LangChainAI
     category: agent
-    enabled: true
+    enabled: false
+
+  - username: elonmusk
+    category: tech_news
+    enabled: false
+
+  - username: sama
+    category: ai_company
+    enabled: false
+
+  - username: gdb
+    category: ai_company
+    enabled: false
+
+  - username: ylecun
+    category: community
+    enabled: false
+
+  - username: hwchase17
+    category: agent
+    enabled: false
+
+  - username: dhh
+    category: community
+    enabled: false
+
+  - username: JimFan
+    category: community
+    enabled: false
+
+  - username: karpathy
+    category: models
+    enabled: false
+
+  - username: TheTuringPost
+    category: community
+    enabled: false
+
+  - username: coinbase
+    category: finance
+    enabled: false
 
 github_keywords:
   - LLM
@@ -169,3 +358,5 @@ github_keywords:
   - GPU
   - CUDA
   - Memory
+  - Inference
+  - Robotics

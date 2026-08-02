@@ -11,6 +11,7 @@ from dataclasses import asdict
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any, Sequence
+from uuid import uuid4
 
 import yaml
 
@@ -123,9 +124,13 @@ class MarkdownReportGenerator:
         try:
             directory.mkdir(parents=True, exist_ok=True)
             timestamp = datetime.now().strftime("%Y%m%d-%H%M%S-%f")
+            unique = uuid4().hex[:8]
             path = (
                 directory
-                / f"{target_date.isoformat()}-{timestamp}-ai-tech-radar.md"
+                / (
+                    f"{target_date.isoformat()}-{timestamp}-{unique}"
+                    "-ai-tech-radar.md"
+                )
             )
             path.write_text(content, encoding="utf-8")
         except OSError as exc:

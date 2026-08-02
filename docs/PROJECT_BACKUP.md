@@ -79,6 +79,7 @@ AI-Tech-Radar 是一个 AI 科技情报系统，用于：
 | Task009-B | AI Analyzer Reliability | 完成 |
 | Task010 | AI Intelligence Scoring System | 完成 |
 | Task011 | Trend Intelligence Analyzer | 完成 |
+| Task012 | Twitter Collector（X v2 API） | 完成 |
 
 ## 4. 核心架构
 
@@ -195,12 +196,19 @@ python main.py daily      # 完整流程
 - 默认 `min_score=7` 已下沉到：
   - `ReportDataAggregator`
   - `ReportPipeline`
-- 日报文件使用时间戳命名，不覆盖旧文件
+- 日报文件使用时间戳 + 随机后缀命名，不覆盖旧文件（避免 Windows 时钟分辨率导致的同名）
 - 日报 Prompt 要求：
   - 每条重点带原文链接和发布时间
   - 按主题/类别分组，每个主题精选 3 篇
   - 不硬性按地域切分开源/模型/社区项目
   - 方向判断覆盖开源 vs 闭源、存储供给、安全治理、资本风险、监管动态
+
+### 5.8 Twitter 采集
+
+- 两种模式：
+  - 官方 X v2 API：`X_BEARER_TOKEN`，批量解析用户 ID（`users/by`）再按账号拉取，默认每账号 20 条，排除转推和回复
+  - RSSHub RSS 兜底：无 Token 时自动启用，`RSSHUB_BASE_URL` 可指定实例（逗号分隔多个），默认 `https://rsshub.app`
+- 两种方式都不可用时告警跳过，不影响 RSS / GitHub 流程
 
 ## 6. 文件地图
 
@@ -266,14 +274,14 @@ gh auth login
 
 - 部分 RSS 源偶尔超时或 404，已做单源容错
 - Reddit 有时返回 429
-- X/Twitter 配置已预留，但当前主流程未启用
+- X/Twitter 采集已接入，官方 API 需验证开发者账户；无 Token 时走 RSSHub 兜底（公共实例 Twitter 路由目前不稳定，建议自建）
 - 完整 daily 需要大量 DeepSeek API 调用，耗时约 1-2 分钟
 - `src/ai_tech_radar/` 是遗留代码，后续可以清理或合并
 
 ## 11. 后续建议
 
 - 增加 OpenAI / Claude Provider
-- 增加 X / YouTube 采集
+- 增加 OpenAI / Claude Provider（已接入 X 采集）
 - 增加日报已用文章去重，避免重复
 - GitHub 采集并发化
 - 增加 Web UI 或 API

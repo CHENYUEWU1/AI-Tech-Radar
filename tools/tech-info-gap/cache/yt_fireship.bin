@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA"/>
+ <id>yt:channel:sBjURrPoezykLs9EqgamOA</id>
+ <yt:channelId>sBjURrPoezykLs9EqgamOA</yt:channelId>
+ <title>Fireship</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA"/>
+ <author>
+  <name>Fireship</name>
+  <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+ </author>
+ <published>2017-04-07T18:17:23+00:00</published>
+ <entry>
+  <id>yt:video:jxGJT1weu4w</id>
+  <yt:videoId>jxGJT1weu4w</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>Did Anthropic just kill the indie hacker...?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=jxGJT1weu4w"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-07-29T16:33:51+00:00</published>
+  <updated>2026-07-30T08:15:09+00:00</updated>
+  <media:group>
+   <media:title>Did Anthropic just kill the indie hacker...?</media:title>
+   <media:content url="https://www.youtube.com/v/jxGJT1weu4w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/jxGJT1weu4w/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Try Blacksmith for free to run your GitHub Actions 2x faster - https://www.blacksmith.sh/
+
+Anthropic just dropped Opus 5 and it may be killing the indie hacker dream. Let's dive in.
+
+#coding #programming
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="19630" average="5.00" min="1" max="5"/>
+    <media:statistics views="630710"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:KOpTWx1Eou4</id>
+  <yt:videoId>KOpTWx1Eou4</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>The most interesting &quot;hack&quot; in history...</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=KOpTWx1Eou4"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-07-23T16:53:37+00:00</published>
+  <updated>2026-07-27T14:16:56+00:00</updated>
+  <media:group>
+   <media:title>The most interesting &quot;hack&quot; in history...</media:title>
+   <media:content url="https://www.youtube.com/v/KOpTWx1Eou4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/KOpTWx1Eou4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Railway is the easiest way to deploy anything. Get $20 in free credits - https://railway.com/?referralCode=fireship
+
+Last week Hugging Face was hacked. In this video, we'll break down who it was and what they wanted.
+
+#coding #programming
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="32205" average="5.00" min="1" max="5"/>
+    <media:statistics views="851157"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:YP73B9D20V4</id>
+  <yt:videoId>YP73B9D20V4</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>Open-weight AI just hit 2.8 trillion parameters…</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YP73B9D20V4"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-07-22T17:43:52+00:00</published>
+  <updated>2026-07-29T19:14:42+00:00</updated>
+  <media:group>
+   <media:title>Open-weight AI just hit 2.8 trillion parameters…</media:title>
+   <media:content url="https://www.youtube.com/v/YP73B9D20V4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YP73B9D20V4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Get 20% off Mobbin Pro to help your agent design UIs that don't suck - https://mobbin.com/fireship
+
+Moonshot just released Kimi K3, a 2.8 trillion parameter open-weight monster. Does it live up to the hype? Let's break it down.
+
+#coding #programming
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="28215" average="5.00" min="1" max="5"/>
+    <media:statistics views="962036"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:M51asSwRLxA</id>
+  <yt:videoId>M51asSwRLxA</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>This $12 billion startup finally shipped something...</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=M51asSwRLxA"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-07-20T17:02:30+00:00</published>
+  <updated>2026-08-01T23:57:13+00:00</updated>
+  <media:group>
+   <media:title>This $12 billion startup finally shipped something...</media:title>
+   <media:content url="https://www.youtube.com/v/M51asSwRLxA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/M51asSwRLxA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Clerk's CLI lets your agents set up auth + payments for your entire app - https://go.clerk.com/EwolVvz
+
+Mira Murati's Thinking Machines just released Inkling, a 975B parameter open-weights model that's deliberately mid... let's investigate.
+
+#coding #programming
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="19829" average="5.00" min="1" max="5"/>
+    <media:statistics views="747693"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5D4Zqp9GLSc</id>
+  <yt:videoId>5D4Zqp9GLSc</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>OpenAI gets sued for stealing, again…</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5D4Zqp9GLSc"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-07-17T17:56:42+00:00</published>
+  <updated>2026-08-01T21:24:09+00:00</updated>
+  <media:group>
+   <media:title>OpenAI gets sued for stealing, again…</media:title>
+   <media:content url="https://www.youtube.com/v/5D4Zqp9GLSc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5D4Zqp9GLSc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Get $500 in Hyperagent credits to build agents that can ship real work - https://www.hyperagent.com/fireship500
+
+OpenAI is facing yet another lawsuit, this time at the hands of Apple. In today's video, we'll take a look at exactly what they're being accused of and why Apple are only stepping in now.
+
+#coding #programming #ai #apple #openai
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="14521" average="5.00" min="1" max="5"/>
+    <media:statistics views="486612"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CXSvKcLovAk</id>
+  <yt:videoId>CXSvKcLovAk</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>The most controversial rewrite in history just shipped...</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CXSvKcLovAk"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-07-15T17:39:02+00:00</published>
+  <updated>2026-07-22T18:12:15+00:00</updated>
+  <media:group>
+   <media:title>The most controversial rewrite in history just shipped...</media:title>
+   <media:content url="https://www.youtube.com/v/CXSvKcLovAk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CXSvKcLovAk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Try CodeRabbit Review free and turn your next big PR into a guided walkthrough - https://coderabbit.link/fireship
+
+Bun just refactored their entire codebase from Zig to Rust in just 11 days. But not everybody is celebrating... 
+
+#coding #programming #ai 
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="19163" average="5.00" min="1" max="5"/>
+    <media:statistics views="659926"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:URKml8lgw8Y</id>
+  <yt:videoId>URKml8lgw8Y</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>OpenAI is so back... GPT 5.6 Sol first look</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=URKml8lgw8Y"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-07-10T17:25:44+00:00</published>
+  <updated>2026-07-17T18:41:41+00:00</updated>
+  <media:group>
+   <media:title>OpenAI is so back... GPT 5.6 Sol first look</media:title>
+   <media:content url="https://www.youtube.com/v/URKml8lgw8Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/URKml8lgw8Y/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Try Blacksmith for free to run your GitHub Actions 2x faster - https://www.blacksmith.sh/
+
+OpenAI just released GPT-5.6, which includes their new Sol model that appears to outsmart Claude Fable. But why is it releasing now? And can it live up to the benchmarks?
+
+#coding #programming #ai #openai
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="23783" average="5.00" min="1" max="5"/>
+    <media:statistics views="812271"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:KGtko3y2RXQ</id>
+  <yt:videoId>KGtko3y2RXQ</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>Claude is definitely not conscious…</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=KGtko3y2RXQ"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-07-08T17:53:47+00:00</published>
+  <updated>2026-07-15T19:02:04+00:00</updated>
+  <media:group>
+   <media:title>Claude is definitely not conscious…</media:title>
+   <media:content url="https://www.youtube.com/v/KGtko3y2RXQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/KGtko3y2RXQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Try out Traycer's free open source desktop app that lets all your coding agents work together in one workspace - https://traycer.ai/fireship
+
+Anthropic just discovered a global workspace deep inside Claude's &quot;brain.&quot; Are we cooked? Let's break it down.
+
+#coding #programming
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="24418" average="5.00" min="1" max="5"/>
+    <media:statistics views="780125"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7B0ydm64cV8</id>
+  <yt:videoId>7B0ydm64cV8</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>The weird history of the internet...</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7B0ydm64cV8"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-07-01T16:33:28+00:00</published>
+  <updated>2026-08-01T14:01:07+00:00</updated>
+  <media:group>
+   <media:title>The weird history of the internet...</media:title>
+   <media:content url="https://www.youtube.com/v/7B0ydm64cV8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7B0ydm64cV8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Try CodeRabbit Review free and turn your next big PR into a guided walkthrough - https://coderabbit.link/fireship
+
+The internet might seem like it's always been around but the path to today's bombardment of cookies, pup-ups and brain rot has been long and hard. This is the history of the internet in 8 minutes...
+
+#coding #programming #internet #tech 
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="15790" average="5.00" min="1" max="5"/>
+    <media:statistics views="308476"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:a2i9h2ip-nY</id>
+  <yt:videoId>a2i9h2ip-nY</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>Midjourney has a new side quest... death</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=a2i9h2ip-nY"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-06-23T16:46:50+00:00</published>
+  <updated>2026-06-29T09:09:54+00:00</updated>
+  <media:group>
+   <media:title>Midjourney has a new side quest... death</media:title>
+   <media:content url="https://www.youtube.com/v/a2i9h2ip-nY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/a2i9h2ip-nY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Try out Retool's new AI app builder to safely connect your apps to your team's data and APIs - https://fandf.co/4e2lDe2
+
+Founder of Midjourney, David Holz, just announced plans to make a new medical imaging device capable of full body scans which he claims is faster and cheaper than an MRI. But how does it work,  if at all?
+
+#coding #programming #ai
+
+🔖 Topics Covered
+- Midjourney Medical
+- Fullbody Ultrasonic Computational Tomography (FUCT)
+- Midjourney Spa
+- Will it work?
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="16650" average="5.00" min="1" max="5"/>
+    <media:statistics views="533725"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Sntj4HmuykI</id>
+  <yt:videoId>Sntj4HmuykI</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>The most trusted code on Earth is being rewritten in Rust</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Sntj4HmuykI"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-06-19T17:24:47+00:00</published>
+  <updated>2026-08-01T17:49:16+00:00</updated>
+  <media:group>
+   <media:title>The most trusted code on Earth is being rewritten in Rust</media:title>
+   <media:content url="https://www.youtube.com/v/Sntj4HmuykI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Sntj4HmuykI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Junie is the #1 coding agent on SWE-Rebench and it'll save you a bunch of tokens - https://jb.gg/Fireship-Junie-GA
+
+Use code: FIRESHIP20 to to get 20 free AI credits
+
+SQLite, the world's most trusted code, just got rewritten in Rust and it actually works. It's called Turso and it ships some cool features you won't find in SQLite.
+
+#coding #programming #technology 
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="23382" average="5.00" min="1" max="5"/>
+    <media:statistics views="578541"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ML3q7Ok4hJg</id>
+  <yt:videoId>ML3q7Ok4hJg</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>I read every major CS paper of the last 100 years...</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ML3q7Ok4hJg"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-06-17T16:29:01+00:00</published>
+  <updated>2026-06-18T09:17:25+00:00</updated>
+  <media:group>
+   <media:title>I read every major CS paper of the last 100 years...</media:title>
+   <media:content url="https://www.youtube.com/v/ML3q7Ok4hJg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ML3q7Ok4hJg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Coder lets you self-host your coding agents with enterprise-grade security - https://fandf.co/4tZvtU5
+
+These 10 mind-blowing computer science papers made everything in modern computing possible. In today's video, we'll take a look at how they changed the world for better or worse. 
+
+#coding #programming #computerscience #computer 
+
+🔖 Topics Covered
+
+- On Computable Numbers, with an Application to the Entscheidungsproblem, Alan Turing 1936
+- A Mathematical Theory of Communication, Claude Shannon 1948
+- The Perceptron, Rosenblatt 1958 
+- Perceptrons, Marvin Minsky and Seymour Papert 1969 
+- Time, Clocks, and the Ordering of Events in a Distributed System, Leslie Lamport 1978
+- Learning representations by back-propagating errors, Rumelhart, Hinton, Williams 1986 
+- The Anatomy of a Large-Scale Hypertextual Web Search Engine, Sergey Brin and Larry Page 1998 
+- ImageNet Classification with Deep Convolutional Neural Networks, Krizhevsky, Sutskever, Hinton 2012 
+- Attention Is All You Need, Vaswani, Google 2017 
+- Language Models are Few-Shot Learners, Brown, OpenAI 2020
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="40694" average="5.00" min="1" max="5"/>
+    <media:statistics views="645098"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ey_GaPdC9zk</id>
+  <yt:videoId>ey_GaPdC9zk</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>One man just liberated Fable... and now it’s illegal</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ey_GaPdC9zk"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-06-15T18:35:58+00:00</published>
+  <updated>2026-08-01T18:49:54+00:00</updated>
+  <media:group>
+   <media:title>One man just liberated Fable... and now it’s illegal</media:title>
+   <media:content url="https://www.youtube.com/v/ey_GaPdC9zk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ey_GaPdC9zk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Take BlueDot's Future of AI course for free - https://bluedot.org/fireship
+
+Just three days after the release of Claude Fable, the US government stepped in and banned it in the name of national security. But why?
+
+#coding #programming #ai
+
+🔖 Topics Covered
+- What makes Fable allegedly unsafe?
+- Fable Jailbreak
+- Fable gets banned
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="33642" average="5.00" min="1" max="5"/>
+    <media:statistics views="1005225"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:1PBRhm5ZnjU</id>
+  <yt:videoId>1PBRhm5ZnjU</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>Anthropic begged the world to stop AI… then shipped this</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=1PBRhm5ZnjU"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-06-11T17:17:48+00:00</published>
+  <updated>2026-06-12T07:12:07+00:00</updated>
+  <media:group>
+   <media:title>Anthropic begged the world to stop AI… then shipped this</media:title>
+   <media:content url="https://www.youtube.com/v/1PBRhm5ZnjU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/1PBRhm5ZnjU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Render is the easiest place to ship full-stack apps and agents. The first 2,000 people to use the code RENDER-FIRESHIP will get $50 in credits: https://dashboard.render.com/register?utm_source=youtube&amp;utm_medium=organic_video&amp;utm_campaign=2026_partnership_fireship
+
+This week, Anthropic released Claude Fable, a Mythos class model that's been carefully lobotomized for public consumption. But is it legit? Let's run it...
+
+#coding #programming #ai
+
+🔖 Topics Covered
+- Claude Fable release
+- Fable 5 vs Opus 4.8
+- Fable 5 Demo
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="27454" average="5.00" min="1" max="5"/>
+    <media:statistics views="824920"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:0pgCBV8CTZY</id>
+  <yt:videoId>0pgCBV8CTZY</yt:videoId>
+  <yt:channelId>UCsBjURrPoezykLs9EqgamOA</yt:channelId>
+  <title>Anthropic is starting to panic…</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0pgCBV8CTZY"/>
+  <author>
+   <name>Fireship</name>
+   <uri>https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA</uri>
+  </author>
+  <published>2026-06-09T17:32:30+00:00</published>
+  <updated>2026-06-16T18:21:49+00:00</updated>
+  <media:group>
+   <media:title>Anthropic is starting to panic…</media:title>
+   <media:content url="https://www.youtube.com/v/0pgCBV8CTZY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/0pgCBV8CTZY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Get $30 of Pioneer inference credits for only $5 - https://pioneer.ai/?utm_source=youtube&amp;utm_medium=ext_social&amp;utm_campaign=pioneer_launch&amp;utm_content=FS
+
+Anthropic just proposed something insane - the idea that maybe we should wait a second and pause all AI development. But why now?
+
+#coding #programming #ai #nthropic
+
+📚 Resources
+- https://www.anthropic.com/institute/recursive-self-improvement
+
+Want more Fireship?
+
+🗞️ Newsletter: https://bytes.dev
+🧠 Courses: https://fireship.dev</media:description>
+   <media:community>
+    <media:starRating count="32851" average="5.00" min="1" max="5"/>
+    <media:statistics views="993648"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

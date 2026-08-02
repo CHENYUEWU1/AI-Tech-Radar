@@ -22,6 +22,7 @@ from analyzers.mock_provider import MockProvider
 from analyzers.trend_analyzer import TrendAnalysis, TrendAnalyzer
 from collectors.github_collector import GitHubCollector
 from collectors.rss_collector import RSSCollector, RSSItem
+from collectors.twitter_collector import TwitterCollector
 from database.analysis_repository import AnalysisRepository
 from database.importance_repository import ImportanceRepository
 from database.storage import DEFAULT_DB_PATH, Article, SQLiteStorage
@@ -56,6 +57,7 @@ class ApplicationComponents:
     analyzer: AIAnalyzer
     report_pipeline: ReportPipeline
     github_collector: GitHubCollector | None = None
+    twitter_collector: TwitterCollector | None = None
     importance_scorer: ImportanceScorer | None = None
     trend_analyzer: TrendAnalyzer | None = None
 
@@ -111,6 +113,7 @@ def initialize_components() -> ApplicationComponents:
     logger.info("Initializing collectors...")
     collector = RSSCollector(config_dir=CONFIG_DIR, timeout_seconds=8)
     github_collector = GitHubCollector(config_dir=CONFIG_DIR, timeout_seconds=30)
+    twitter_collector = TwitterCollector(config_dir=CONFIG_DIR)
 
     logger.info("Initializing analyzers...")
     try:
@@ -138,6 +141,7 @@ def initialize_components() -> ApplicationComponents:
         analyzer=analyzer,
         report_pipeline=report_pipeline,
         github_collector=github_collector,
+        twitter_collector=twitter_collector,
         importance_scorer=importance_scorer,
         trend_analyzer=trend_analyzer,
     )
@@ -174,7 +178,20 @@ def run_collection(components: ApplicationComponents) -> int:
             components.github_collector.failure_count,
         )
 
-    items = rss_items + github_items
+    twitter_items: list[RSSItem] = []
+    if components.twitter_collector is not None:
+        logger.info("Starting Twitter collection...")
+        try:
+            twitter_items = components.twitter_collector.collect()
+        except Exception as exc:
+            logger.error("Twitter collection failed: {}", exc)
+        logger.info("Twitter fetched count: {}", len(twitter_items))
+        logger.info(
+            "Twitter failure count: {}",
+            components.twitter_collector.failure_count,
+        )
+
+    items = rss_items + github_items + twitter_items
     logger.info("Collected items: {}", len(items))
     saved = 0
     failed = 0

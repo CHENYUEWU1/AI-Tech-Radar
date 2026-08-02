@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" >
+<channel>
+<title>cnBeta.COM.TW RSS订阅</title>
+<link>https://www.cnbeta.com.tw</link>
+<description>cnBeta.COM.TW - 简明IT新闻,网友媒体与言论平台</description>
+<generator>www.cnbeta.com.tw</generator>
+<language>zh-cn</language>
+<copyright>@cnbeta.com.tw</copyright>
+<image>
+	<url>https://static.cnbetacdn.com/logo.png</url>
+	<title>cnBeta.COM.TW</title>
+	<link>https://www.cnbeta.com.tw</link>
+</image>
+<pubDate>Sun, 02 Aug 2026 01:45:05 GMT</pubDate>
+<item>
+	<title>Xbox CEO谈未来增长计划 将以主机平台为核心</title>
+	<link>https://www.cnbeta.com.tw/articles/game/1571312.htm</link>
+	<description><![CDATA[ <p>继微软近期大规模裁员，以及其财报显示Xbox部门上季度营收下滑10%之后，据报道，Xbox CEO Asha Sharma已向员工发出备忘录，阐述公司未来发展方向。</p> <a href="https://www.cnbeta.com.tw/articles/game/1571312.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 01:22:47 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/game/1571312.htm</guid>
+</item>
+<item>
+	<title>OpenAI下一代AI攻克10项菲尔兹奖级难题</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571310.htm</link>
+	<description><![CDATA[ <p>OpenAI还有大招！奥特曼刚演示的内部模型Astra，一口气在10个数学难题取得重大突破！这249页的PDF，在整个数学圈都是非常炸裂的程度。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571310.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 00:19:12 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571310.htm</guid>
+</item>
+<item>
+	<title>从11.9%飙到95.95% 微软屠榜网安基准 真正王牌不是大模型</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571308.htm</link>
+	<description><![CDATA[ <p>95.95%。在业内公认的CyberGym网安基准上，这个分数刚刚把一众最顶尖的模型甩到了身后。而拿下它的，不是一个前沿模型，而是微软的MDASH系统。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571308.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 00:18:43 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571308.htm</guid>
+</item>
+<item>
+	<title>微软为Windows 11推出智能索引功能搜索 自动识别与索引常用文件夹</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571306.htm</link>
+	<description><![CDATA[ <p>微软正在为 Windows 11 引入一项全新的搜索索引功能，试图解决用户长期以来对系统搜索“找不到该找的文件”的不满，使搜索结果更加贴近实际使用习惯。 这项新功能名为“自动查找其他相关位置（Automatically find additional relevant locations）”，会根据用户的文件活动自动识别常用文件夹并将其纳入索引，无需用户手动配置。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571306.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 00:17:31 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571306.htm</guid>
+</item>
+<item>
+	<title>特朗普媒体推出付费数据服务 为客户提供更快访问帖文渠道</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571304.htm</link>
+	<description><![CDATA[ <p>美国总统唐纳德·特朗普旗下的特朗普媒体与科技集团（Trump Media and Technology Group，简称特朗普媒体）于当地时间8月1日正式上线一项新的付费数据服务，为机构客户提供对其社交平台 Truth Social 上特朗普及其他头部账号帖文的更快速访问。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571304.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 00:15:45 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571304.htm</guid>
+</item>
+<item>
+	<title>3D打印“烟囱”散热塔让9800X3D降温19°C 但没有任何机箱装得下</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571302.htm</link>
+	<description><![CDATA[ <p>一位知名硬件玩家近日通过 3D 打印制作了一套模块化“烟囱”散热结构，让 AMD Ryzen 7 9800X3D 在满载时的核心温度下降了整整 19°C，不过代价是这套装置高度几乎顶到天花板，完全不具备实用装机价值 。这一实验展示了利用“烟囱效应”实现被动散热的潜力，同时也凸显了当前高性能 3D V-Cache 处理器在温度控制方面的挑战 。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571302.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 00:14:51 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571302.htm</guid>
+</item>
+<item>
+	<title>Pixel 11全系规格与美欧售价曝光 四款新品8月12日登场</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571300.htm</link>
+	<description><![CDATA[ <p>Google新一代旗舰手机 Pixel 11 系列的完整规格与美国、欧洲售价现已提前曝光，涵盖 Pixel 11、Pixel 11 Pro、Pixel 11 Pro XL 以及折叠屏机型 Pixel 11 Pro Fold 四款机型。报道称，这一代产品在整体配置上延续 Pixel 10 系列思路，但全系起售价抬升至 899 美元 / 999 欧元，最高则来到 1899 美元 / 1999 欧元的折叠屏旗舰。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571300.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 00:13:20 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571300.htm</guid>
+</item>
+<item>
+	<title>纽约起诉预测市场平台Kalshi 指控其从事非法赌博业务</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571298.htm</link>
+	<description><![CDATA[ <p>纽约州司法部长莱蒂蒂娅·詹姆斯（Letitia James）近日向位于曼哈顿的纽约州最高法院提起诉讼，指控预测市场平台 Kalshi 违反该州赌博法律，运营“非法且未获许可的赌博业务”，其投注范围涵盖体育、文化、选举以及其他各类事件。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571298.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 00:10:00 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571298.htm</guid>
+</item>
+<item>
+	<title>北京理工科研团队打造突破传统的红外成像全彩夜视新方案</title>
+	<link>https://www.cnbeta.com.tw/articles/science/1571296.htm</link>
+	<description><![CDATA[ <p>北京理工大学的研究团队近期开发出一款新型夜视原型装置，可以将红外光转换为全彩可见图像，而不再局限于传统夜视设备常见的单一绿色画面。 这一装置采用碲化汞量子点与双层 OLED 结构相结合的设计，将不同波长和强度的红外信号直接映射为不同的可见颜色，从而在夜视成像阶段就引入色彩信息。</p> <a href="https://www.cnbeta.com.tw/articles/science/1571296.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 00:09:30 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/science/1571296.htm</guid>
+</item>
+<item>
+	<title>科普YouTuber Hank Green承认对AI依赖“并不健康” 宣布减少视频更新频率</title>
+	<link>https://www.cnbeta.com.tw/articles/movie/1571294.htm</link>
+	<description><![CDATA[ <p>美国知名 YouTuber、小说作者兼喜剧创作者 Hank Green 近日公开向观众道歉，承认自己在制作内容时对生成式 AI 聊天机器人产生了不健康的依赖，并表示将减少视频产量，重新梳理个人创作流程。</p> <a href="https://www.cnbeta.com.tw/articles/movie/1571294.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 00:08:00 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/movie/1571294.htm</guid>
+</item>
+<item>
+	<title>明尼苏达法官驳回 xAI 要求阻止“脱衣”应用禁令生效的请求</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571292.htm</link>
+	<description><![CDATA[ <p>美国明尼苏达州一项针对“脱衣”类应用的禁令将按计划生效，尽管埃隆·马斯克旗下 xAI 公司提起诉讼试图阻止该法案落地，但联邦法官已驳回其临时禁令请求。 据 NBC 新闻报道，这项法律旨在禁止允许用户对图像进行“脱衣”处理的应用，是全美首个此类禁令。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571292.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 00:07:07 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571292.htm</guid>
+</item>
+<item>
+	<title>萨姆·阿尔特曼再提“用 ChatGPT 帮带娃” 引发网友反感与质疑</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571290.htm</link>
+	<description><![CDATA[ <p>OpenAI 首席执行官萨姆·阿尔特曼近日再次高调推介利用 ChatGPT 辅助育儿的“酷用法”，却在社交媒体上遭到不少网友翻白眼，反而激起了一轮关于科技是否正在取代亲子交流的新争论。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571290.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 00:06:18 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571290.htm</guid>
+</item>
+<item>
+	<title>量子光子穿越芝加哥繁忙互联网：24.4公里电信实网光纤保持纠缠态</title>
+	<link>https://www.cnbeta.com.tw/articles/science/1571288.htm</link>
+	<description><![CDATA[ <p>美国西北大学研究团队近日在真实城市通信网络中完成了一项关键实验：在承载大容量商业互联网数据的现役光纤中，成功将一束携带量子信息的单光子从郊区传输至芝加哥市中心，全程约 24.4 公里，并在强烈干扰环境下保持与远端伙伴的量子纠缠关系。该成果表明，在无需另铺专用光纤的情况下，量子信号可以与传统通信数据在既有网络中共存，为未来量子互联网的实际部署提供了可行路径。</p> <a href="https://www.cnbeta.com.tw/articles/science/1571288.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 00:03:49 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/science/1571288.htm</guid>
+</item>
+<item>
+	<title>非阿贝尔任意子实现通用量子运算 量子计算“黑马”跨过关键门槛</title>
+	<link>https://www.cnbeta.com.tw/articles/science/1571286.htm</link>
+	<description><![CDATA[ <p><strong>美国芝加哥大学分子工程普利兹克学院（UChicago PME）、哈佛大学、石溪大学以及量子计算公司 Quantinuum 的研究团队近日宣布，他们首次在真实量子硬件上，用一种名为“非阿贝尔任意子”的奇特量子对象，完成了一整套可支持通用量子计算的运算工具。</strong>这意味着，这条长期被视为量子计算“黑马”的技术路线，迈过了从理论走向通用计算实践的关键一步。</p> <a href="https://www.cnbeta.com.tw/articles/science/1571286.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sun, 02 Aug 2026 00:00:27 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/science/1571286.htm</guid>
+</item>
+<item>
+	<title>大型强子对撞机轻离子碰撞首现宇宙“原初物质”迹象</title>
+	<link>https://www.cnbeta.com.tw/articles/science/1571284.htm</link>
+	<description><![CDATA[ <p>位于欧洲核子研究中心（CERN）的大型强子对撞机（LHC）近期利用氧核和氖核开展的轻离子碰撞实验，首次在四大实验中同时发现疑似夸克–胶子等离子体的多重信号，这种极端物质形态被认为在大爆炸后最初的百万分之一秒内充满了整个宇宙。</p> <a href="https://www.cnbeta.com.tw/articles/science/1571284.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 23:59:33 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/science/1571284.htm</guid>
+</item>
+<item>
+	<title>NetBSD 11.0 发布 引入RISC-V支持并强化Linux系统调用兼容性</title>
+	<link>https://www.cnbeta.com.tw/articles/soft/1571282.htm</link>
+	<description><![CDATA[ <p>NetBSD 项目于当地时间 2026 年 8 月 1 日正式发布第十九个重大版本 NetBSD 11.0，为这一著名 BSD 操作系统带来了架构支持与系统兼容性方面的多项重要更新。 本次版本最大的亮点之一，是首次原生支持 64 位 RISC-V 架构，在开源操作系统对新兴处理器平台的适配上迈出关键一步。</p> <a href="https://www.cnbeta.com.tw/articles/soft/1571282.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 23:57:48 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/soft/1571282.htm</guid>
+</item>
+<item>
+	<title>DeepSeek V4-Flash正式版实测Agent能力直追顶级模型</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571280.htm</link>
+	<description><![CDATA[ <p>7月31日，DeepSeek官宣DeepSeek-V4-Flash正式版API（接口）开启公测。DeepSeek表示，DeepSeek-V4-Flash正式版大幅升级其代理能力，正式版的基准测试得分已远超V4-pro预览版。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571280.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 23:54:22 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571280.htm</guid>
+</item>
+<item>
+	<title>国家超算互联网上线DeepSeek-V4-Flash正式版API 一键调用、无需配置</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571278.htm</link>
+	<description><![CDATA[ <p>日前，DeepSeek宣布，DeepSeek-V4-Flash正式版API开启公测。随后，国家超算互联网宣布，<strong>DeepSeek-V4-Flash正式版模型DeepSeek-V4-Flash-0731已正式上线，同步提供API调用服务及模型文件。</strong></p> <a href="https://www.cnbeta.com.tw/articles/tech/1571278.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 23:53:39 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571278.htm</guid>
+</item>
+<item>
+	<title>观众需要AI明星吗？</title>
+	<link>https://www.cnbeta.com.tw/articles/movie/1571276.htm</link>
+	<description><![CDATA[ <p>AI演员，最近很是火爆。近期，话题#两个AI演员比内娱待爆艺人都火#登顶微博热搜第一，霸榜超8小时，甚至引发全网关于AI造星热议。与此同时，还有AI漫剧男女主官宣二搭新剧，定档视频半天斩获29万点赞，热度不输真人顶流。</p> <a href="https://www.cnbeta.com.tw/articles/movie/1571276.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 23:53:18 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/movie/1571276.htm</guid>
+</item>
+<item>
+	<title>美政府建议中东地区美国公民做好撤离准备</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571274.htm</link>
+	<description><![CDATA[ <p>当地时间8月1日，美国国务院向身处中东地区的美国公民发出广泛安全警告，建议他们“考虑离开当地，或做好在局势升级时迅速撤离的准备”。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571274.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 23:52:27 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571274.htm</guid>
+</item>
+<item>
+	<title>联想推出ThinkCentre Neo 50a 24 Gen 7一体机</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571272.htm</link>
+	<description><![CDATA[ <p>在推出 Gen 6 系列一体机桌面电脑仅数周后，作为全球知名 PC 厂商的联想又悄然发布了全新的 Gen 7 系列产品——ThinkCentre Neo 50a 24 Gen 7。相比此前搭载 Lunar Lake 架构的 Gen 6 机型，新一代一体机直接升级至英特尔全新的 Core Series 3 系列（Wildcat Lake）处理器，可配备 Core 5 320 或 Core 7 350。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571272.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 15:24:53 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571272.htm</guid>
+</item>
+<item>
+	<title>追求极致纤薄付代价 三星Galaxy Z Fold 8 Ultra放弃热管引热议</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571270.htm</link>
+	<description><![CDATA[ <p>三星在最新的折叠屏旗舰 Galaxy Z Fold 8 Ultra 上实现了极具雄心的工程突破，展开状态下的机身厚度仅为 4.1 毫米，比苹果 iPhone Air 还要薄上约 27%。然而，为了达成这种令人难以置信的超薄设计，三星也不得不在硬件配置上做出重大让步——取消了内置的热管（Vapor Chamber），这一决定引发了行业与消费者的广泛争议。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571270.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 15:24:13 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571270.htm</guid>
+</item>
+<item>
+	<title>加州Flock警用AI监控镜头频出错 一城镇自动车牌识别错误率高达71%</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571268.htm</link>
+	<description><![CDATA[ <p>除了长期争议不断的隐私侵犯和“监控国家”风险外，由技术初创公司 Flock 提供的云端自动车牌识别（ALPR）系统，其准确性与实用性如今也面临着严峻拷问。在一起极具代表性的案例中，加利福尼亚州罗斯维尔市（Roseville）警方开展的一项内部审查揭露，该系统的误报情况极其严重。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571268.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 15:22:06 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571268.htm</guid>
+</item>
+<item>
+	<title>RX 9050性能实测 比RTX 5050还要慢20%-30%</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571266.htm</link>
+	<description><![CDATA[ <p>AMD近期推出了RX 9050，分为4GB和8GB版，其中4GB仅供OEM品牌机专用，8GB版本则面向装机玩家。但近期的媒体实测，显示AMD RX 9050（8GB版）性能不及英伟达RTX 5050，落后20%-30%，而RTX 5050本身就因性价比低而饱受诟病。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571266.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 15:15:31 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571266.htm</guid>
+</item>
+<item>
+	<title>OpenAI全球用户破10亿 全新模型Astra曝光 疑似GPT-6</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571264.htm</link>
+	<description><![CDATA[ <p>就在刚刚，OpenAI官宣：全球活跃用户数已成功突破10亿大关！这是整个AI行业历史上第一个达成“10亿用户”成就的公司。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571264.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 15:13:33 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571264.htm</guid>
+</item>
+<item>
+	<title>ICANN已完成顶级域名.web的委派 威瑞信计划从下半年开放域名注册</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571262.htm</link>
+	<description><![CDATA[ <p>据行业最新消息，数字域名分配机构 ICANN 近期已经完成对顶级域名 .web 的委派，委派指的是将域名委派到全球 DNS 根区，通常新域名完成委派也意味着可以正常使用 (前提是域名注册局已经开放注册和解析)。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571262.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 10:28:25 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571262.htm</guid>
+</item>
+<item>
+	<title>多个平台押金显示退款成功却被截留 实际没退给你</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571260.htm</link>
+	<description><![CDATA[ <p>话说近期不少网友在社交平台吐槽共享寄存柜、共享充电宝等平台的押金陷阱。明明页面提示退款成功，钱却始终没进到自己的微信、支付宝账户，不手动操作提现就会一直留在小程序里，长期遗忘甚至会直接损失这笔钱。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571260.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 10:26:43 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571260.htm</guid>
+</item>
+<item>
+	<title>多数PS5实体游戏无需联网 索尼执意推进全数字化</title>
+	<link>https://www.cnbeta.com.tw/articles/game/1571258.htm</link>
+	<description><![CDATA[ <p>眼下支持索尼的玩家寥寥无几，而少数为其放弃实体游戏计划辩护的人声称，死守实体介质毫无意义。即便购买了实体游戏，玩家通常也得等它安装完所有额外数据和补丁才能开始游玩，而这些更新都需要联网才能完成。</p> <a href="https://www.cnbeta.com.tw/articles/game/1571258.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 10:26:33 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/game/1571258.htm</guid>
+</item>
+<item>
+	<title>OpenAI前员工刚跑路就喊话：要套现就赶紧套，别等IPO</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571256.htm</link>
+	<description><![CDATA[ <p>能套现就赶紧套现！一位账上压着70万美元OpenAI股权、刚从OpenAI离职的员工，不睡觉也要上网喊话老同事。眼看OpenAI的估值一路走高，他怎么反倒劝人赶紧落袋为安？</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571256.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 10:25:48 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571256.htm</guid>
+</item>
+<item>
+	<title>OpenAI新模型Astra传闻升温 长时程Agent或成AI资本市场新叙事</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571254.htm</link>
+	<description><![CDATA[ <p>在GPT-5.6系列模型降价后，OpenAI又传出新一代模型动向。据The Information报道，OpenAI正准备推出一个暂定名为“Astra”的新模型系列，重点提升模型执行长时间任务的能力。报道称，OpenAI CEO Sam Altman近日已在华盛顿向政策制定者和监管机构演示该模型，展示重点包括多个AI Agent在较长时间内协同工作、解决复杂项目和高阶数学问题的能力。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571254.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 10:24:17 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571254.htm</guid>
+</item>
+<item>
+	<title>美光台湾工会拟召开罢工说明会 借鉴三星经验争取分红权益</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571252.htm</link>
+	<description><![CDATA[ <p>据台湾社交媒体平台 Dcard 最新爆料，美光位于台湾桃园厂区的工会组织计划召开针对基层员工的“罢工说明会”，讨论因 AI 热潮引发的奖金与分红制度不公问题，甚至不排除效仿韩国芯片巨头三星电子此前发起的工人罢工行动。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571252.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 07:17:32 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571252.htm</guid>
+</item>
+<item>
+	<title>三星Galaxy S26 FE摄像头规格曝光 或延续上一代硬件配置</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571250.htm</link>
+	<description><![CDATA[ <p>三星高管此前已证实Galaxy S26 FE的存在，并暗示该机将于今年内正式发布。随着发布临近，有关该机的更多技术细节正在逐步浮出水面。最新曝光的摄像头规格显示，其影像硬件系统相较上一代产品可能不会有重大改变。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571250.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 04:33:28 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571250.htm</guid>
+</item>
+<item>
+	<title>消息称亚马逊已完成对OpenAI的500亿美元注资</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571248.htm</link>
+	<description><![CDATA[ <p>据外媒《金融时报》报道，最新披露的财报信息显示，亚马逊已完成对OpenAI总计500亿美元的全额投资，在这家ChatGPT开发商预计于2027年启动上市进程前，顺利拿下其约5%的股权，成为OpenAI核心战略投资方之一。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571248.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 04:32:28 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571248.htm</guid>
+</item>
+<item>
+	<title>互联网流量，崩塌了</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571246.htm</link>
+	<description><![CDATA[ <p>三个季度，7000 万月活。这是百度 App 从 2025 年年中到 2026 年一季度交出的成绩单——只不过方向是向下的。2026 年一季度，百度 App 月活跃用户降至 6.55 亿，比去年同期少了近 7000 万。百度不是一个普通的 App，在过去 20 年的中国互联网里，“百度一下”几乎是“上网搜东西”的同义词。它是流量的起点、信息的入口、无数网站赖以生存的“水龙头”。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571246.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 04:32:00 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571246.htm</guid>
+</item>
+<item>
+	<title>领先优势丧失、上市蒙阴影 OpenAI如何被Anthropic反超？</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571244.htm</link>
+	<description><![CDATA[ <p>8月1日，据《华尔街日报》报道，OpenAI引发了AI热潮，如今已经落后于竞争对手Anthropic。现在，它正在努力反击。眼下，OpenAI旗舰消费产品ChatGPT的增长速度已经放缓。该公司CEO萨姆·奥特曼(Sam Altman)继任者菲吉·西莫(Fidji Simo)的离职，引发了奥特曼核心副手职责的重新调整。此外，OpenAI的销售团队正在打一场代价高昂的竞争战，通过提供批量折扣和其他优惠措施，争夺利润丰厚的企业客户。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571244.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 04:31:08 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571244.htm</guid>
+</item>
+<item>
+	<title>长鑫科技LPDDR6接近研发验证尾声</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571242.htm</link>
+	<description><![CDATA[ <p>业内已经在加速向LPDDR6迭代。8月1日，行业人士向第一财经记者透露，长鑫存储的LPDDR6（第六代低功耗双倍数据速率内存标准）已接近研发验证尾声，这是量产前的重要一步。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571242.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 04:30:27 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571242.htm</guid>
+</item>
+<item>
+	<title>夏尔马公布《我的世界》发展规划 欲对标Roblox打造创作平台</title>
+	<link>https://www.cnbeta.com.tw/articles/game/1571240.htm</link>
+	<description><![CDATA[ <p>一份泄露的内部备忘录披露了阿莎·夏尔马针对Xbox业务的后续发展规划，其中核心举措之一是大举投入《我的世界》项目，目标是将其打造成“全球创作平台”。</p> <a href="https://www.cnbeta.com.tw/articles/game/1571240.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 02:37:55 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/game/1571240.htm</guid>
+</item>
+<item>
+	<title>《EA Sports FC 26》上个月日活用户接近1000万</title>
+	<link>https://www.cnbeta.com.tw/articles/game/1571238.htm</link>
+	<description><![CDATA[ <p>根据一位FC主播发布的新视频，《EA Sports FC 26》上个月日活跃用户峰值达到了980万。市场上最受欢迎的电子游戏系列之一的最新作品已经到来，《EA Sports FC 27》将于2026年9月25日发售。然而，即便新作已经公布，当前版本依然表现强劲，每天在多个平台上吸引着数百万玩家。</p> <a href="https://www.cnbeta.com.tw/articles/game/1571238.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 02:03:01 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/game/1571238.htm</guid>
+</item>
+<item>
+	<title>《蜘蛛侠：崭新之日》以7200万美元创北美预售票房纪录</title>
+	<link>https://www.cnbeta.com.tw/articles/movie/1571236.htm</link>
+	<description><![CDATA[ <p>蜘蛛侠已在票房上大显身手。索尼与漫威出品的《蜘蛛侠：崭新之日》预售票房达<strong>7200万美元</strong>，创下好莱坞北美影史新高。此前纪录保持者为2019年的《复仇者联盟4：终局之战》，该片在首周末前录得6000万美元预售票房。</p> <a href="https://www.cnbeta.com.tw/articles/movie/1571236.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 02:02:04 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/movie/1571236.htm</guid>
+</item>
+<item>
+	<title>美军一架F-35隐形战机发生事故并起火 飞行员弹射</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571234.htm</link>
+	<description><![CDATA[ <p>当地时间7月31日，美国加州圣迭戈米拉玛海军陆战队航空站基地一架美军F-35隐形战斗机当日发生事故并起火，现场升起大量黑烟。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571234.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 02:01:46 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571234.htm</guid>
+</item>
+<item>
+	<title>SpaceX火箭残骸即将撞月 可为月球撞击研究提供样本</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571232.htm</link>
+	<description><![CDATA[ <p>一枚约5吨重的SpaceX火箭残骸即将撞上月球。这枚火箭曾将两台月球着陆器送往月球，而本次撞击并非计划内操作。追踪天体轨道的“冥王星计划”负责人Bill Gray开发了天体追踪软件，据其测算，这枚被遗弃的猎鹰9号火箭上面级，将于美国东部时间8月5日凌晨2点34分左右，以每小时5400英里的速度撞击月球西侧边缘的爱因斯坦陨石坑附近。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571232.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:58:54 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571232.htm</guid>
+</item>
+<item>
+	<title>韩路点评董宇辉“又装又立”：靠直播带货赚得盆满钵满 却看不起这个职业</title>
+	<link>https://www.cnbeta.com.tw/articles/movie/1571230.htm</link>
+	<description><![CDATA[ <p>日前，周星驰携《功夫女足》联合导演林子聪、演员胡予安，与董宇辉进行了一场面对面访谈。访谈中，<strong>董宇辉表示，自己观看《大话西游》的次数“可能都不止500遍”。</strong>对此，周星驰回应称：“怎么也不至于看500遍这么夸张吧。”</p> <a href="https://www.cnbeta.com.tw/articles/movie/1571230.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:57:52 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/movie/1571230.htm</guid>
+</item>
+<item>
+	<title>ChatGPT成“杀猪盘”帮凶 OpenAI出手封禁柬埔寨诈骗网络</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571228.htm</link>
+	<description><![CDATA[ <p>今天，OpenAI 发布一份让人忧心的报告。其中披露，该公司在今年早些时候封禁了一个源自柬埔寨的诈骗网络：该团伙利用 ChatGPT 来支持多种诈骗活动，包括投资、婚恋、赌博以及冒充执法机构等。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571228.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:57:20 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571228.htm</guid>
+</item>
+<item>
+	<title>超标电摩伪装合规电动车上路 几十元假牌想瞒天过海</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571226.htm</link>
+	<description><![CDATA[ <p>据央视报道，近期北京街头出现一批“伪装”的电动自行车，<strong>它们外观比普通电动自行车大一圈，挂着白色非机动车号牌，实际却是时速可达80公里的电动摩托车。</strong>这背后隐藏着一条从假牌制造到线上兜售的完整黑色产业链。电动摩托车和电动自行车外观相似，但框架和重量明显更大。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571226.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:56:49 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571226.htm</guid>
+</item>
+<item>
+	<title>蔡崇信宣布离婚：和平分手 不涉及任何出售阿里巴巴股份的计划</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571224.htm</link>
+	<description><![CDATA[ <p>据外媒报道，蔡崇信先生与吴明华女士决定友好地结束婚姻关系。这一决定由双方基于彼此尊重共同作出，未来双方将继续保持牢固的伙伴关系。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571224.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:51:12 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571224.htm</guid>
+</item>
+<item>
+	<title>知情人士：OpenAI或将推迟至明年启动上市</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571222.htm</link>
+	<description><![CDATA[ <p>点燃全球AI热潮的OpenAI，已经被竞争对手Anthropic赶超。如今，这家企业正奋力谋求翻盘。OpenAI旗舰消费产品ChatGPT增长显著放缓。萨姆·奥特曼原定的接班人菲吉·西莫离职，促使首席执行官麾下一众高管重新划分权责。销售团队不得不通过批量折扣与各类优惠条件，付出高昂代价争夺高价值企业客户。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571222.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:50:58 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571222.htm</guid>
+</item>
+<item>
+	<title>美国多州自来水设施遭网络攻击 部分系统运行与监测功能瘫痪</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571220.htm</link>
+	<description><![CDATA[ <p>美国联邦调查局（FBI）与美国国家环境保护局（EPA）于周四晚间透露，全美至少七个州的自来水和污水处理设施在本周遭到了网络攻击，攻击目标直接指向用于监测和操作设施的运行系统。据官方通报，黑客在入侵后篡改了受影响系统的密码及网络设置，导致部分设施的操作人员无法正常监测或控制设备。其中一家水务单位还报告称，其用于自动化工厂运行的软件遭到了未经授权的修改。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571220.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:39:51 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571220.htm</guid>
+</item>
+<item>
+	<title>Google或将推出智能追踪器“Pixel Tag”</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571218.htm</link>
+	<description><![CDATA[ <p>Google似乎正在研发一款名为“Google Pixel Tag”的智能追踪设备，以竞争苹果的 AirTag。相关产品信息和图片来源于一家斯洛文尼亚电商网站的商品页面，页面内容显示，这款呈小椭圆形外观的设备是一款智能物品追踪器，配备了内置扬声器，并接入Google现有的“查找我的设备”（已更名为 Find Hub）网络。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571218.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:38:11 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571218.htm</guid>
+</item>
+<item>
+	<title>美国国家公路交通安全管理局对120万辆特斯拉涉悬挂系统故障展开调查</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571216.htm</link>
+	<description><![CDATA[ <p>针对特斯拉汽车悬挂系统可能出现故障并导致“车辆失控”的问题，美国国家公路交通安全管理局（NHTSA）已正式展开初步调查，涉及车辆多达近120万辆。据NHTSA缺陷调查办公室的监管文件显示，本次调查涵盖了2018至2020款特斯拉 Model 3 以及2021至2023款特斯拉 Model Y。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571216.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:37:47 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571216.htm</guid>
+</item>
+<item>
+	<title>iPad Air或于2027年迎四年来首次重大外观重构</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571214.htm</link>
+	<description><![CDATA[ <p>自 2020 年发布第四代产品以来，iPad Air 已经连续多代维持了相同的外观设计，成为苹果平板电脑产品线中外观沿用时间最长的机型。在此期间，iPad Air 虽历经 M1、M2、M3 及 M4 等多款芯片的内部迭代，但其外壳设计始终未发生改变。不过，这种长期“套壳”升级的局面有望在 2027 年迎来彻底改变。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571214.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:36:42 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571214.htm</guid>
+</item>
+<item>
+	<title>苹果公司警告AI算力资源或面临短缺 或将引发产品与服务延迟发布</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571212.htm</link>
+	<description><![CDATA[ <p>科技巨头苹果公司在其提交给美国证券交易委员会（SEC）的最新10-Q财报文件中发出警告，指出公司在人工智能（AI）和机器学习领域的计算资源可能面临短缺风险。虽然苹果在最新的业绩报告中重点提及了供应链瓶颈可能对本季度收入增长造成影响，但仔细研读其监管文件可以发现，该公司对AI及机器学习基础设施产能紧张的问题表达出了更为深层的担忧。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571212.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:17:07 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571212.htm</guid>
+</item>
+<item>
+	<title>新型开源字体ShieldFont让抓取内容变成乱码 巧用特殊字体对付AI爬虫</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571210.htm</link>
+	<description><![CDATA[ <p>随着人工智能技术的迅猛发展，网络上的公开文字面临着被无节制抓取并纳入训练数据集的窘境。虽然传统的robots.txt等反爬工具存在已久，但它们往往只能靠遵守规则的爬虫自觉遵守，无法完全阻挡恶意抓取。为此，巴西创意工作室Seneda &amp; Abrucio携手哥本哈根字体公司Playtype，共同开发了一款无需依赖“礼貌请求”的全新防御工具——<response version="0.0.0-PLACEHOLDER" style="white-space: normal;">ShieldFont</response>。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571210.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:15:31 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571210.htm</guid>
+</item>
+<item>
+	<title>马斯克旗下X平台与全球广告主联盟达成和解 终结多年非法抵制诉讼</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571208.htm</link>
+	<description><![CDATA[ <p>埃隆·马斯克旗下的社交平台X与全球广告主联盟（WFA）已正式就长期存在的法律纠纷达成和解，标志着该平台与广告行业之间这场极具代表性的矛盾暂告一段落。根据双方发布的联合声明，X公司与WFA表示已将相关诉讼抛在脑后，此举重塑了两大机构之间的关系。不过，双方均未公开具体的和解条款。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571208.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:10:20 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571208.htm</guid>
+</item>
+<item>
+	<title>约三分之一PS5与半数Xbox Series光盘需联网下载补丁方可正常运行</title>
+	<link>https://www.cnbeta.com.tw/articles/game/1571206.htm</link>
+	<description><![CDATA[ <p>随着电子游戏行业加速向数字发行转型，实体光盘曾经代表的“即插即玩”与“永久拥有”保障正面临重大挑战。根据实体游戏测试机构 Does It Play 的最新追踪数据，越来越多的现代主机实体光盘在不连接互联网下载额外数据或补丁的情况下，已无法提供完整的游戏体验。</p> <a href="https://www.cnbeta.com.tw/articles/game/1571206.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 01:09:47 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/game/1571206.htm</guid>
+</item>
+<item>
+	<title>英特尔EMIB-T技术预计2027年量产 成本较台积电CoWoS大幅降低五成</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571204.htm</link>
+	<description><![CDATA[ <p>英特尔在先进封装领域的最新进展正吸引着大量外部客户的目光。据悉，英特尔的嵌入式多芯片互连桥接技术能够让设计人员利用二维、二点五维以及三维构建模块，在系统层面实现成本、功耗和带宽的最优化。作为一种基板嵌入式硅桥技术，该方案能够在免除全尺寸硅中介层带来的巨额成本和面积惩罚的同时，提供高密度的局部芯片间路由。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571204.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 00:51:43 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571204.htm</guid>
+</item>
+<item>
+	<title>微软承诺优化Windows 11内存占用 重点提升8GB及以上配置体验</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571202.htm</link>
+	<description><![CDATA[ <p>针对此前用户对Windows整体使用体验的普遍不满，微软在今年3月明确表示将致力于改善系统的流畅度与日常任务处理的稳定性。近日，微软 Windows 与设备业务总裁帕万·达武鲁里（Pavan Davuluri）在社交平台 X 上进一步公布了该计划的最新进展，其中优化内存使用效率成为了本次更新的核心议题之一。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571202.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 00:47:39 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571202.htm</guid>
+</item>
+<item>
+	<title>OpenAI被爆多款AI智能体脱逃 此前曾有模型越界入侵第三方平台</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571200.htm</link>
+	<description><![CDATA[ <p>据路透社援引匿名知情人士消息报道，人工智能研究机构 OpenAI 在近期调查中发现，除此前已曝光的严重越界事件外，其旗下还有更多正在测试中的 AI 智能体（Agent）曾打破沙盒测试环境的限制并逃逸。不过，有内部知情人士试图对此类风险进行降级说明，表示在这些新发现的逃逸事件中，AI 智能体似乎并未跨越 OpenAI 的内部网络去入侵其他外部企业的系统。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571200.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 00:41:06 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571200.htm</guid>
+</item>
+<item>
+	<title>Google地球AI功能一经发布便遭撤回 因引发误导性信息传播风险</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571198.htm</link>
+	<description><![CDATA[ <p>Google于周四在旗下卫星地图应用“Google地球”中推出了一项新功能，允许用户借助其名为“Nano Banana 2”的AI图像生成器在真实地图上生成虚构画面，旨在鼓励地理领域的创意发挥。然而，该功能上线仅一天后便被紧急下架。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571198.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 00:36:50 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571198.htm</guid>
+</item>
+<item>
+	<title>揭示新型磁性态的3位科学家荣获2026年欧洲物理学会凝聚态物理奖</title>
+	<link>https://www.cnbeta.com.tw/articles/science/1571196.htm</link>
+	<description><![CDATA[ <p>欧洲物理学会凝聚态物理分会将2026年欧洲物理学会奖（EPS Europhysics Prize）授予美因茨约翰尼斯·古腾堡大学的贾伊罗·西诺瓦教授、捷克科学院物理研究所的托马斯·容维尔特教授以及利博尔·施梅卡尔博士，以表彰他们发现并确立了除铁磁性和反铁磁性之外的第三种基本磁序——对立磁（Altermagnetism）。</p> <a href="https://www.cnbeta.com.tw/articles/science/1571196.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 00:05:49 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/science/1571196.htm</guid>
+</item>
+<item>
+	<title>​英国太空局拨款300万英镑助力NASA寻找地外生命</title>
+	<link>https://www.cnbeta.com.tw/articles/science/1571194.htm</link>
+	<description><![CDATA[ <p>英国太空局（UKSA）近日宣布向国内科研团队追加拨款300万英镑，用于推进美国国家航空航天局（NASA）下一代旗舰级空间望远镜——“宜居世界天文台”（Habitable Worlds Observatory，简称 HWO）核心科学仪器的前期研发。这项投资旨在确立英国在未来全球搜寻太阳系外类地生命与宜居行星项目中的关键领先地位。</p> <a href="https://www.cnbeta.com.tw/articles/science/1571194.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 00:04:37 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/science/1571194.htm</guid>
+</item>
+<item>
+	<title>中、老年时期频繁看电视与二十多年后的脑部结构变化密切相关</title>
+	<link>https://www.cnbeta.com.tw/articles/science/1571192.htm</link>
+	<description><![CDATA[ <p><strong>近日一项发表在《阿尔茨海默病与痴呆症：美国阿尔茨海默病协会杂志》上的长期研究表明，中老年时期经常看电视的人，在二十多年后会出现与记忆力减退、血管损伤以及痴呆症相关的脑部结构差异。</strong>这一发现对“所有久坐行为对大脑影响都一样”的传统观念提出了挑战。</p> <a href="https://www.cnbeta.com.tw/articles/science/1571192.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Sat, 01 Aug 2026 00:02:20 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/science/1571192.htm</guid>
+</item>
+<item>
+	<title>微软宣布年内推出Copilot AI “超级应用” 整合聊天、编程与自主智能体功能</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571190.htm</link>
+	<description><![CDATA[ <p>微软计划在今年晚些时候针对消费级与企业级用户推出一款全新的 Copilot AI “超级应用”。该应用将集合对话聊天、代码编写、协作成工具 Cowork 以及全新的自主智能体 Autopilots 于一体，旨在打造一站式的综合 AI 体验。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571190.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 23:54:40 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571190.htm</guid>
+</item>
+<item>
+	<title>摩根士丹利调低苹果目标价至360美元 服务业务增速放缓与内存成本上升构成隐忧</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571188.htm</link>
+	<description><![CDATA[ <p>由于服务业务增速放缓以及内存成本上升对其盈利前景造成压力，摩根士丹利已将苹果公司的目标股价由364美元下调至360美元。尽管市场上对苹果硬件产品的需求依然强劲，且摩根士丹利仍维持对苹果的“增持”评级，但分析师指出，此前支撑苹果股价的三大支柱——iPhone、服务业务与毛利率中，已有两项面临压力。受此影响，该机构将苹果2027财年的每股收益预期从10.39美元下调至10美元。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571188.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 23:53:18 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571188.htm</guid>
+</item>
+<item>
+	<title>一部iPhone 17 Pro不慎从飞机上跌落 3600英尺高度落地后几乎完好无损</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571186.htm</link>
+	<description><![CDATA[ <p>近日，加拿大萨斯喀彻温省发生了一件令人匪夷所思的奇事。一位名叫海瑟·克林的小型飞机乘客兼混合媒介艺术家，在3600英尺的高空飞行时，不慎将自己的iPhone 17 Pro通过气流吸出机舱外。原本以为手机定会粉身碎骨，但在利用“查找”功能定位并前往一片卡诺拉油菜田寻找时，她却震惊地发现该手机正安然无恙地正面朝上躺在植物丛中，外观几乎完好如初。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571186.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 23:52:30 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571186.htm</guid>
+</item>
+<item>
+	<title>苹果公司二季度独揽全球近一半智能手机收入 单台设备盈利能力持续领跑</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571184.htm</link>
+	<description><![CDATA[ <p>根据Counterpoint Research的初步数据，今年第二季度，苹果公司在仅占全球智能手机出货量23%的情况下，揽下了全球近一半的智能手机总收入，再次凸显出<response version="0.0.0-PLACEHOLDER" style="white-space: normal;">iPhone</response>单台设备带来的巨大创收能力。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571184.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 23:47:22 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571184.htm</guid>
+</item>
+<item>
+	<title>耐克与Hyperice合作推出Air Zoom Hyperslide热疗按摩拖鞋</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571182.htm</link>
+	<description><![CDATA[ <p>耐克（Nike）再次将其科技创新融入鞋类产品，携手肌肉放松与恢复设备厂商Hyperice，联合推出了全新的按摩热疗拖鞋——Air Zoom Hyperslide。这款产品专为希望在剧烈运动后获得高效恢复的运动员打造。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571182.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 23:46:17 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571182.htm</guid>
+</item>
+<item>
+	<title>高通与合作方展示人形机器人突发事故 在演示现场倒地不起</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571180.htm</link>
+	<description><![CDATA[ <p>在一场原本旨在展现最新前沿技术的演示环节中，一台搭载了高通芯片、具备高算力的人形机器人发生严重故障。事发时，该机器人正在现场配合高通高管展示相关软硬件架构，却在演示过程中突然失去控制，体态严重变型并向后倒塌，现场气氛瞬间降至冰点。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571180.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 16:45:25 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571180.htm</guid>
+</item>
+<item>
+	<title>普华永道陷入研报“AI造假”风波 错漏百出引发舆论关注</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571178.htm</link>
+	<description><![CDATA[ <p>全球四大会计师事务所之一的普华永道（PwC）因涉嫌将AI生成的劣质内容作为权威研究报告发布而陷入舆论漩涡。据第三方AI检测工具GPTZero及多家主流媒体调查，普华永道中东分支机构在2024年至2026年期间发布的至少四份“思想领导力”专题报告中，充斥着大量的AI幻觉、伪造引用以及虚假脚注。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571178.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 16:44:38 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571178.htm</guid>
+</item>
+<item>
+	<title>SpaceX宣布将在一年内彻底拆除xAI位于孟菲斯拖车上的的天然气涡轮机</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571176.htm</link>
+	<description><![CDATA[ <p>根据太空探索技术公司（SpaceX）周四发布的消息，该公司计划逐步拆除用于为其在孟菲斯附近的xAI数据中心供电的未经许可天然气涡轮机，并过渡至一座装机容量达1.2吉瓦的永久性天然气发电厂。不过，这些临时涡轮机要到2027年7月才能被完全移除。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571176.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 15:56:50 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571176.htm</guid>
+</item>
+<item>
+	<title>苹果股价恐创13年来财报后最大跌幅 市值或蒸发4600亿美元</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571174.htm</link>
+	<description><![CDATA[ <p>投资者正对苹果公司在财报中给出的疲软业绩指引做出负面反应，这些指引源于其面临的供应链压力，股价周五早盘一度下跌9.3%。苹果承认，高昂的内存价格和供应链限制预计将拖累利润率。公司预计9月当季的毛利率为47%至48%，相比6月当季约50%的水平有所下降，即便其中包含约1个百分点的关税退税正面影响。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571174.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 14:30:45 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571174.htm</guid>
+</item>
+<item>
+	<title>大型科技企业疯狂砸钱布局AI 苹果逆势不靠巨额AI开支实现增长</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571172.htm</link>
+	<description><![CDATA[ <p>苹果的营收增长力度堪比大举投入 AI 的科技巨头，但苹果并没有跟风一掷千金。周五早盘苹果股价大跌9.5%。投资者抛开本季度亮眼业绩，更看重未来增长放缓、供应链收紧，以及存储芯片涨价再度侵蚀毛利率。若跌幅延续至收盘，将创下苹果自 2025 年 4 月 3 日以来单日最大跌幅。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571172.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 14:09:55 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571172.htm</guid>
+</item>
+<item>
+	<title>Google计划2028年前生产1500万颗AI芯片 部署规模直逼英伟达</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571170.htm</link>
+	<description><![CDATA[ <p>来自业内投资机构富邦（Fubon）的最新研究报告指出，Google正在大幅提升其自研AI芯片的生产规模。按照规划，Google预计将在2028年前部署1200万至1500万颗第九代TPU（张量处理单元）。如果这一目标得以实现，其生产规模将直接追平芯片巨头英伟达的芯片出货量，这标志着单一云服务巨头在AI加速器产量上将首次具备与顶尖芯片供应商抗衡的能力。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571170.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 13:53:23 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571170.htm</guid>
+</item>
+<item>
+	<title>追求极速抗衰的百亿富翁布莱恩·约翰逊发文反思“是否走得太远”</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571168.htm</link>
+	<description><![CDATA[ <p>以执着对抗衰老、追求“永生”而闻名的硅谷科技富豪布莱恩·约翰逊（Bryan Johnson）近期态度出现显著转变。他在社交媒体平台X上公开发文表达困惑：“我一直在反思，不知自己是否在追求长寿这件事情上走得太远了。”这一表态迅速引发外界对其是否遭遇心理倦怠或健康危机的广泛讨论。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571168.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 13:52:56 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571168.htm</guid>
+</item>
+<item>
+	<title>2026财年Xbox收入暴跌17亿美元 成微软亏损最大的部门</title>
+	<link>https://www.cnbeta.com.tw/articles/game/1571166.htm</link>
+	<description><![CDATA[ <p>Xbox硬件销量长期下滑以及大力推行Game Pass的政策，导致的危害还在继续。微软刚刚结束了一个创纪录的财年，但对于Xbox来说，最新的数据却揭示了一个更为严峻的现实。尽管这家科技巨头整体业绩大幅增长，但微软的游戏部门却遭受了巨大的财务打击：</p> <a href="https://www.cnbeta.com.tw/articles/game/1571166.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 13:25:49 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/game/1571166.htm</guid>
+</item>
+<item>
+	<title>租台自动驾驶汽车旅游 订单取消了车还在跑 全家被困车内下不来</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571164.htm</link>
+	<description><![CDATA[ <p>近日一位女乘客在海南文昌租用L4级自动驾驶汽车旅游时遭遇惊魂一幕，<strong>订单已被取消，车辆却仍在自动行驶，车内屏幕全部锁死，一家人被困车内无法下车，最终折腾到深夜报警才脱困。</strong>7月23日，袁女士通过神州租车App租用了一款“颐驰06”L4级自动驾驶车辆，该服务由百度Apollo与神州租车合作提供。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571164.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 13:10:37 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571164.htm</guid>
+</item>
+<item>
+	<title>三大运营商发布公告：8月1日起不再通过第三方互联网平台提供号卡相关业务办理</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571162.htm</link>
+	<description><![CDATA[ <p>三大运营商今日集体发布《关于规范互联网渠道号卡业务办理的公告》，8月1日起不再通过第三方互联网平台提供号卡相关业务办理。运营商在公告中表示，近期，发现部分不法分子冒用运营商官方名义，通过各类互联网平台诱导客户办理号卡，违规收集和留存客户个人信息，存在虚假宣传、信息泄露等风险。为切实保障客户个人信息安全，公司将对互联网渠道号卡业务进行调整升级。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571162.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 13:08:23 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571162.htm</guid>
+</item>
+<item>
+	<title>消息称iPhone 18 Pro系列售价最高或上涨300美元</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571160.htm</link>
+	<description><![CDATA[ <p>知名海通国际分析师Jeff Pu在最新发布的一份研究报告中指出，受 2nm 芯片以及 DRAM 和 NAND 闪存组件成本大幅上升的影响，苹果公司即将推出的 iPhone 18 Pro 与 iPhone 18 Pro Max 的零售价格可能比现款 iPhone 17 Pro 系列高出 250 至 300 美元。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571160.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 13:07:40 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571160.htm</guid>
+</item>
+<item>
+	<title>欧委会指控拼多多旗下Temu未积极配合去年底的执法突查</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571158.htm</link>
+	<description><![CDATA[ <p>路透社7月31日报道，欧盟委员会于本周五发表声明，正式向中国电商巨头拼多多（PDD Holdings）旗下的在线零售平台Temu发出初步调查结论，指控其在去年底的一场未预先通知的执法突查中，未能按照规定履行积极配合的义务。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571158.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 11:28:16 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571158.htm</guid>
+</item>
+<item>
+	<title>AMD计划自8月起上调旗下Radeon显卡价格</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571156.htm</link>
+	<description><![CDATA[ <p>AMD 计划自 8 月起上调旗下 Radeon 显卡套件价格，整体涨幅至少为 10%，原因指向持续的显存供货紧张以及上游成本攀升 。此前 6 月底的消息称，AMD 原本计划在 7 月实施约 10% 的价格上调，但来自中国板卡渠道的最新消息显示，该计划已被推迟至 8 月执行 。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571156.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 10:34:03 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571156.htm</guid>
+</item>
+<item>
+	<title>中国首条全流程自主光刻胶产线正式投产</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571154.htm</link>
+	<description><![CDATA[ <p>据媒体报道，<strong>鼎龙股份在近日机构调研中披露了半导体材料领域的产品布局与最新进展，涵盖晶圆光刻胶、CMP配套材料、先进封装材料及显示材料四大板块。</strong></p> <a href="https://www.cnbeta.com.tw/articles/tech/1571154.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 10:31:06 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571154.htm</guid>
+</item>
+<item>
+	<title>外卖骑手“等灯停表”苏州上线 后续将在全国20城落地试点</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571152.htm</link>
+	<description><![CDATA[ <p>“等灯停表”真的来了，外卖骑手等红灯时间，将实现单独累加计算并在配送时间中顺延。7月31日，外卖平台宣布和苏州公安联合正式上线了外卖骑手“等灯停表”功能首个正式版本，目前已在率先接入交通数据的苏州道路进行实际路测。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571152.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 10:28:44 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571152.htm</guid>
+</item>
+<item>
+	<title>苹果预计本季度将遭遇严重供货紧张</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571150.htm</link>
+	<description><![CDATA[ <p>人工智能需求激增背景下，苹果深陷芯片制造产能受限困境。苹果在 6 月季度财报电话会议中表示，预计截至 9 月的当前季度经营环境将起伏不定。苹果首席财务官凯文・帕雷克警示，高端芯片制造层面的供货瓶颈问题将 “显著加剧”。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571150.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 10:27:11 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571150.htm</guid>
+</item>
+<item>
+	<title>黑鲨手机宣布停止售后服务</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571148.htm</link>
+	<description><![CDATA[ <p>近日，<strong>黑鲨手机官方账号“黑鲨希瑞”在社交平台发布公告，正式宣布停止手机品类的官方售后维修及相关服务。</strong>作为国内最早一批主打游戏手机的品牌，黑鲨曾在2018年凭借初代黑鲨手机拿下游戏手机赛道近40%的市场份额。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571148.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 10:26:35 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571148.htm</guid>
+</item>
+<item>
+	<title>台积电研发AI芯片封装技术 正面抗衡英特尔</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571146.htm</link>
+	<description><![CDATA[ <p>据两名了解该项目内情的人士透露，台积电正在研发一款先进芯片封装技术，技术路线对标英特尔现有方案。这也表明，这家全球顶级晶圆代工厂正忌惮远道而来的竞争对手带来的压力。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571146.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 10:25:40 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571146.htm</guid>
+</item>
+<item>
+	<title>致命风暴叠加全球铜供应紧缺 铜价一路狂飙</title>
+	<link>https://www.cnbeta.com.tw/articles/science/1571144.htm</link>
+	<description><![CDATA[ <p>策略师指出，智利铜矿因致命风暴停产加剧市场供给紧张；中美争夺这一关键工业金属的货源，进一步助推铜价上行。智利铜矿产量占全球总产量五分之一以上。本轮极端天气带来的短期停产规模看似有限，但当前铜市场本就受多重因素扰动：市场预判美国大概率加征关税、中国废铜回收供给收紧、电网与 AI 基建拉动精炼铜需求暴涨。多重压力之下，智利矿山停产放大了供需矛盾。</p> <a href="https://www.cnbeta.com.tw/articles/science/1571144.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 10:23:18 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/science/1571144.htm</guid>
+</item>
+<item>
+	<title>索尼正面回应光盘停产风波：听到玩家的不满 但计划不会改变</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571142.htm</link>
+	<description><![CDATA[ <p>自一个月前索尼宣布将从2028年1月起停止为PlayStation新游戏生产实体光盘以来，全球玩家社区的抗议声浪持续高涨。在今日举行的2026财年第一季度财报说明会上，索尼首席财务官陶琳首次正式回应了此事——索尼“听到了”玩家的强烈情绪，但仍将“谨慎地推进”这一计划。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571142.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 09:54:23 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571142.htm</guid>
+</item>
+<item>
+	<title>两个神秘祖先在现代人类DNA中现形</title>
+	<link>https://www.cnbeta.com.tw/articles/science/1571140.htm</link>
+	<description><![CDATA[ <p>现代人类的基因组里，还藏着怎样不为人知的故事？7月30日，美国加州大学伯克利分校研究团队在《科学》杂志发表一项成果，宣布在现代人类基因组中定位了来自两个未知远古祖先的DNA区域——一个是分化于约80万年前的“幽灵祖先”，另一个是距今180万年的“超级古老祖先”。研究借助的是该团队自主研发的家谱重建技术，首次绘制出这些隐秘祖先在人类基因组中的分布图谱，并厘清了基因交流发生的时间线。<br/></p> <a href="https://www.cnbeta.com.tw/articles/science/1571140.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 09:53:15 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/science/1571140.htm</guid>
+</item>
+<item>
+	<title>中国军方研究员被曝利用美AI模型训练国防系统</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571138.htm</link>
+	<description><![CDATA[ <p>路透社根据对80多份中国学术论文和专利的审查报道称，中国军方及相关研究机构正利用美国顶级人工智能模型（如OpenAI和Anthropic旗下产品）的输出数据，来训练本土AI系统以提升国防能力。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571138.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 09:11:07 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571138.htm</guid>
+</item>
+<item>
+	<title>三星与SK海力士重塑DRAM商业模式 锁定长期合约与预付款抵御行业周期衰退</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571136.htm</link>
+	<description><![CDATA[ <p>随着人工智能领域的迅猛发展，巨量的数据吞吐需求为全球存储芯片巨头三星电子（Samsung）与SK海力士（SK Hynix）带来了前所未有的发展契机。然而，存储芯片行业历来深受剧烈的“繁荣与萧条”周期性波动困扰，过去短期的现货与短期采购模式常常导致芯片厂商在市场需求骤降时面临严重的库存积压与巨额亏损。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571136.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 08:48:47 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571136.htm</guid>
+</item>
+<item>
+	<title>华纳云：免备案云服务器限量秒杀 首月19.9元起 可选香港cn2/日本优化/美国cn2</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571134.htm</link>
+	<description><![CDATA[ <p>华纳云官网最近上线了一轮新的秒杀活动，覆盖<strong>香港、日本、美国</strong>三大核心节点，<strong>首月最低仅需19.9元</strong>。每日限量40台，<strong>每个用户限购1台</strong>，售完即止。这次活动在配置和线路组合上拿出了不小的诚意，在当前的促销市场上，确实算得上“性价比在线”的一波。有需要的朋友可以关注一波。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571134.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 08:20:32 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571134.htm</guid>
+</item>
+<item>
+	<title>DeepSeek-V4-Flash正式版上线 干翻自家先发的Pro版</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571132.htm</link>
+	<description><![CDATA[ <p>刚刚，<strong>DeepSeek-V4-Flash正式版API上线公测</strong>，DeepSeek-V4-Pro正式版也将会在<strong>8月初</strong>上线。此次更新，距离DeepSeek V4预览版上线已过去3个月。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571132.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 08:17:44 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571132.htm</guid>
+</item>
+<item>
+	<title>美团正式上线“等灯停表”功能 将在20余个城市落地试点</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571130.htm</link>
+	<description><![CDATA[ <p>7月31日消息，据央视新闻此前报道，江苏苏州在全国率先推出新政策：外卖骑手在路口等红灯的时间，将纳入配送计时体系。即平台将自动剔除无效计时，顺延配送截止时间，以此杜绝闯红灯配送等乱象。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571130.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 08:17:21 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571130.htm</guid>
+</item>
+<item>
+	<title>受四季度业绩指引不及预期及存储芯片成本大涨影响 苹果公司盘后股价重挫约7%</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571128.htm</link>
+	<description><![CDATA[ <p>7月30日，苹果公司公布2026财年第三财季财务报告。尽管当季营收与净利润均超出市场预期，但受第四财季业绩指引不及华尔街预期以及全球存储芯片价格飙升引发供应链瓶颈等多重因素冲击，苹果公司盘后股价大幅下挫约7%。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571128.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 07:55:21 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571128.htm</guid>
+</item>
+<item>
+	<title>传音0mm无边框概念机首秀：黑边彻底消失 正面就是一整块屏</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571126.htm</link>
+	<description><![CDATA[ <p>今日，<strong>数码博主“i冰宇宙”全球首曝传音下一代无边框概念手机，该机采用行业首创的真正0mm显示边框设计，将全面屏形态进一步推向极致。</strong>与目前主流手机通过缩窄黑边、优化屏幕封装提升屏占比不同，这款概念机进一步消除了显示区域与机身边缘之间的可见黑边，使屏幕与机身在视觉上几乎融为一体。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571126.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 07:50:23 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571126.htm</guid>
+</item>
+<item>
+	<title>SpaceX“猎鹰9”火箭第二级残骸预计将撞击月球 地面有望看到喷射羽流</title>
+	<link>https://www.cnbeta.com.tw/articles/science/1571124.htm</link>
+	<description><![CDATA[ <p>据美国方面30日消息，美太空探索技术公司一枚废弃的“猎鹰9”号火箭第二级残骸预计将于8月5日撞击月球。这一事件有望产生可被地面和空间望远镜观测到的喷射羽流，为研究月球撞击过程和未来月球探测任务提供重要数据。</p> <a href="https://www.cnbeta.com.tw/articles/science/1571124.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 07:48:43 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/science/1571124.htm</guid>
+</item>
+<item>
+	<title>受美股科技板块反弹提振 韩国股市创下历史最大单日涨幅</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571122.htm</link>
+	<description><![CDATA[ <p>7月31日，受隔夜美国科技板块大幅反弹及全球人工智能（AI）资本支出预期企稳提振，韩国综合股价指数（Kospi）出现历史性剧烈反弹，单日涨幅创下有记录以来新高。此前经历剧烈震荡的韩国股市在多重利好推动下强劲回升，半导体龙头企业股价领涨。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571122.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 07:47:54 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571122.htm</guid>
+</item>
+<item>
+	<title>DeepSeek-V4-Flash正式版上线公测 性能超智谱GLM-5.2</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571120.htm</link>
+	<description><![CDATA[ <p>DeepSeek-V4-Flash（V4 Flash）正式版 API今日上线公测。据官方介绍，V4 Flash Agent能力大幅增强，在多项基准测试中，表现远超V4-Pro-Preview、智谱GLM-5.2等模型。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571120.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 07:41:01 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571120.htm</guid>
+</item>
+<item>
+	<title>日本“隼鸟2号”探测器以400米距离距离飞掠小行星</title>
+	<link>https://www.cnbeta.com.tw/articles/science/1571118.htm</link>
+	<description><![CDATA[ <p>日本宇宙航空研究开发机构（JAXA）30日公布了探测器“隼鸟2号”以极近距离高速飞过小行星“Torifune”（鸟船）并对其进行观察的“近距离探测”结果。“隼鸟2号”从距离鸟船中心约744米、距其表面约400米处飞过，这是迄今为止对太阳系天体进行的近距离探测中距离最近的一次。</p> <a href="https://www.cnbeta.com.tw/articles/science/1571118.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 07:33:59 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/science/1571118.htm</guid>
+</item>
+<item>
+	<title>MiniMax发布全模态生成模型H3 支持15秒2K视频 价格不到主流1/3</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571116.htm</link>
+	<description><![CDATA[ <p>7月31日，MiniMax正式发布通用全模态生成模型H3。该模型支持对文本、图像、视频、声音的统一理解，可输出原生双声道音视频，最高支持15秒2K分辨率视频生成。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571116.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 05:40:35 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571116.htm</guid>
+</item>
+<item>
+	<title>性能暴跌56% 笔记本插电和电池供电实测差距大到离谱</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571114.htm</link>
+	<description><![CDATA[ <p>Tom&#39;s Hardware近日对Intel、AMD、高通和苹果四大阵营的笔记本进行了一项专项测试，对比各平台在插电和电池模式下的性能差异。结果差距悬殊，苹果M5 Max拔电后性能波动不到1%，而AMD锐龙AI 7 445在电池模式下性能直接腰斩，最高暴跌56.25%。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571114.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 04:36:36 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571114.htm</guid>
+</item>
+<item>
+	<title>国外显卡一样涨疯了 RTX 5080比原价5090还贵</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571112.htm</link>
+	<description><![CDATA[ <p>近日，美国零售商Best Buy大幅上调了多款GeForce RTX 50系列显卡的价格。其中，ASUS ROG Astral RTX 5080 OC的售价已涨至2,099.99美元（约合人民币15,120元），相比此前的1,899.99美元上涨了200美元。这意味着这款非公版RTX 5080的价格，已比NVIDIA官方建议零售价的旗舰卡RTX 5090（1,999美元）还要高出100美元。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571112.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 04:36:02 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571112.htm</guid>
+</item>
+<item>
+	<title>分析师锐评索尼放弃实体盘：自掘坟墓 没人玩主机了</title>
+	<link>https://www.cnbeta.com.tw/articles/game/1571110.htm</link>
+	<description><![CDATA[ <p>索尼宣布自2028年起停止生产实体游戏光盘的决定，仍在游戏行业引发持续讨论。分析机构Alinea Analytics的分析师里斯·埃利奥特认为，全面转向数字发行并非一项长远的战略选择，而更像是一种被逼无奈的短期应对手段，用以帮助PlayStation渡过眼下的市场难关。</p> <a href="https://www.cnbeta.com.tw/articles/game/1571110.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 04:35:27 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/game/1571110.htm</guid>
+</item>
+<item>
+	<title>《街霸6》EWC再爆冷 卫冕冠军“小孩”两连败出局</title>
+	<link>https://www.cnbeta.com.tw/articles/game/1571108.htm</link>
+	<description><![CDATA[ <p>在2026年7月29日至30日举行的沙特电竞世界杯（EWC）《街头霸王6》小组赛第一阶段中，爆出惊天冷门。37岁的卫冕冠军、中国格斗传奇选手“小孩”曾卓君（Xiaohai）在小组赛中接连失利，遗憾止步第一阶段，无缘本届EWC的后续赛程。<br/></p> <a href="https://www.cnbeta.com.tw/articles/game/1571108.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 04:34:51 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/game/1571108.htm</guid>
+</item>
+<item>
+	<title>马斯克回应特斯拉出售中国业务：假消息</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571106.htm</link>
+	<description><![CDATA[ <p>7月31日，今日有消息称，特斯拉考虑出售中国公司业务。报道提到，特斯拉公司此举是为未来与SpaceX的潜在合并交易创造条件。报道称，埃隆·马斯克(Elon Musk)在设计特斯拉中国业务时，就考虑到了需要容易地将其与美国业务分离。如果他未来推进与SpaceX的合并，这种安排也可能派上用场。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571106.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 04:33:16 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571106.htm</guid>
+</item>
+<item>
+	<title>Omdia：全球智能手机二季度出货量同比降6% 存储涨价重塑市场格局</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571104.htm</link>
+	<description><![CDATA[ <p>7月31日，市场研究机构Omdia最新报告显示，<strong>全球智能手机市场在 2026年第2季度录得2.72亿部的出货量，同比下降6%</strong>。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571104.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 02:48:50 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571104.htm</guid>
+</item>
+<item>
+	<title>华为盘古openPangu-2.0-Pro模型及技术报告开源上线</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571102.htm</link>
+	<description><![CDATA[ <p>7月31日，华为宣布，开源盘古5050亿参数的openPangu-2.0-Pro模型（模型权重、基础推理代码）及技术报告正式开源上线。开源盘古openPangu是华为开源AI模型品牌，致力于通过昇腾原生训练与推理技术，为业界用好昇腾提供最佳实践参考。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571102.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 02:48:16 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571102.htm</guid>
+</item>
+<item>
+	<title>三星正开发新款耳挂式Galaxy Buds耳机 设计稿曝光</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571100.htm</link>
+	<description><![CDATA[ <p>三星正筹备推出一款采用耳挂式设计的 Galaxy Buds 真无线耳机产品，目前在公司内部以“Buds Canal 5”作为代号。这款新品的设计稿近日曝光，来源与此前泄露 Galaxy Buds On 外观图的渠道相同，显示三星将在现有常规入耳式和半入耳式产品线之外，同时切入两个全新的耳机细分市场。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571100.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 02:23:31 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571100.htm</guid>
+</item>
+<item>
+	<title>AI投资热情回归 韩国与日本芯片股再度掀起暴涨行情</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571098.htm</link>
+	<description><![CDATA[ <p>受美国科技股强劲反弹与人工智能相关投资情绪再度升温影响，韩国芯片龙头企业 SK 海力士与三星电子周五在首尔股市大幅拉升，单日涨幅双双超过 20%。此前一晚，追踪全球半导体企业表现的 iShares Semiconductor ETF（代码：SOXX）大涨逾 8%，为亚洲芯片股新一轮上涨奠定了情绪基础。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571098.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 02:22:37 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571098.htm</guid>
+</item>
+<item>
+	<title>amiibo曝光《塞尔达传说：时之笛》重制版发售时间 真要硬刚《GTA6》</title>
+	<link>https://www.cnbeta.com.tw/articles/game/1571096.htm</link>
+	<description><![CDATA[ <p>显然，任天堂已准备好公布《塞尔达传说：时之笛》重制版的发售时间，继游戏获ESRB评级之后，该游戏的开发商兼发行商又发布了新消息。</p> <a href="https://www.cnbeta.com.tw/articles/game/1571096.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 02:18:48 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/game/1571096.htm</guid>
+</item>
+<item>
+	<title>日本成人游戏处境艰难 银行再曝拒收海外汇款</title>
+	<link>https://www.cnbeta.com.tw/articles/game/1571094.htm</link>
+	<description><![CDATA[ <p>日本独立开发者Nupuryu近日反映，其开户银行拒绝处理一笔来自其游戏发行商的国际汇款，且银行方面拒绝透露原因。该作者曾制作一款名为《遗迹探索者》的成人动作RPG。本作于2020年登陆Steam，目前拥有600多条评论，特别好评，不锁国区。</p> <a href="https://www.cnbeta.com.tw/articles/game/1571094.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 02:18:40 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/game/1571094.htm</guid>
+</item>
+<item>
+	<title>特斯拉考虑出售中国业务 为潜在SpaceX合并交易铺路</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571092.htm</link>
+	<description><![CDATA[ <p>7月31日，据《华尔街日报》报道，特斯拉公司可能出售或剥离其中国业务，为未来与SpaceX的潜在合并交易创造条件。报道称，马斯克在设计特斯拉中国业务时，就考虑到了需要容易地将其与美国业务分离。如果他未来推进与SpaceX的合并，这种安排也可能派上用场。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571092.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 02:17:27 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571092.htm</guid>
+</item>
+<item>
+	<title>SpaceX正谋求在运营体系与供应链彻底剥离所有中国相关要素</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571090.htm</link>
+	<description><![CDATA[ <p>《日经亚洲》援引多位业内消息人士消息称，美国太空探索技术公司SpaceX正全面出台相关举措，力求自身运营体系与整条供应链彻底剥离所有中国相关要素。知情人士透露，SpaceX已组建专项团队，对现有合作供应商以及意向潜在供应商逐一开展资质审计，向供应链全体合作方划定硬性要求：</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571090.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 02:16:39 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571090.htm</guid>
+</item>
+<item>
+	<title>想慢但又怕被对手超越 美国AI公司陷入“囚徒困境”</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571088.htm</link>
+	<description><![CDATA[ <p>据美国新闻网站Axios报道，美国AI领军者们正达成一个令人不安的共识：<strong>AI发展速度之快，或许很快就需要放缓，但任何一家公司都不敢单独踩刹车。</strong>目前，业内要求暂停AI开发或建立发展控制机制的呼声已经达到一个历史性转折点，这一趋势源于今年夏季AI能力取得了一系列令人瞩目、但同时令人不安的突破。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571088.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 01:37:06 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571088.htm</guid>
+</item>
+<item>
+	<title>Steam Machine现已支持FSR 4.1</title>
+	<link>https://www.cnbeta.com.tw/articles/game/1571086.htm</link>
+	<description><![CDATA[ <p>根据Valve官方发布的Steam硬件公告，Proton Experimental现已支持AMD FSR 4.1。此外，本次更新还提供了官方外部CAD设计文件，方便配件厂商、改装玩家以及硬件爱好者根据设备的外观尺寸开发相关产品。</p> <a href="https://www.cnbeta.com.tw/articles/game/1571086.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 01:16:40 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/game/1571086.htm</guid>
+</item>
+<item>
+	<title>Google将Nano Banana 2图像生成模型引入Google Earth网页版</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571084.htm</link>
+	<description><![CDATA[ <p>Google于近日宣布，正式将其最新的 Nano Banana 2 AI 图像生成模型集成至 Google Earth（Google地球）中。借助该模型，用户能够结合 Google Earth 现有的卫星图像、航空摄影以及 3D 地形数据，在线生成高精度的自定义图像。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571084.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:25:55 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571084.htm</guid>
+</item>
+<item>
+	<title>宫本茂称玩家不再看重主机性能 更看重游戏阵容</title>
+	<link>https://www.cnbeta.com.tw/articles/game/1571082.htm</link>
+	<description><![CDATA[ <p>近日宫本茂接受日媒Fami通采访，谈及主机硬件、开发效率与产品理念等。他认为现在玩家选购主机不再只看画面和性能参数，更在意主机能否持续玩到丰富多样的游戏。</p> <a href="https://www.cnbeta.com.tw/articles/game/1571082.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:23:10 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/game/1571082.htm</guid>
+</item>
+<item>
+	<title>苹果财报亮眼股价却跌：产品卖得太好，芯片开始不够</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571080.htm</link>
+	<description><![CDATA[ <p>7月31日消息，苹果周四交出一份强劲的财报。2026财年第三季度，营收1094.17亿美元，同比增长16%；净利润297.89亿美元，增长27%；稀释后每股收益2.02美元，增长29%。iPhone和Mac收入分别增长近22% 和29%，季度营收创下历年同期新高。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571080.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:22:36 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571080.htm</guid>
+</item>
+<item>
+	<title>一汽-大众ID. AURA T6开启盲订：纯电动力+国产智驾 鼓刹成历史</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571078.htm</link>
+	<description><![CDATA[ <p><strong>昨晚，一汽-大众全新纯电中型SUV车型ID. AURA T6正式开启盲订，99元订金可抵扣2000元购车款。</strong>该车基于全新的CEA电子电气架构打造，彻底告别老款ID系列后轮鼓刹设计，全系标配前后盘刹+博世IPB 2.0制动系统，补齐长期被消费者诟病的制动短板，同时搭载本土化国产高阶智驾方案，成为大众专为中国市场打造的智电转型车型。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571078.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:22:04 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571078.htm</guid>
+</item>
+<item>
+	<title>DeepSeek拟在内蒙古建设大型AI数据中心 增加1吉瓦算力</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571076.htm</link>
+	<description><![CDATA[ <p>7月31日，据彭博社报道，知情人士称，DeepSeek正计划在内蒙古建设一座大型AI数据中心，这是该公司在计算基础设施领域迈出的雄心勃勃的一步。此前，它已展现出能与硅谷领先AI模型一较高下的实力。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571076.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:21:26 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571076.htm</guid>
+</item>
+<item>
+	<title>库克最后一次苹果电话会议：应该有更多内存供应商 推进AI功能在中国落地</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571074.htm</link>
+	<description><![CDATA[ <p>7月31日，苹果公司今天发布了2026财年第三季度财报。随后，苹果CEOTim Cook(Tim Cook)、候任CEO约翰·特努斯(John Ternus)以及CFO凯万·帕雷克(Kevan Parekh)出席了电话会议，回答分析师的提问。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571074.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:21:10 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571074.htm</guid>
+</item>
+<item>
+	<title>美国环孢子虫疫情规模创历史之最 为何“异常”疫情如此难以控制？</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571072.htm</link>
+	<description><![CDATA[ <p>环孢子虫病季节通常在8月结束，但专家表示此次疫情可能比往年持续更久。美国今夏正应对多起可能的环孢子虫寄生虫疫情，其中欧芹可能是部分感染的源头。这场美国史上最大规模的环孢子虫疫情至今未见减缓迹象。密歇根州已记录10，077例病例，至少160人住院。该州通常每年仅约50例，是首个公开指出球生菜可能是传播环孢子虫元凶的州。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571072.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:20:31 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571072.htm</guid>
+</item>
+<item>
+	<title>马斯克将投入至少1亿美元助力共和党中期选举</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571070.htm</link>
+	<description><![CDATA[ <p>马斯克一年前曾对共和党表达强烈不满，并扬言要组建第三政党，如今他似乎重回共和党阵营，准备在中期选举中豪掷重金助力共和党候选人。两名了解该计划、因涉及内部机密讨论要求匿名的知情人士透露，全球首富马斯克已授权其超级政治行动委员会（Super PAC）投入1亿至1.2亿美元，在至少8个州落地线下竞选推广项目，助力共和党候选人拿下11月中期选举席位。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571070.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:18:43 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571070.htm</guid>
+</item>
+<item>
+	<title>求职要缴10万美元 特朗普酝酿对毕业后想留在美国的外国学生收费</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571068.htm</link>
+	<description><![CDATA[ <p>据一位知情人士透露，特朗普政府正在考虑向国际生收取10万美元以换取其毕业后留在美国工作的计划。此举若实施可能会对已受到近期移民政策打击的学生签证持有者造成更严重的冲击。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571068.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:18:10 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571068.htm</guid>
+</item>
+<item>
+	<title>亚马逊称已收到6亿美元关税退款 将部分返还消费者</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571066.htm</link>
+	<description><![CDATA[ <p>亚马逊周四披露，美国最高法院裁定特朗普政府多项关税措施非法后，公司已收到 6 亿美元关税退款，并计划将部分资金返还消费者。亚马逊首席财务官布莱恩・奥尔萨夫斯基在财报电话会议上表示：“我们正在参与关税退款流程。正如我此前所说，公司在第二季度收到约 6 亿美元退款。”</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571066.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:16:08 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571066.htm</guid>
+</item>
+<item>
+	<title>微软市值单日大增4500亿美元 创个股历史之最</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571064.htm</link>
+	<description><![CDATA[ <p>微软周四创下股票市场历史纪录，市值单日增加约4500亿美元，创下单只股票有史以来最大单日市值增量。该公司股价收盘飙升16%，创2008年10月以来最大涨幅，市值增加约4500亿美元。彭博汇编的数据显示，这超过了英伟达在美国总统唐纳德·特朗普去年宣布暂停关税90天后创下的4400亿美元单日市值增量纪录。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571064.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:15:50 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571064.htm</guid>
+</item>
+<item>
+	<title>美国扩大印有特朗普头像的“爱国者护照”申请渠道 增发25万本</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571062.htm</link>
+	<description><![CDATA[ <p>美国国务院周四宣布，将扩大新版护照的申领渠道，该护照印有特朗普总统肖像。美国国务院在一份公告中表示，“应公众高涨需求”，将增发 25 万本纪念版 “爱国者护照”。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571062.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:13:56 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571062.htm</guid>
+</item>
+<item>
+	<title>亚马逊通报：朝鲜黑客组织暗度陈仓 操控多款npm软件包入侵关键供应链</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571060.htm</link>
+	<description><![CDATA[ <p>亚马逊云科技（AWS）最新发布的一项研究报告显示，过去18个月内发生的多起著名开源代码库托管平台 npm 软件包污染事件，均系同一个来自朝鲜的黑客组织所为。AWS以中等置信度将这一系列网络攻击归咎于被跟踪为“蓝宝石雪”（Sapphire Sleet）的黑客团伙，该组织被广泛认为是知名黑客组织“拉撒路”（Lazarus Group）的分支机构。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571060.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:11:12 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571060.htm</guid>
+</item>
+<item>
+	<title>评估失误致网络连通 Anthropic大模型测试期间误入并入侵真实世界系统</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571058.htm</link>
+	<description><![CDATA[ <p>网络安全评估领域出现罕见失误。根据 AI 独角兽企业 Anthropic 于周四发布的最新披露，该公司旗下数款最顶尖的 AI 模型——包括 Opus 4.7、Mythos 5 以及一款尚未公开发布的内部研究模型，在进行上线前的前沿网络安全测试（Capture-The-Flag，抓旗赛）期间，意外越过了虚拟演练界限，成功入侵了真实世界中的第三方网络系统。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571058.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:10:16 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571058.htm</guid>
+</item>
+<item>
+	<title>苹果或推出更高阶iCloud Plus订阅 为AI重度用户提供提额选项</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571056.htm</link>
+	<description><![CDATA[ <p>在苹果公司最新的财报电话会议上，CEOTim Cook针对公司人工智能服务的发展方向发出了最新信号。库克指出，随着苹果生成式AI技术的深入应用，公司预估用户对Apple Intelligence以及即将推出的全新Siri AI会有极高的使用需求。为此，苹果计划在未来的iCloud Plus（iCloud+）服务中提供更高阶的升级方案，允许有需求的用户购买更高规格的服务，以获取更多AI资源与使用限额。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571056.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:06:54 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571056.htm</guid>
+</item>
+<item>
+	<title>好奇号探测器发现最大规模“蜂窝海”多边形地貌</title>
+	<link>https://www.cnbeta.com.tw/articles/science/1571054.htm</link>
+	<description><![CDATA[ <p>美国国家航空航天局（NASA）的“好奇号”火星探测器近日在火星上的“大谷”（Valle Grande）发现了一片庞大的蜂窝状多边形地貌，被科研人员形容为“多边形之海”。</p> <a href="https://www.cnbeta.com.tw/articles/science/1571054.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:05:23 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/science/1571054.htm</guid>
+</item>
+<item>
+	<title>ABC强烈反对美国FCC提前审查其播音牌照 抨击此举为对言论自由的政治报复</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571052.htm</link>
+	<description><![CDATA[ <p>ABC（美国全国广播公司）于近期向美国联邦通信委员会（FCC）提交了一份正式申诉文件，明确表达对FCC强制要求其旗下八家广播电视台提前提交牌照续期申请的强烈反对。ABC在文件中批评该行为具有“惩罚性”和“前所未有”的性质，认为这是监管机构因不满报道内容而采取的政治报复手段，意在压制全国广播机构的言论自由。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571052.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Fri, 31 Jul 2026 00:01:57 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571052.htm</guid>
+</item>
+<item>
+	<title>苹果Q3财报最大功臣：John Ternus主导的廉价版MacBook Neo成为Mac营收担当</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571050.htm</link>
+	<description><![CDATA[ <p>在刚刚发布的2026财年第三季度财报中，苹果公司披露其Mac系列产品的销售额达到了103.5亿美元，相较于去年同期的80.5亿美元大幅增长了28.7%，环比增幅更是超过25%。这一亮眼成绩的最大功臣，正是近期引发市场热议的入门级笔记本电脑——MacBook Neo。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571050.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:59:04 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571050.htm</guid>
+</item>
+<item>
+	<title>AI生成小说已占新上榜畅销书三成 严重挤压传统作者收益</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571048.htm</link>
+	<description><![CDATA[ <p>一项最新发布的研究报告显示，生成式人工智能（AI）正在迅速侵蚀自出版小说市场。研究数据显示，在当前的新出版图书中，AI生成的内容已占据总销量的约20%，而在新增畅销书榜单的项目中，含有大量AI撰写内容的书籍比例更是达到了惊人的33%。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571048.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:57:20 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571048.htm</guid>
+</item>
+<item>
+	<title>内存厂商计划推动DDR5 MRDIMM传输速率迈向16000MT/s</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571046.htm</link>
+	<description><![CDATA[ <p>随着全球AI与数据中心计算需求的暴增，服务器与数据中心内存技术正加速向高性能MRDIMM（多路复用双列直插式内存模块）标准迈进。内存制造厂商正全力提速产品路线图，推动DDR5 MRDIMM的传输速度跨越16，000 MT/s大关，向着该技术最终设定的17600 MT/s目标发起冲击。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571046.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:56:15 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571046.htm</guid>
+</item>
+<item>
+	<title>希捷公布最新技术路线图 计划于2027年推出50TB HAMR机械硬盘</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571044.htm</link>
+	<description><![CDATA[ <p>在近期召开的Q4财报会议上，希捷（Seagate）正式对外更新了其机械硬盘的技术发展路线图。公司表示，计划于2027年向客户送样验证容量高达50TB的最新HAMR（热辅助磁记录）机械硬盘。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571044.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:53:36 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571044.htm</guid>
+</item>
+<item>
+	<title>因缺乏证据 司法部门拟暂缓对Anthropic的“供应链风险”判定</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571042.htm</link>
+	<description><![CDATA[ <p>据知情人士及法院公开记录显示，美国政府试图将人工智能初创公司 Anthropic 标记为“供应链风险”并全面禁止联邦机构使用其技术的举措再次遇挫。在周四举行的一场法庭听证会上，美国联邦地区法院法官丽塔·林（Rita Lin）明确表示，特朗普政府至今仍未提供足够的证据来支撑这一封杀决定。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571042.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:51:38 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571042.htm</guid>
+</item>
+<item>
+	<title>得益于AI Google六月修复的Chrome漏洞数量超过过去两年的总和</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571040.htm</link>
+	<description><![CDATA[ <p>Google近日公布的最新数据显示，在人工智能（AI）工具的辅助下，公司在过去一个月内修复的 Chrome 浏览器安全漏洞数量，已经一举超越了过去两年的总和。Google在近期发布的一份关于运用 AI 发现并修复漏洞的白皮书中透露，仅在今年 6 月推出的最新两个 Chrome 版本（Chrome 149 与 Chrome 150）中，团队就修复了多达 1072 个安全漏洞。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571040.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:50:17 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571040.htm</guid>
+</item>
+<item>
+	<title>Spotify推出“用户笔记”功能 让每首音乐承载独家记忆</title>
+	<link>https://www.cnbeta.com.tw/articles/music/1571038.htm</link>
+	<description><![CDATA[ <p>Spotify于周四宣布推出一项名为“用户笔记”（User Notes）的全新功能，允许用户为歌单中的单曲添加个性化文本标记，以这种全新的方式为播放列表赋予情感与记忆。</p> <a href="https://www.cnbeta.com.tw/articles/music/1571038.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:49:05 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/music/1571038.htm</guid>
+</item>
+<item>
+	<title>LinkedIn 推出“AI垃圾内容”举报按钮 应对平台低质内容泛滥</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571036.htm</link>
+	<description><![CDATA[ <p>为打击平台日益泛滥的“AI 垃圾内容（AI Slop）”，微软旗下的职场社交平台 LinkedIn 于周四宣布推出一项新功能，允许用户在遇到疑似由人工智能生成的低质量帖子时，点击“似乎是 AI 垃圾内容”按钮进行反馈。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571036.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:48:37 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571036.htm</guid>
+</item>
+<item>
+	<title>隐匿博物馆30年 大阪出土化石或揭示沧龙新物种</title>
+	<link>https://www.cnbeta.com.tw/articles/science/1571034.htm</link>
+	<description><![CDATA[ <p>一组来自冈山理科大学、东京都市大学及岸和田市立自然史博物馆等机构的联合研究团队，在对馆藏数十年的古老岩石重新进行清理与清理修复时，取得了重大突破。研究人员在其中发现了四块前所未见的沧龙骨骼化石，多项独特的解剖学特征表明，这可能属于一种此前从未被科学界记录过的沧龙新物种。</p> <a href="https://www.cnbeta.com.tw/articles/science/1571034.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:47:13 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/science/1571034.htm</guid>
+</item>
+<item>
+	<title>萨蒂亚·纳德拉确认Windows 11将进行重大质量更新 重点关注基础功能</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571032.htm</link>
+	<description><![CDATA[ <p>微软公布2026财年第四财季财报，季度营收达到900亿美元，同比增长18%，全年的微软云业务收入更突破2140亿美元。尽管整体业绩强劲，但包含Windows在内的个人计算业务部门季度营收下滑4%，Windows OEM收入也下降了7%。在这份偏重财务数据的报告中，微软首席执行官萨蒂亚·纳德拉（Satya Nadella）的一句表态引发了科技界的广泛关注。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571032.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:46:32 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571032.htm</guid>
+</item>
+<item>
+	<title>DeepMind推出Gemini Robotics ER 2模型 实现多机器人协同作业</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571030.htm</link>
+	<description><![CDATA[ <p>Google DeepMind 于近日正式发布了其最新一代具身推理 AI 模型——Gemini Robotics ER 2。作为专为人形机器人等硬件打造的“大脑”，该模型不仅在物理环境理解与多步骤任务规划方面有所提升，更首次实现了不同机器人之间的协作能力。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571030.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:43:33 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571030.htm</guid>
+</item>
+<item>
+	<title>OpenAI大幅下调GPT-5.6部分模型售价 以应对来自中国AI厂商的竞争</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571028.htm</link>
+	<description><![CDATA[ <p>面对来自中国人工智能企业日益激烈的市场竞争，OpenAI宣布大幅下调近期推出的GPT-5.6系列中两款模型的调用价格。其中，GPT-5.6 Luna的价格降幅高达80%，而GPT-5.6 Terra的价格也下调了20%。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571028.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:42:24 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571028.htm</guid>
+</item>
+<item>
+	<title>苹果公司将向日本熊本地震灾区捐款 助力灾后救援与重建</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571026.htm</link>
+	<description><![CDATA[ <p>随着日本熊本县地震救援工作的持续推进，苹果公司首席执行官Tim Cook于7月30日公开表示苹果公司将捐款支持日本当地的地震灾区救援工作。本次灾情始于本周二，日本九州岛熊本县发生里氏6.8级地震。据美国地质调查局（USGS）测量及当地通报，强震导致大量建筑物倒塌，已造成至少34人遇难。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571026.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:40:52 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571026.htm</guid>
+</item>
+<item>
+	<title>Epic Games商店正式登陆巴西iPhone 抽成条款与繁琐安装流程继续引来抗议</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571024.htm</link>
+	<description><![CDATA[ <p>随着 Epic Games 商店通过其官方网站正式上线巴西 iPhone 平台，《堡垒之夜》（《堡垒之夜》）已在当地 iOS 系统重磅回归。然而，Epic Games 在宣布该消息的同时，对苹果公司在第三方应用商店安装过程中设置的繁重障碍与费用政策提出了抗议。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571024.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:40:13 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571024.htm</guid>
+</item>
+<item>
+	<title>内存暴涨与需求叠加 Tim Cook称被迫调高苹果产品售价并警告供应链瓶颈加剧</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571022.htm</link>
+	<description><![CDATA[ <p>在苹果公司2026财年第三季度财报电话会议上，首席执行官Tim Cook针对近期硬件涨价及后续供应状况做出了详细回应。库克表示，由于内存价格出现前所未有的爆发性上涨，苹果公司不得不“不情愿地”上调了部分产品的售价，同时警告称，受供应链弹性不足与需求超预期影响，截至9月的第四财季，供应链限制对公司营收的冲击将显著扩大。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571022.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:38:59 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571022.htm</guid>
+</item>
+<item>
+	<title>传奇iMac G4改造项目成功融入M4 Mac mini的强劲性能</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571020.htm</link>
+	<description><![CDATA[ <p>对于苹果拥趸而言，诞生于 2002 年的 iMac G4 无疑是工业设计史上的经典之作，其独特的台灯造型至今仍令人赞叹不已。然而，受限于年代久远的 IBM PowerPC 芯片，这款台式机在如今的计算环境下早已无法承担日常使用需求。幸运的是，随着 Apple Silicon 芯片的不断演进，古董设备也迎来了重获新生的机会。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571020.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:29:46 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571020.htm</guid>
+</item>
+<item>
+	<title>Tim Cook主持苹果公司任内最后一次财报电话会议 向股东与分析师道别</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571018.htm</link>
+	<description><![CDATA[ <p>苹果公司首席执行官Tim Cook主持了他任内的最后一次季度财报电话会议。继不久前在苹果全球开发者大会（WWDC）上完成告别演讲后，这位掌舵者再次以温和谦逊的方式向资本市场与长期关注公司的各方正式道别。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571018.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:26:08 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571018.htm</guid>
+</item>
+<item>
+	<title>苹果大中华和服务业务季度销售逊于预期 供应短缺拖累财测</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571016.htm</link>
+	<description><![CDATA[ <p>苹果股价在盘后交易中大跌，零部件短缺拖累了销售预期，这表明全行业面临的供应链限制所造成的负面影响比预期更为严重。苹果周四在财报电话会上表示，<strong style="white-space: normal;">截至9月的第四财季营收预计将增长9%至11%。分析师此前预计增幅将超过12%。</strong></p> <a href="https://www.cnbeta.com.tw/articles/tech/1571016.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:25:01 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571016.htm</guid>
+</item>
+<item>
+	<title>Pixel 11 Pro Fold渲染图曝光  8英寸折叠大屏+全新Pixel Glow智能灯带</title>
+	<link>https://www.cnbeta.com.tw/articles/tech/1571014.htm</link>
+	<description><![CDATA[ <p>Google预计将于 8 月 12 日正式发布全新的 Pixel 11 系列手机。而在发布会前夕，知名爆料人士 Evan Blass（即 @evleaks）曝光了一组关于 Pixel 11 Pro Fold 的官方宣传渲染图。</p> <a href="https://www.cnbeta.com.tw/articles/tech/1571014.htm" target="_blank"><strong>阅读全文</strong></a> ]]></description>
+	<author>ugmbbc</author>
+	<source>cnBeta.COM</source>
+	<pubDate>Thu, 30 Jul 2026 23:22:16 GMT</pubDate>
+	<guid>https://www.cnbeta.com.tw/articles/tech/1571014.htm</guid>
+</item>
+</channel></rss>

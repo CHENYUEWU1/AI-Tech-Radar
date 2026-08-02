@@ -59,6 +59,37 @@ gh auth login
 gh auth status
 ```
 
+X/Twitter 采集支持两种模式，没有官方 Token 也能用：
+
+**模式一：官方 v2 API**（需要已通过验证的 X 开发者账户）
+
+```powershell
+$env:X_BEARER_TOKEN = "你的Bearer Token"
+```
+
+也可以永久配置到 Windows 用户环境变量：
+
+```powershell
+setx X_BEARER_TOKEN "你的Bearer Token"
+```
+
+**模式二：RSSHub RSS 兜底**（免 API Key，推荐没有开发者账户时使用）
+
+没有配置 `X_BEARER_TOKEN` 时，自动改用 RSSHub 抓取。默认使用公共实例
+`https://rsshub.app`，也可以用环境变量指定其他实例（逗号分隔多个，依次尝试）：
+
+```powershell
+setx RSSHUB_BASE_URL "https://rsshub.app,http://localhost:1200"
+```
+
+自建实例示例（Docker，需要配置自己的 X 账号 cookie 才能抓 Twitter 路由）：
+
+```powershell
+docker run -d -p 1200:1200 -e TWITTER_AUTH_TOKEN=你的cookie diygod/rsshub
+```
+
+所有 RSSHub 实例都失败时，Twitter 采集会告警并跳过，不影响其他采集。
+
 ## 命令说明
 
 ```powershell
@@ -87,6 +118,7 @@ AI-Tech-Radar/
 ├── collectors/                 # 数据采集器
 │   ├── rss_collector.py        # RSS/Atom 采集
 │   └── github_collector.py     # GitHub 仓库采集
+│   └── twitter_collector.py    # X/Twitter 官方 v2 API 采集
 ├── analyzers/                  # AI 分析层
 │   ├── provider.py             # AIProvider 抽象接口
 │   ├── deepseek_provider.py    # DeepSeek 实现
@@ -129,6 +161,7 @@ AI-Tech-Radar/
 | `main.py` | 参数解析、流程调度、日志输出 |
 | `collectors/rss_collector.py` | 并发抓取 RSS，归一化为统一条目 |
 | `collectors/github_collector.py` | 通过 `gh` 拉取 GitHub 仓库并按关键词过滤 |
+| `collectors/twitter_collector.py` | 通过 X v2 API 拉取配置账号的最新推文 |
 | `analyzers/deepseek_provider.py` | 调用 DeepSeek API，解析 JSON |
 | `analyzers/importance_scorer.py` | 按权重输出 0-10 信息价值评分 |
 | `analyzers/trend_analyzer.py` | 分析国内外趋势、信息差和机会 |
@@ -155,6 +188,16 @@ AI-Tech-Radar/
   url: https://openai.com/news/rss.xml
   enabled: true
 ```
+
+每个 Twitter 账号支持：
+
+```yaml
+- username: OpenAI
+  category: ai_company
+  enabled: true
+```
+
+未配置 `X_BEARER_TOKEN` 时自动走 RSSHub 模式；两种方式都不可用时跳过并提示，不影响 RSS / GitHub 流程。
 
 ### `config/keywords.yaml`
 
@@ -322,6 +365,7 @@ uv run python main.py daily
 
 - 不要在任何配置或代码里写入真实 API Key
 - RSS 源可能偶尔超时，单个源失败不会中断整体流程
+- Reddit 等部分源可能被限流（429），单个源失败不会中断整体流程
 - 完整 `daily` 会调用大量 DeepSeek API，运行时间约 1-2 分钟
-- X/Twitter 配置已预留，但当前主流程未启用 X 采集
+- X/Twitter 采集优先使用官方 v2 API（`X_BEARER_TOKEN`），没有 Token 时自动走 RSSHub（`RSSHUB_BASE_URL`）；都不可用则跳过
 - 日报只读取 `importance_score >= 7` 的文章

@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw"/>
+ <id>yt:channel:XuqSBlHAE6Xw-yeJA0Tunw</id>
+ <yt:channelId>XuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+ <title>Linus Tech Tips</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw"/>
+ <author>
+  <name>Linus Tech Tips</name>
+  <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+ </author>
+ <published>2008-11-25T00:46:52+00:00</published>
+ <entry>
+  <id>yt:video:L0ViytO-560</id>
+  <yt:videoId>L0ViytO-560</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>The Tech House Needs a Workshop…</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=L0ViytO-560"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-30T17:38:23+00:00</published>
+  <updated>2026-08-01T18:21:33+00:00</updated>
+  <media:group>
+   <media:title>The Tech House Needs a Workshop…</media:title>
+   <media:content url="https://www.youtube.com/v/L0ViytO-560?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/L0ViytO-560/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Check the link below to get ready for TurboCool with DREO! https://bit.ly/4g45t59
+- 18% exclusive discount code on DREO website: LTT18
+- Explore DREO deals on Amazon: https://bit.ly/4fnG9ry
+
+DREO, No.1 Tower Fan Brand in the U.S. 3 Years in a Row*
+*Source: Circana, LLC, Retail Tracking Service, Tower Fans, Dollars Adjusted, Jan 2023 – Dec 2025
+
+The Tech House really needs some tools. It’s time for Linus to sort out the garage, and outfit it with everything we’ll need throughout the renovation.
+
+The 1-Hour Workbench: https://www.youtube.com/watch?v=PMJ4Lob5Q4I
+
+Discuss on the forum: https://linustechtips.com/topic/1641305-the-tech-house-needs-a-workshop%E2%80%A6/
+
+Check out the products from the video: 
+DeWalt 20V MAX XR Brushless 4-Tool Combo Kit with 2 4Ah Batteries: https://geni.us/aBGsH
+DeWalt 20V MAX Battery XR POWERPACK™ 4Ah: https://geni.us/LEYASK
+DeWalt DCB104 Multi-Battery Charger: https://geni.us/KT2dMan
+DeWalt DCN680B 20V MAX* XR® 18 GA Cordless Brad Nailer: https://geni.us/e4cI6v
+DeWalt Miter Saw, 12 Inch Double Bevel Sliding Compound: https://geni.us/TKtiwx
+DeWalt 20V MAX Orbital Sander: https://geni.us/jKKr3IY
+Genie Signature Series 3155D-TSV Smart Garage Door Opener: https://geni.us/G9VTmAJ
+NewAge Products Bold Series Red 9-Piece Cabinet Set: https://geni.us/FM32tyW
+Featherlite HD 7' 3-Way Ladder: https://geni.us/exoL3
+
+Check out our Channel Partners:
+Secretlab - Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+PIA - Get the VPN of our choice: https://www.piavpn.com/ltt
+dbrand - Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+1:16 Tool Time 
+1:50 Garage Door Opener ARC Begins
+6:12 Workbench Buy or DIY Plan 
+6:42 Tool Unboxing 
+11:27 Workbench Build Starts 
+13:27 Reece Needs Adult Supervision
+15:00 Workbench Done
+16:08 Upper Cabinet Installation
+16:26 Look What Reece Made (be nice!) 
+18:41 Will the garage open?
+20:50 Finished Setup
+21:14 Outro</media:description>
+   <media:community>
+    <media:starRating count="24394" average="5.00" min="1" max="5"/>
+    <media:statistics views="604576"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:sd4v2N7HUyk</id>
+  <yt:videoId>sd4v2N7HUyk</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>This Obsoleted Every 3D Printer I Own</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=sd4v2N7HUyk"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-29T18:45:04+00:00</published>
+  <updated>2026-07-30T20:27:36+00:00</updated>
+  <media:group>
+   <media:title>This Obsoleted Every 3D Printer I Own</media:title>
+   <media:content url="https://www.youtube.com/v/sd4v2N7HUyk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/sd4v2N7HUyk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Don't let the weather change the plan.
+Stormburst is built for unpredictable days, wet trails, and whatever the forecast throws your way. Grab 15% off here: https://vessi.com/ltt
+• Free shipping • 30‑day returns • 1‑year warranty
+
+Linus is no stranger to 3D printers with toolchangers, but this is something totally different. By using induction heating, the Prusa INDX uses passive tools that make it smaller and more affordable than comparable systems.
+
+Go check out The Next Layer: https://youtu.be/-i3SdKnfhgc
+
+Discuss on the forum: https://linustechtips.com/topic/1641277-this-obsoleted-every-3d-printer-i-own/
+
+Check out our Channel Partners:
+Secretlab - Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+PIA - Get the VPN of our choice: https://www.piavpn.com/ltt
+dbrand - Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+Models featured in this video:
+Otto the Calibration Butterfly - https://www.printables.com/model/1761475-otto-the-calibration-butterfly
+Goldfish for 8T-INDX and 4T-ColorMix - https://www.printables.com/model/1767883-goldfish-for-8t-indx-and-4t-colormix
+ColorMix Chameleon - https://www.printables.com/model/1734124-colormix-chameleon
+8colors + 4 colors INDX Benchy - https://www.printables.com/model/1767912-8colors-4-colors-indx-benchy
+Tree Frog &amp; Poison Dart Frog for INDX - https://www.printables.com/model/1767911-tree-frog-poison-dart-frog-for-indx
+Low poly heart keychain - https://www.printables.com/model/550636-low-poly-heart-keychain
+Knurled Screwdriver handle - https://www.printables.com/model/266361-knurled-screwdriver-handle
+Lego Technic compatible 64 tooth gear - https://www.printables.com/model/27084-lego-technic-compatible-64-tooth-gear
+CuraCrocClip - https://www.thingiverse.com/thing:5842529
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+1:57 The INDX Party Trick
+2:50 How does this work?
+3:51 Who the heck is Bondtech
+4:15 Tell me how I can use it, Mr. Tech Tips
+6:45 Colour printing is getting BETTER
+7:49 Colour mix is really cool
+9:02 But wait, there's more
+11:01 It still gets better
+13:01 Outro</media:description>
+   <media:community>
+    <media:starRating count="24707" average="5.00" min="1" max="5"/>
+    <media:statistics views="774645"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:JQb9eGeclQw</id>
+  <yt:videoId>JQb9eGeclQw</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>I Could Cry Over the Framework Pro 13</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=JQb9eGeclQw"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-27T15:00:11+00:00</published>
+  <updated>2026-07-27T15:00:40+00:00</updated>
+  <media:group>
+   <media:title>I Could Cry Over the Framework Pro 13</media:title>
+   <media:content url="https://www.youtube.com/v/JQb9eGeclQw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/JQb9eGeclQw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Get AppControl today and see what's slowing down your system. Download for free at: https://www.appcontrol.com/
+
+Some people think my investment in Framework means I’ll go easy on them, but I actually expect them to work twice as hard. With a CNC aluminum chassis, LPCAMM2 memory, larger battery, and a 120Hz HDR touchscreen, the Framework Pro 13 fixes almost every issue from past generations.
+
+Discuss on the forum: https://linustechtips.com/topic/1641207-i-could-cry-over-the-framework-pro-13/
+
+Check out our Channel Partners:
+Secretlab - Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+PIA - Get the VPN of our choice: https://www.piavpn.com/ltt
+dbrand - Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+2:20 What's new?
+2:55 The Expansion Modules
+3:42 Fan Noise is FIXED
+4:23 The Keyboard
+5:00 A True Workhorse
+5:55 The Screen
+6:57 This Battery is Magic
+8:20 It's kinda the best laptop ever
+9:22 Well, almost
+11:26 Outro</media:description>
+   <media:community>
+    <media:starRating count="43965" average="5.00" min="1" max="5"/>
+    <media:statistics views="1201544"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:GJdyoJcZsuo</id>
+  <yt:videoId>GJdyoJcZsuo</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>He Thought His Internet was OK... IT'S NOT!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=GJdyoJcZsuo"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-26T16:57:56+00:00</published>
+  <updated>2026-07-27T16:33:39+00:00</updated>
+  <media:group>
+   <media:title>He Thought His Internet was OK... IT'S NOT!</media:title>
+   <media:content url="https://www.youtube.com/v/GJdyoJcZsuo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/GJdyoJcZsuo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Thanks to Omada for sponsoring James’s networking upgrade! 
+
+Spend $399 on eligible Omada gear and receive an Omada Fusion 2.5G for FREE through our link: https://tplinksystemsinc.pxf.io/unlock_omada_linus
+
+*Offer limited to the first 500 customers. One per customer.
+
+Save 10% on Omada gear on Amazon with code 10LINUSTECH using the links below:
+
+- Fusion 2.5G: https://lmg.gg/fusion
+- Omada 7 Pro: https://lmg.gg/omada7pro
+- Omada 7 Pro Wall: https://lmg.gg/omada7prowall
+- Omada PoE SG2210XMP-M2: https://lmg.gg/omadapoe
+
+See what’s next for the Omada Fusion lineup. More exciting Omada innovations are on the way! https://www.omadanetworks.com/us/business-networking/omada/fusion-gateway/
+
+A while back, we gave James’ house a baller audio setup as part of his AMD $5,000 Upgrade. This time, Omada stepped in to give his home network a much-needed overhaul with faster speeds, better coverage, and the Omada Fusion 2.5G Gateway at the heart of it all.
+
+Discuss on the forum: https://linustechtips.com/topic/1641108-his-wifi-embarrassed-me-we-need-to-fix-it-omada-fusion-25g-gateway/
+
+#omada #fusion
+
+Check out our Channel Partners:
+Secretlab - Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+PIA - Get the VPN of our choice: https://www.piavpn.com/ltt
+dbrand - Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+0:40 James’ WiFi exposed
+1:09 Omada to the rescue
+2:39 Snooping around
+4:18 Omada Fusion Gateway
+4:58 Telus’ diaper genie
+5:29 What is all this stuff?
+6:43 Omada PoE Switch
+7:49 All the networking
+9:21 Here's the plan
+10:35 Let the wiring begin
+12:54 Ass Hurt Wiring Solutions
+14:13 Linus climbs into the attic
+15:20 Elijah pulls through
+16:40 Omada Outdoor AP
+17:39 Adopting the access point
+18:39 Backyard speed test
+19:13 Back inside
+20:24 Ceiling surgery
+21:27 The moment of truth
+21:44 Before vs After
+22:28 Free stuff!
+22:40 Outro</media:description>
+   <media:community>
+    <media:starRating count="32754" average="5.00" min="1" max="5"/>
+    <media:statistics views="973372"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CjIwXfw8ffU</id>
+  <yt:videoId>CjIwXfw8ffU</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>It Took Me 6 Years to Make This</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CjIwXfw8ffU"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-24T17:00:10+00:00</published>
+  <updated>2026-07-28T02:10:23+00:00</updated>
+  <media:group>
+   <media:title>It Took Me 6 Years to Make This</media:title>
+   <media:content url="https://www.youtube.com/v/CjIwXfw8ffU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CjIwXfw8ffU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Get a free 15-day trial of Odoo’s all-in-one business solution and see how it can make your life easier! Check it out at https://www.odoo.com/ltt
+
+GET YOUR SOCKS!!! https://www.lttstore.com/products/forever-socks
+
+6 years ago, I said making a sock for me wasn't going to be easy. While I wasn't wrong, here's WHY a tech channel spent over half a decade to create The Forever* sock.
+
+Discuss on the forum: https://linustechtips.com/topic/1641096-it-took-me-6-years-to-make-the-perfect-sock/
+
+Check out our Channel Partners:
+Secretlab - Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+PIA - Get the VPN of our choice: https://www.piavpn.com/ltt
+dbrand - Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+1:20 WHY Socks?
+2:27 Sponsor
+2:48 The price
+5:32 Material Girl
+7:28 Composition &amp; Feetures
+10:31 Oodoo
+11:27 Credits</media:description>
+   <media:community>
+    <media:starRating count="18761" average="5.00" min="1" max="5"/>
+    <media:statistics views="421832"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:YLSx6-pBXOM</id>
+  <yt:videoId>YLSx6-pBXOM</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>This Took 6 Years to Make</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/YLSx6-pBXOM"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-24T16:57:18+00:00</published>
+  <updated>2026-07-30T08:24:20+00:00</updated>
+  <media:group>
+   <media:title>This Took 6 Years to Make</media:title>
+   <media:content url="https://www.youtube.com/v/YLSx6-pBXOM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YLSx6-pBXOM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>After over 20 prototypes and 6 years of revisions, it's finally here, The Forever Sock.</media:description>
+   <media:community>
+    <media:starRating count="53283" average="5.00" min="1" max="5"/>
+    <media:statistics views="2183518"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Hfovjw7Ts_U</id>
+  <yt:videoId>Hfovjw7Ts_U</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>If My Product Fails I Give Away $1,000 - Open Sauce 2026</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Hfovjw7Ts_U"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-23T18:43:38+00:00</published>
+  <updated>2026-07-28T01:16:22+00:00</updated>
+  <media:group>
+   <media:title>If My Product Fails I Give Away $1,000 - Open Sauce 2026</media:title>
+   <media:content url="https://www.youtube.com/v/Hfovjw7Ts_U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/Hfovjw7Ts_U/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Thanks to Tello for sponsoring this video! Check out their plans at https://tello.com/?utm_source=partner&amp;utm_medium=cpc&amp;utm_campaign=LTT&amp;src=partner&amp;mdm=cpc&amp;cmg=LTT
+
+It's time to push the LTT TrueSpec cable to the limit! We went to Open Sauce 2026 and offered $1,000 if our cable failed to work with any of the most demanding creations we could find.
+
+Try LTT TrueSpec Cables: https://www.lttstore.com/collections/ltt-truespec-cables
+Sentry Six: https://sentry-six.com/
+CRT VR: https://github.com/alanbog/CRT-VR-Headset
+Neobotics: https://neobotics.org/
+
+Discuss on the forum: https://linustechtips.com/topic/1641072-if-my-cable-fails-i-give-you-1000-open-sauce-2026/
+
+Check out our Channel Partners:
+Secretlab - Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+PIA - Get the VPN of our choice: https://www.piavpn.com/ltt
+dbrand - Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+1:07 Sentry Six
+2:36 What about *second* LTT Cable?
+4:46 DMS Probes Linus
+7:10 Why HRTF matters
+8:18 How Linus Hears the World
+9:10 CRT VR Headset
+11:43 Framework 240W Charger
+16:14 Neobotics Autonomous RC Car</media:description>
+   <media:community>
+    <media:starRating count="31821" average="5.00" min="1" max="5"/>
+    <media:statistics views="771115"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-_zeSKjtMEg</id>
+  <yt:videoId>-_zeSKjtMEg</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>When Should You Change Thermal Paste?</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/-_zeSKjtMEg"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-23T18:05:19+00:00</published>
+  <updated>2026-07-26T22:49:19+00:00</updated>
+  <media:group>
+   <media:title>When Should You Change Thermal Paste?</media:title>
+   <media:content url="https://www.youtube.com/v/-_zeSKjtMEg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-_zeSKjtMEg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>There's a couple ways to tell when you should change your thermal paste and while there's no downside to changing it early, there is definitely something you should avoid touching!
+
+lmg.gg/nexigo</media:description>
+   <media:community>
+    <media:starRating count="8659" average="5.00" min="1" max="5"/>
+    <media:statistics views="237559"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:5fXAELrljqs</id>
+  <yt:videoId>5fXAELrljqs</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>Valve Accidentally Made the Best Desktop PC I’ve Ever Used</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=5fXAELrljqs"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-22T18:18:57+00:00</published>
+  <updated>2026-07-25T23:10:40+00:00</updated>
+  <media:group>
+   <media:title>Valve Accidentally Made the Best Desktop PC I’ve Ever Used</media:title>
+   <media:content url="https://www.youtube.com/v/5fXAELrljqs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/5fXAELrljqs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>UGREEN NAS on Official Store: https://nas.us.ugreen.com/KyGPUL
+UGREEN NAS DXP2800 GT: https://amzn.to/44q9taz
+UGREEN NAS Series: https://amzn.to/4wsnK2u
+Thanks to UGREEN for sponsoring this video! Check out their NAS DXP2800 GT and more below:
+
+While the Steam Machine has been out for a while now, Linus has been using it DAILY for the last several weeks and has some extra thoughts on the desktop experience that is SteamOS. Sure the gaming performance is mid on the steam machine, but when you are just using it for work, Linus believes it might be one of the best small form factor computers around!
+
+Buy the Steam Machine! - https://store.steampowered.com/hardware/steammachine
+
+Discuss on the forum: https://linustechtips.com/topic/1641038-the-steam-machine-is-the-only-pc-i-want-to-use-now/
+
+Check out our Channel Partners:
+Secretlab - Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+PIA - Get the VPN of our choice: https://www.piavpn.com/ltt
+dbrand - Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+1:42 Quick Steam Machine Recap
+2:24 SteamOS
+3:20 The Desktop
+5:15 Some Issues
+6:40 File Issues
+9:27 Community Issues
+10:33 Printers work?!
+11:25 Linux is AMAZING Now
+12:40 Conclusion
+15:12 Outro</media:description>
+   <media:community>
+    <media:starRating count="76337" average="5.00" min="1" max="5"/>
+    <media:statistics views="2458036"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Ute2wSwml4o</id>
+  <yt:videoId>Ute2wSwml4o</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>The Best Wii Remote EVER!</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/Ute2wSwml4o"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-21T01:01:05+00:00</published>
+  <updated>2026-08-01T13:45:28+00:00</updated>
+  <media:group>
+   <media:title>The Best Wii Remote EVER!</media:title>
+   <media:content url="https://www.youtube.com/v/Ute2wSwml4o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Ute2wSwml4o/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This open source Wii remote could control your entire home! Definitely one of the coolest gadgets at Open Sauce 2026.</media:description>
+   <media:community>
+    <media:starRating count="11129" average="5.00" min="1" max="5"/>
+    <media:statistics views="519951"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:QAA7b1Av0jM</id>
+  <yt:videoId>QAA7b1Av0jM</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>This Upgrade is Dangerous - AMD $5,000 Ultimate Tech Upgrade</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=QAA7b1Av0jM"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-20T17:40:16+00:00</published>
+  <updated>2026-07-20T17:40:50+00:00</updated>
+  <media:group>
+   <media:title>This Upgrade is Dangerous - AMD $5,000 Ultimate Tech Upgrade</media:title>
+   <media:content url="https://www.youtube.com/v/QAA7b1Av0jM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/QAA7b1Av0jM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Thanks to AMD for being a great partner and sponsoring this series! Check out their latest offerings at https://lmg.gg/f6PMg
+
+Go to https://bit.ly/4vodOpL to enter the sweepstakes to win one of the two brand-new PowerColor Red Devil AMD Radeon™ RX 9070 XT GPU, and an AMD LED light sign!
+
+What does an engineer buy with $5,000 of free money? If you guessed ‘tools and caffeine’ you’re on the right track, but there’s so much more to see in Robert’s AMD Ultimate Tech Upgrade!
+
+Discuss on the forum: https://linustechtips.com/topic/1640953-this-upgrade-is-dangerous-amd-5000-ultimate-tech-upgrade/
+
+Tech and Tools:
+
+AMD Ryzen 5 7600X 6-Core, 12-Thread Unlocked Processor: https://geni.us/4Ppp4
+eufy Robot Vacuum 3-in-1 E20: https://geni.us/nzjLr
+TIG225X AC/DC TIG Welder With Pulse: https://geni.us/GBc8Ok
+ESAB Sentinel A60 Welding Helmet - Havoc: https://geni.us/41N2M
+Triumph Trident 660 (2021-2025) Custom Seat Trim: https://geni.us/v9GaVJ
+Govee Neon Rope Light 2: https://geni.us/FjI09
+Govee RGBIC Floor Lamp Basic: https://geni.us/grr9X
+Ortofon Replacement Stylus OM-5e: https://geni.us/aLpN
+Kobo Libra 2 eReader: https://geni.us/l8UM
+JBL Go 4 Portable Bluetooth Speaker: https://geni.us/E3rM8ML
+JONSBO D32 PRO Micro-ATX PC Case: https://geni.us/CJxZ
+EPOMAKER Galaxy100 QMK/VIA Wireless Gaming Keyboard: https://geni.us/5TGKFd
+Keychron Treasure Hunter - Cherry Profile Dye-Sub PBT Full Keycap Set: https://geni.us/G9Men
+Noctua NH-L9a-AM5, Premium Low-Profile CPU Cooler: https://geni.us/FBjQLur
+ASRock A620AI WiFi Mini-ITX Motherboard: https://geni.us/OT4L02
+Patriot Viper Venom DDR5 RAM 16GB (2X8GB) 6000MT/s CL36 Memory: https://geni.us/8fTgKv3
+Fractal Design Terra Jade Mini ITX Gaming Case: https://geni.us/MMB7cj7
+CORSAIR SF750 (2024) Fully Modular SFX 80+ Platinum Power Supply: https://geni.us/JXHa
+
+Coffee and Kitchen:
+
+Flair 58 Plus 2 Espresso Machine: https://geni.us/DAYQd
+Normcore Pocket Coffee Scale V3: https://geni.us/pgVL5uc
+Rogue Wave ORIGAMI - Latte Bowl: https://geni.us/NsIz
+Creating Comfort Handmade Stoneware Coffee Cup Concrete: https://geni.us/rZq4zY
+Creating Comfort Rust Stoneware Coffee Cup: https://geni.us/LfBGy4I
+Creating Comfort Handmade Porcelain Coffee Mug. Iceland: https://geni.us/rkjAsC
+
+Check out our Channel Partners:
+Secretlab - Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+PIA - Get the VPN of our choice: https://www.piavpn.com/ltt
+dbrand - Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+2:04 What about SECOND...
+6:25 PC Builds
+9:00 Govee Lighting
+10:10 Back to the builds!
+14:15 Linus' First Coffee
+16:10 Motorbike upgrade
+20:08 This sucks.
+20:23 To the garage!</media:description>
+   <media:community>
+    <media:starRating count="34601" average="5.00" min="1" max="5"/>
+    <media:statistics views="912303"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zIgmgMLZrrc</id>
+  <yt:videoId>zIgmgMLZrrc</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>True 4k Gaming PC (2026) - Classic LTT Build Guide</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zIgmgMLZrrc"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-19T17:00:34+00:00</published>
+  <updated>2026-07-23T00:00:05+00:00</updated>
+  <media:group>
+   <media:title>True 4k Gaming PC (2026) - Classic LTT Build Guide</media:title>
+   <media:content url="https://www.youtube.com/v/zIgmgMLZrrc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zIgmgMLZrrc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Thanks for Seasonic for sponsoring this video! Make sure your builds are powered reliably with a Seasonic PSU. Check out the model used in this video, the FOCUS GX-850 80+ Gold, at https://lmg.gg/gx850
+
+Prices are high, and everyone is feeling the pinch, but it’s STILL possible to build a 4k Gaming PC for UNDER $2000. Join us for another classic LTT Build Guide to see what we’ve picked to maximize our bang for the buck, and how everything comes together for some REAL 4K gaming.
+
+https://www.lttlabs.com/products/power-supplies/seasonic-focus-gx-750-atx-3-2024
+
+Discuss on the forum: https://linustechtips.com/topic/1640893-true-4k-gaming-pc-2026-classic-ltt-build-guide/
+
+Check out the parts from the build! 
+
+Intel Core Ultra 5 250KF Plus 4.2 GHz 18-Core Processor: https://geni.us/csO5dhm
+ASRock B860M Pro-A Micro ATX LGA1851 Motherboard: https://geni.us/lsjYL
+Corsair Vengeance 32GB (2x16) DDR5-6000 CL36 Memory: https://geni.us/6cqAz     
+Patriot P300 1 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive: https://geni.us/qVF5Zd
+Thermalright Assassin X120 Refined SE: https://geni.us/2OC513
+Asus PRIME OC GeForce RTX 5070 Ti 16 GB Video Card: https://geni.us/tw6mC9L
+Gamdias ATHENA M4M case: https://geni.us/jqKGdQ9
+
+Check out our Channel Partners:
+Secretlab - Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+PIA - Get the VPN of our choice: https://www.piavpn.com/ltt
+dbrand - Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+0:33 CPU choice
+2:00 What motherboard?
+2:26 Safety first!
+2:44 Installing the CPU
+3:30 M.2 SSD choice and installation
+4:54 What RAM?
+5:49 Shahrad's law of RAM installation
+6:25 CPU cooler
+7:41 Applying the thermal paste
+8:11 PC case
+8:39 Linus Drop Tips
+9:04 Installing the motherboard in the case
+9:47 Case and front-panel cables
+11:35 Seasonic Focus GX-850 PSU
+13:34 GPU
+15:32 First boot
+16:44 Clair Obscur: Expedition 33
+17:10 Cyberpunk 2077
+18:05 Forza Horizon 5
+19:23 Tape to Tape
+19:38 Final thoughts</media:description>
+   <media:community>
+    <media:starRating count="24531" average="5.00" min="1" max="5"/>
+    <media:statistics views="718984"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:qZ7OjpjGVGs</id>
+  <yt:videoId>qZ7OjpjGVGs</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>It’s Time to Commit to Linux…But which one?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=qZ7OjpjGVGs"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-18T16:56:52+00:00</published>
+  <updated>2026-07-20T17:57:06+00:00</updated>
+  <media:group>
+   <media:title>It’s Time to Commit to Linux…But which one?</media:title>
+   <media:content url="https://www.youtube.com/v/qZ7OjpjGVGs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qZ7OjpjGVGs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Thanks Wispr Flow for sponsoring this video! Check them out at https://ref.wisprflow.ai/ltt and use code LTT for a free month of Wispr Flow Pro!
+
+With Linux becoming more and more exciting in recent years, and after seeing how many people loved LTT's coverage of the 30 day Linux Challenge it's time to switch. More and more people are switching from Windows everyday but, what Distro is the correct one? With literally THOUSANDS to choose from, we narrowed it down to about 6 which we ran benchmarks and compared some gaming performance!
+
+Discuss on the forum: https://linustechtips.com/topic/1640845-it%E2%80%99s-time-to-commit-to-linux%E2%80%A6but-which-one/
+
+LTTLabs Article: https://www.lttlabs.com/articles/2026/04/29/we-tried-popular-linux-gaming-distros
+
+Check out our Channel Partners:
+Secretlab - Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+PIA - Get the VPN of our choice: https://www.piavpn.com/ltt
+dbrand - Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+0:50 Distributions
+2:35 Which Distros we Tried
+4:12 Kernel vs Mesa
+4:55 Our TestBench
+5:10 CyberPunk Benchmarks
+5:21 Black Myth Wukong
+5:45 Doom The Dark Ages
+5:52 Forza
+6:25 Keep Updating!
+6:35 Garuda Extended Tests
+7:20 Our Recommendation
+8:04 Check out the Labs Site!
+9:30 Outro</media:description>
+   <media:community>
+    <media:starRating count="38372" average="5.00" min="1" max="5"/>
+    <media:statistics views="973824"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:nt4eQU7MG9c</id>
+  <yt:videoId>nt4eQU7MG9c</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>My biggest Home Theater Upgrade is NOT Expensive</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=nt4eQU7MG9c"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-16T17:00:12+00:00</published>
+  <updated>2026-07-20T03:45:00+00:00</updated>
+  <media:group>
+   <media:title>My biggest Home Theater Upgrade is NOT Expensive</media:title>
+   <media:content url="https://www.youtube.com/v/nt4eQU7MG9c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/nt4eQU7MG9c/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Thanks to UGREEN for sponsoring this video! Check out their NAS DXP4800 GT and more below:
+
+UGREEN NAS on Official Store: https://nas.us.ugreen.com/TEMOEI
+UGREEN NAS DXP4800 GT: https://amzn.to/4vbEmeB
+UGREEN NAS Series: https://amzn.to/3S9TAlO
+
+We’re already planning the Tech House home theater room, but we never did get around to adding any sound treatment to Linus’ personal movie room at his house! Today we’re finally setting him up properly with some DIY acoustic panels made of rockwool (and some optional sonopan) on the walls and ceiling. We’re using the mirror trick to determine where they should go, and testing the results using Room EQ Wizard. Featuring Dan and DMS!
+
+Check out the stuff used in the video: 
+
+TYPE 1704-A-002 2-Channel CCLD Signal Conditioner: https://geni.us/fzhyPrH
+GRAS 46BE 1/4&quot; CCP Free-field Standard Microphone Set: https://geni.us/QZCj
+E1DA Cosmos ADCiso Hi-Precision Analog To Digital Converter: https://geni.us/2OsAM3y
+
+Discuss on the forum: https://linustechtips.com/topic/1640802-my-biggest-home-theater-upgrade-is-not-expensive/
+
+Check out our Channel Partners:
+Secretlab - Grab a TITAN Evo ergonomic gaming chair:  https://lmg.gg/secretlabltt
+PIA - Get the VPN of our choice: https://www.piavpn.com/ltt
+dbrand - Buy a &quot;Circuit&quot; series skin for your device: https://dbrand.com/pcb
+
+► SHOP LTT PRODUCTS: https://lttstore.com
+► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane
+► DIVE DEEPER ON THE LTT LABS WEBSITE: https://lmg.gg/labs
+► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners
+
+Purchases made through some store links may provide some compensation to Linus Media Group. Affiliate links powered in part by https://affilimate.com/?aid=ghz1izbpb
+
+Linus Sebastian is an investor in Framework Computer, Inc and HexOS by Eshtek.
+
+CHAPTERS
+---------------------------------------------------
+0:00 Intro
+1:51 DMS Approves! Kinda...
+5:10 Time for some action
+6:47 Don't tease me like that
+6:56 Experiencing the room before treatment
+8:35 Calibration time
+11:27 What does the graph say
+12:58 The acoustic panels
+14:48 We need Yvonne approval
+15:50 Goodbye sconce
+16:05 More room treating
+17:23 what
+17:36 The treatment is done
+19:52 Listening time
+21:23 Calibrating with Dirac
+22:17 Listening after calibrating
+24:36 Outro</media:description>
+   <media:community>
+    <media:starRating count="37339" average="5.00" min="1" max="5"/>
+    <media:statistics views="1117265"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:VRpP4_lKjEc</id>
+  <yt:videoId>VRpP4_lKjEc</yt:videoId>
+  <yt:channelId>UCXuqSBlHAE6Xw-yeJA0Tunw</yt:channelId>
+  <title>Daily Driving the Steam Machine</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/VRpP4_lKjEc"/>
+  <author>
+   <name>Linus Tech Tips</name>
+   <uri>https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw</uri>
+  </author>
+  <published>2026-07-15T16:00:38+00:00</published>
+  <updated>2026-07-21T19:22:47+00:00</updated>
+  <media:group>
+   <media:title>Daily Driving the Steam Machine</media:title>
+   <media:content url="https://www.youtube.com/v/VRpP4_lKjEc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/VRpP4_lKjEc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The best comparison to the Steam Machine isn't the PlayStation 5 or a PC, its actually something else...</media:description>
+   <media:community>
+    <media:starRating count="63496" average="5.00" min="1" max="5"/>
+    <media:statistics views="1820020"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
