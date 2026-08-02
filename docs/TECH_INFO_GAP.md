@@ -5,7 +5,8 @@
 ## 一条命令拉全
 
 ```powershell
-python C:\AI-Tech-Radar\tools\tech-info-gap\collect.py
+cd C:\AI-Tech-Radar
+python collect.py
 ```
 
 默认抓取最近 30 小时，报告输出到 `C:\AI-Tech-Radar\reports\output\YYYY-MM-DD.md`（可与 AI Tech Radar 日报放同一目录）。

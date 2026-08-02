@@ -75,7 +75,7 @@ uv run python main.py report
 | 程序 | 位置 | 职责 |
 | --- | --- | --- |
 | AI Tech Radar（主程序） | `main.py` | 模型侧：模型发布/跑分、开源 vs 闭源、推理引擎与本地部署、模型定价、AI 数学/科研突破；评分、趋势、知识库、日报 |
-| 科技信息差采集工具 | `tools/tech-info-gap/collect.py` | 其余所有第一手/多渠道：芯片存储算力、AI 安全事件、政策监管、公司财报与资本、消费电子/汽车/机器人、硬科技前沿（也会顺带抓模型侧条目作为提示） |
+| 科技信息差采集工具 | `collect.py`（仓库根目录） | 其余所有第一手/多渠道：芯片存储算力、AI 安全事件、政策监管、公司财报与资本、消费电子/汽车/机器人、硬科技前沿（也会顺带抓模型侧条目作为提示） |
 
 ### 运行方法
 
@@ -91,10 +91,11 @@ uv run python main.py daily
 **② 科技信息差采集工具（多渠道一键采集）**
 
 ```powershell
-python C:\AI-Tech-Radar\tools\tech-info-gap\collect.py
+cd C:\AI-Tech-Radar
+python collect.py
 ```
 
-常用参数：`--hours 12`（时间窗口）、`--no-fetch`（复用缓存不重抓）、`--out`（自定义输出路径）。详细说明见 [tools/tech-info-gap/README.md](tools/tech-info-gap/README.md)。
+常用参数：`--hours 12`（时间窗口）、`--no-fetch`（复用缓存不重抓）、`--out`（自定义输出路径）。详细说明见 [docs/TECH_INFO_GAP.md](docs/TECH_INFO_GAP.md)。
 
 ### 会不会冲突？
 
@@ -128,7 +129,8 @@ pipeline/               # 内部流水线
 utils/                  # 配置加载与日志
 prompts/                # AI Prompt 模板
 scripts/                # Windows 自动化脚本
-tools/tech-info-gap/    # 科技信息差采集工具（独立程序，见下方说明）
+collect.py              # 科技信息差采集工具（独立程序，与 main.py 同级）
+cache/                  # 采集工具缓存（`--no-fetch` 复用）
 logs/                   # Loguru 日志
 tests/                  # pytest 单元测试
 ```
@@ -142,7 +144,7 @@ tests/                  # pytest 单元测试
 - `config/trend.yaml`：趋势分析 Prompt
 - `config/settings.yaml`：运行参数
 
-> 注：`tools/tech-info-gap/collect.py` 的渠道清单维护在脚本顶部（`DOMESTIC_FEEDS`、`X_ACCOUNTS`、`BLOG_FEEDS`、`YOUTUBE_FEEDS` 等字典），与 `config/sources.yaml` 相互独立。
+> 注：`collect.py` 的渠道清单维护在脚本顶部（`DOMESTIC_FEEDS`、`X_ACCOUNTS`、`BLOG_FEEDS`、`YOUTUBE_FEEDS` 等字典），与 `config/sources.yaml` 相互独立。
 
 ## 迭代开发
 
